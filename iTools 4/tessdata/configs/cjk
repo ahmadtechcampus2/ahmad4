@@ -1,0 +1,8 @@
+load_system_dawg	F
+load_freq_dawg       F
+user_words_suffix    user-words
+chop_enable		T
+
+language_model_ngram_on	0
+textord_force_make_prop_words	F
+edges_max_children_per_outline	40

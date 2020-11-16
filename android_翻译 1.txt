@@ -1,0 +1,163 @@
+
+My Order==> طلباتي
+My Wallet==>محفظتي
+Error repair==> مصلح الاخطاء
+My Order==> طلباتي
+Language Setting==> ضبط اللغة
+About Us==> نبذه عنا
+on going==> جاري التنفيذ
+complete==> مكتمل
+Returned And Unpaid==> معاد وغير مدفوع
+cancelled==> مُلغى 
+timeout==> إنتهاء الوقت 
+borrowable==> $$$$$$
+returnable==> قابل للإعادة
+Choose your country and area==> إختيار الدولة والمنطقة
+Bind phone number==> ربط رقم الهاتف 
+Please choose country code==> الرجاء اختيار رمز الدولة
+Please enter phone number==> الرجاء إدخال رقم الهاتف 
+Please choose date of birth==> الرداء إختيار تاريخ الميلاد 
+Please enter verify code==> الرجاء إدخال رمز التحقق
+Please enter password==> الرجاء إختيار الرقم السري 
+Entered password differ from the another==> تختلف كلمة المرور المدخلة عن الأخرى
+modify successfully!==> تم التعديل بنجاح
+Register==> التسجيل
+authorized login==>  دخول غير مصرح به 
+Successfully rented==> تم التأجير بنجاح
+Failed rented==> فشل في التأجير
+device not supported Google play==> الجهاز لا يدعم متجر قوقل 
+require camera permission==> يتطلب أذن الوصول إلى الكاميرا 
+please scan the device QR code==> الرجاء المسح على رمز المحطة
+business hours：==>  ساعات العمل 
+phone number：==> رقم الهاتف
+Check for update==>  تحقق من التحديثات 
+Tips==> نصائح 
+Confirm==> تأكيد
+Cancel==> إلغاء 
+Apply for Complaint==> التقدم بشكوى 
+Please enter the complaint content==> الرجاء إدخال محتوى الشكوى 
+FAQ==> التعليمات 
+Add bank card==> إضافة بطاقتك البنكية
+Bank card management==> إدارة البطاقة المصرفية
+Unbind bank card==> إلغاء ربط البطاقة المصرفية 
+Billing details==> تفاصيل الفاتورة
+My wallet==> محفظتي 
+Refund deposit or not?==> هل ترغب بإسترداد التأمين أم لا 
+Order details==> تفاصيل الطلب 
+Make payment==> قم بالدفع 
+Pay deposit==> ادفع التأمين 
+Recharge amount==> إعادة شحن الرصيد 
+recharge failed==> فشل شحن الرصيد
+System message==> رسالة النظام 
+Problem description==> وصف المشكلة 
+upload pictures==> رفع الصورة
+click below to add bank_card==> اضغط في الاسفل لإضافة بطاقتك البنكية 
+Get verify code==> الحصول على رمز التفعيل 
+Try again==> حاول مجددًا
+Forget password==> نسيت رمز الدخول 
+please choose language==> الرجاء إختيار اللغة 
+Login==> الدخول 
+login with verify code==> الدخول بإستخدام رمز التفعيل 
+申请提现==> $$$$$$؟
+payment details==> تفاصيل الدفع 
+order status==> حالة الطب 
+total paid==> المبلع المدفوع 
+charging standard==> نسبة الشحن 
+payment method==> طريقة الدفع 
+order information==> تفاصيل الطلب 
+order number==> رقم الطلب 
+device number==> رقم الجهاز 
+time to return  device==> الوقت المستغرق لإعادة الجهاز 
+battery charging time==> وقت شحن البطارية 
+battery charging place==> مكان شحن البطارية 
+Please select payment method==> الرجاء إختيار طريقة الدفع 
+Please select a recharge amount==> يرجى تحديد مبلغ الشحن 
+Complete==> مكتمل 
+Submit==> إرسال 
+Please scan the QR code on device==> الرجاء مسح الرمز على الجهاز 
+Search for nearby device==> البحث عن محطات قريبة 
+rent time==> وقت الإستئجار 
+use time==> وقت الإستخدام 
+total cost==> إجمالي التكلفة
+Are you sure you want to log out?==> هل تريد تسجيل خروج ؟
+network error!==> خطأ في الشبكة 
+no data!==> لا يوجد بيانات 
+confirm to withdraw cash==> التأكد من سحب المبلغ المالي 
+Funds will be the original way back, whether to withdraw==> Not clear $$$$$
+Appeal==> الإستئناف 
+The current version is already the latest version==>النسخه الحالية هي النسخة الأحدث 
+Pay the rent==> إدفع للإستئجار 
+You need to pay==> تحتاج إلى الدفع 
+Balance payment==> رصيد المدفوعات 
+mada Pay==> الدفع بإستخدام مدى 
+Debit or Credit Card Payment==> الخصم او الدفع ببطاقة الائتمان 
+Duration of use==> مدة الإستخدام 
+Loading...==> التحميل 
+load more failed==> فشل التحميل 
+No more data==> لا يوجد بيانات 
+The wallet deductions==> محفطة الخصومات 
+You have an unpaid order, please rent the charging bank after the payment is completed.==> يوجد لديك طلب غير مدفوع , الرجاء الإستئجار بعد شحن رصيدك .
+Payment successful==> تم الدفع بنجاح 
+Payment failed==> فشل الدفع 
+1、A deposit is required before renting a charging bank==> التأمين مطلوب قبل إستئجار البطارية 
+2、The deposit refund will be refunded within 3-5 working days.==> سيتم إسترجاع رصيد التأمين خلال 3-5 أيام عمل 
+Deposit information ==> معلومات التأمين 
+Please confirm the authorization information==> الرجاء تأكيد معلومات التصريح 
+In order to ensure the normal operation of the program, you need to authorize and log in to the basic information (the basic information only contains avatars, nicknames, etc.)
+==> لضمان التشغيل العادي للبرنامج ، تحتاج إلى تفويض المعلومات الأساسية وتسجيل الدخول إليها (المعلومات الأساسية تحتوي فقط على الصور الرمزية والأسماء المستعارة وغيرها)
+Your information will be kept strictly confidential==> سيتم الإحتفاظ بمعلوماتك بسرية تامة
+Rental information==> معلومات المستأجر 
+1、Support charging port: Micro USB / Type C / Lightning==> يدعم منافذ الشحن التالية :Micro USB / Type C /IOS 
+2、%s / %s %s, Max %s VND==>
+Privacy Policy==> سياسة الخصوصية 
+User guide==> دليل المستخدم 
+Invite friends==> دعوة صديق
+Advertising==> الإعلانات 
+Setting==> الضبط 
+Other==> أخرى 
+Power bank can\'t pop up normally==> البطارية لا تخرج بشكل طبيعي 
+QR code anomaly==> خلل في قراءة الكود 
+Charging cable damaged==> وصلة الشاحن متضررة 
+Please select the cause of the failure==> الرجاء اختيار سبب الفشل 
+Please scan the QR code or enter \n the cabinet number==> الرجاء مسح الكود او إدخال رقم المحطة 
+Confirm rental==> تأكيد الإيجار 
+I have agreed to the agreement==> لقد وافقت على الشروط والأحكام 
+Verification code==> رمز التفعيل 
+Please enter new password==> الرجاء إدخال رقم سري جديد 
+Please confirm the new password==> الرجاء تأكيد رقم سري جديد 
+How to Get Rewards?==> كيفية الحصول على مكافئات 
+Invite friends to get extra minutes==> دعوة الأصدقاء للحصول على دقائق إضافية 
+The user enters the QR code when registering, and both parties can get additional free minute coupons.coupons.whenregistering, and both parties can get additional free minute coupons
+يدخل المستخدم رمز الاستجابة السريعة عند التسجيل ، ويمكن للطرفين الحصول على كوبونات دقيقة مجانية إضافية. عند التسجيل ، ويمكن للطرفين الحصول على كوبونات دقيقة مجانية إضافية. ==>
+Copy==> نسخة
+Your reward==> مكافأتك
+Number of friends \n invited successfully==> عدد الاصدقاء المدعوين بنجاح 
+Current remaining \n minutes==> الدقائق المتبقية الحالية 
+Registered==> مسجل 
+Password==> كلمة المرور 
+Current Balance==> الرصيد الحالي 
+Recharge==> إعادة الشحن 
+Withdrawal==> سحب 
+Your wallet balance is less than 100 SR,you can\'t use the rental power bank==> رصيد محفظتك اقل من 100 ريال لا يمكنك أسخدام , لا يمكنك إستخدام البطارية التي تم إستئجارها 
+Recharge Details==> تفاصيل إعادة الشحن 
+usage time==> مدة الإستخدام 
+Recharge failed==> فشل شحن الرصيد 
+Enter verification code==> إدخل رمز التحقق 
+Send==> إرسال 
+Next step==> الخطوة التالية 
+Your Name==> الأسم 
+Please enter your name==> الرجاء إدخال الأسم 
+Invitation code==> رمز الدعوة
+Fill in the friend invitation code==> قم بإدخال رمز دعوة الأصدقاء 
+Date of birth==> تاريخ الولادة 
+Year==> السنة
+Gender==> الجنس 
+Select gender==> إختيار الجنس 
+Finish==> إنهاء 
+About us==> نبذة عنا 
+Privacy agreement==> سياسة الخصوصية 
+Terms of use==> دليل الإستخدام 
+Logout==> تسجيل الخروج 
+Go to navigation==> الذهاب إلى الموقع 
+Return==> إرجاع
+

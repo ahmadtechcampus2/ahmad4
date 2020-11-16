@@ -1,0 +1,942 @@
+
+/*** Menu ***/
+.SubMenu
+{
+	position: absolute;
+	overflow: hidden;
+	border: solid 1px #C6C6C6;
+	background-color: #FAFAFA;
+	z-index: 1;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Color=#C3C3C3, Strength=2, Direction=135)
+			progid:DXImageTransform.Microsoft.Fade(Duration=0.100)
+			progid:DXImageTransform.Microsoft.Blinds(Bands=1,  Duration=0.100, Direction='down', enabled=0)
+			progid:DXImageTransform.Microsoft.Blinds(Bands=1,  Duration=0.100, Direction='right', enabled=0);
+}
+
+.SubMenu td
+{
+	font-family: Tahoma, Verdana, Arial, Sans-Serif; 
+	font-size: 9pt;
+}
+
+.SubMenuArea
+{
+	position: relative;
+}
+
+.MenuItemRect
+{
+	padding: 1px;
+	border: none;
+}
+
+.MenuItemRectHover
+{
+	padding: 0;
+	border: solid 1px transparent;
+	background-color: #C9DEF5;
+	color: #333;
+}
+
+.MenuItemRectDisabled
+{
+	padding: 1px;
+	border: none;
+}
+
+.MenuItemRect table, .MenuItemRectHover table, .MenuItemRectDisabled table, .MenuItemSeparator table
+{
+	width: 100%;
+}
+
+.MenuItemMargin
+{
+	width: 22px;
+	padding: 0 0 0 2px;
+}
+    
+.MenuItemRect .MenuItemLabel, .MenuItemRectHover .MenuItemLabel
+{
+	padding: 4px 2px 3px 6px;
+	cursor: default;
+}
+
+.MenuItemRect .MenuItemLabel
+{
+	color: #333;
+}
+
+.MenuItemRectHover .MenuItemLabel
+{
+	color: #333;
+}
+
+.MenuItemRectDisabled .MenuItemLabel
+{
+	padding: 4px 2px 3px 6px;
+	color: #B1B1B1;
+	cursor: default;
+}
+
+.MenuItemArrow
+{
+	position: absolute;
+}
+
+.MenuItemSeparator
+{
+	line-height: 2px;
+	color: #E0E3E6;
+}
+
+.MenuItemSeparator .MenuItemLabel 
+{
+    padding: 1px 0 0 0;
+    background: #F6F6F6 url(../../images/ltr/mnu_sep.png) no-repeat scroll center left;
+    color: #F6F6F6;
+}
+
+.MenuUpScroller, .MenuDownScroller
+{
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 22px;
+    z-index: 10;
+}
+
+.MenuUpScroller
+{
+    background: #F6F6F6 url(../../images/menu_up_arrow.png) no-repeat scroll center center;
+}
+
+.MenuDownScroller
+{
+    background: #F6F6F6 url(../../images/menu_down_arrow.png) no-repeat scroll center center;
+}
+
+.MenuBorderErase
+{
+	position: absolute;
+	overflow: hidden;
+	height: 1px;
+	border-top: solid 1px #F6F6F6;
+}
+/*** End of Menu ***/
+
+/*** TabStrip ***/
+.TabStripMargin
+{
+	width: 4px;
+}
+
+#TabsGroupContainer
+{
+	table-layout: fixed;
+	margin-top: 2px;
+	border-bottom: 1px solid #C6C6C6;
+}
+
+#TabsGroupOuter
+{
+	position: relative; 
+	overflow: hidden;
+	width: 100%; 
+	top: 1px;
+}
+
+#TabsGroupInner
+{
+	position: relative; 
+	width:10000px;
+}
+
+#TabsGroupContainer .Button
+{
+	width: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.TabsMenu, .TabsMenuHover
+{
+	visibility: hidden;	
+	width: 16px;
+	text-align: center;
+}
+
+.TabsMenuHover
+{
+	background-color: #C9DEF5;
+}
+
+.TabNormal, .TabHover, .TabActive
+{
+	height: 30px;
+	font-size: 10pt;
+	color: #2E599B;
+	cursor: pointer;
+}
+
+.TabActive
+{
+	cursor: default;
+}
+
+.TabNormal .LeftEdge, .TabHover .LeftEdge, .TabActive .LeftEdge,
+.TabNormal .RightEdge, .TabHover .RightEdge, .TabActive .RightEdge
+{
+	display: none;
+}
+
+.TabNormal .Icon, .TabHover .Icon, .TabActive .Icon
+{
+	padding-top: 2px;
+	padding-left: 6px;
+}
+
+.TabNormal .Button, .TabHover .Button, .TabActive .Button
+{
+	padding-top: 2px;
+	padding-right: 6px;
+}
+
+.TabNormal .Title, .TabHover .Title, .TabActive .Title
+{
+	padding: 0 5px 0px;
+}
+
+.TabNormal .Title
+{
+	color: #444444;
+}
+
+.TabActive .Icon, .TabActive .Title, .TabActive .Button
+{
+	border-top: 2px solid #3E6DB5;
+	background-color: #FAFAFA;
+}
+
+.TabActive .Icon 
+{
+	border-left: 1px solid #C6C6C6;
+}
+
+.TabActive .Button 
+{
+	border-right: 1px solid #C6C6C6;
+}
+
+.TabPageFrame
+{
+	display: none;
+}
+/*** End of TabStrip ***/
+
+/*** NavBar ***/
+#NavBar
+{
+	width: 200px;
+	padding: 0px;
+	vertical-align: top;
+	background-color: white;
+}
+
+#NavBarCaption
+{
+	height: 20px;
+	padding-top: 4px;
+	padding-left: 6px;
+	background-color: #19478A;
+	color: White;
+	font-size: 9pt;
+	font-weight: bold;
+}
+
+#NavBarCaption table
+{
+	table-layout: fixed;
+}
+
+#NavBarCaption div
+{
+	overflow: hidden;
+	height: 16px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.NavBarButton
+{
+	width: 18px;
+	visibility: hidden;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+#NavBarPM
+{
+	display: none;
+}
+
+#NavBarContent 
+{
+	overflow: auto;
+	height: expression(document.body.parentNode.clientHeight - Logo.offsetHeight - NavBarCaption.offsetHeight - NavBarGrip.offsetHeight - NavBarPanes.offsetHeight - NavBarFooter.offsetHeight - 1);
+	background-color: #EEEEF2;
+}
+
+#NavBarGrip
+{
+	table-layout: fixed;
+	height: 5px;
+	background-color: #E2E2E2;
+	background-image: url(../../images/nb_grip_bg.png);
+	background-repeat: repeat-x;
+	cursor: n-resize;
+}
+
+#NavBarGrip .NavBarMP
+{
+	width: 38px;
+}
+
+#NavBarPanes
+{
+	table-layout: fixed;
+}
+
+.NavBarPane, .NavBarPaneHover, .NavBarPaneSelected, .NavBarPaneActive
+{
+	height: 31px;
+	border-bottom: solid 1px #CCCEDB;
+	background-repeat: repeat-x;
+}
+
+.NavBarPane
+{
+	background-color: #F1F1F1;
+	color: #444;
+}
+
+.NavBarPaneHover
+{
+	background-color: #D5E1F2;
+	cursor: pointer;
+}
+
+.NavBarPaneSelected
+{
+	background-color: #3E6DB5;
+	color: #FFF;
+}
+
+.NavBarPaneActive
+{
+	background-color: #D5E1F2;
+	cursor: pointer;
+}
+
+.NavBarPane .Icon, .NavBarPaneHover .Icon, .NavBarPaneSelected .Icon, .NavBarPaneActive .Icon
+{
+	width: 34px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.NavBarPane .Caption, .NavBarPaneHover .Caption, .NavBarPaneSelected .Caption, .NavBarPaneActive .Caption
+{
+	font-size: 8.5pt;
+	font-weight: bold;
+}
+
+#NavBarFooter
+{
+	height: 30px;
+	background-color: #E2E2E2;
+	color: #444;
+	text-align: right;
+}
+
+#NavBarFooter table
+{
+	height: 100%;
+}
+
+.NavBarFooterIcon, .NavBarFooterIconHover, .NavBarFooterIconSelected, .NavBarFooterIconActive
+{
+	width: 16px;
+	padding: 0 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.NavBarFooterIconHover
+{
+	background-color: #D5E1F2;
+	cursor: pointer;
+}
+
+.NavBarFooterIconSelected
+{
+	background-color: #3E6DB5;
+}
+
+.NavBarFooterIconActive
+{
+	background-color: #D5E1F2;
+}
+/*** End of NavBar ***/
+
+/*** Panels ***/
+.Panel
+{
+	margin-bottom: 10px;
+    background-color: #FFF;
+    border: 1px solid #E5E5E5;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.DragPanel
+{
+    position: absolute;
+    z-index: 10;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+}
+
+.HilitePanel
+{
+	margin-bottom: 10px;
+    border: solid 1px #E0E3E6;
+    background-color: #C9DEF5;
+}
+
+.Panel .Header
+{
+	height: 32px;
+	table-layout: fixed;
+	background-color: #F3F3F3;
+}
+
+.Panel .Header .LeftBorder
+{
+	width: 3px;
+}
+
+.Panel .Header .Icon
+{
+	width: 20px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.Panel .Header .Title
+{
+	padding: 0 2px 0 2px;
+	font-size: 8pt;
+	color: #666;
+	cursor: move;
+}
+
+.Panel .Header .Title div
+{
+	width: 100%;
+	height: 18px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.Panel .Header a
+{
+	color: #3D4964;
+	text-decoration: none;
+}
+
+.Panel .Header a:hover
+{
+	color: #3D4964;
+	text-decoration: underline;
+}
+
+.Panel .Header .Link
+{
+	width: 55px;
+	text-align: center;
+}
+
+.Panel .Header .Button
+{
+	width: 17px;
+	padding: 1px;
+	cursor: pointer;
+}
+
+.Panel .Header .RightBorder
+{
+	width: 3px;
+}
+
+
+.Panel .Content
+{
+    overflow: hidden;
+    padding: 10px;
+	background-color: #FFF;
+	font-size: 9pt;
+}
+
+.Panel .Content .Arrow
+{
+	padding: 0 2px;
+}
+
+.Panel .Content a
+{
+	font-size: 8pt;
+	color: #428BCA;
+}
+
+.PanelLoading 
+{
+	padding: 2px;
+	color: #515F78;
+}
+
+.PanelLoading img
+{
+	padding: 0 2px;
+	vertical-align: middle;
+}
+
+.PanelListTable .Bullet
+{
+	width: 8px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.PanelListTable .Item
+{
+	padding-bottom: 2px;
+}
+
+.PanelListTable .MinorText
+{
+	color: #808080;
+}
+
+.PanelListTable .Summary
+{
+	height: 24px;
+	overflow: hidden;
+	margin: 0 4px 10px;
+	color: #222222;
+}
+
+.PanelTabularContent
+{
+	table-layout: fixed;
+	margin: 0;
+}
+
+.PanelTabularContent .Header
+{
+	padding: 0;
+	border-bottom: solid 2px #DDD;
+	background-color: #FFF;
+	font-weight: bold;
+	color: #333;
+}
+
+.PanelTabularContent tr:hover .Header
+{
+	background-image: none;
+}
+
+.PanelTabularContent td
+{
+	padding: 8px 5px;
+	border-bottom: 1px solid #DDD;
+}
+
+.PanelTabularContent .Bullet
+{
+	width: 10px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.PanelListImage
+{
+	vertical-align: top;
+}
+/*** End of Panels ***/
+
+/*** NotificationArea ***/
+/*.NotificationArea
+{
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #CCCCCC;
+	filter: progid:DXImageTransform.Microsoft.Fade(Duration=0.2),
+			progid:DXImageTransform.Microsoft.Slide(duration=0.2, bands='1', slideStyle=SWAP),
+			progid:DXImageTransform.Microsoft.Gradient(StartColorStr=#FFFFEE, EndColorStr=#FFFFAA);
+}
+
+.NotificationArea .Container .Header
+{
+	height: 27px;
+	background-color: #F6B24E;
+	background-image: url(../../images/toolbar.png);
+	background-repeat: repeat-x;
+}
+
+.NotificationArea .Container
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.NotificationArea .Container .Header .RefreshButton
+{
+	width: 17px;
+	padding: 1px;
+	cursor: pointer;
+}
+
+.NotificationArea .Container .Header .PrevButton, .NotificationArea .Container .Header .NextButton
+{
+	width: 17px;
+	padding: 1px;
+}
+
+.NotificationArea .Container .Header, .NotificationArea .Container .Content
+{
+	width: 100%;
+	padding: 1px;
+}
+
+.NotificationArea .Container .Header .NumberOfCount
+{
+	padding: 0 5px 0 0;
+	width: 50px;
+	text-align: center;
+	font-size: 9px;
+	font-weight: bold;
+	color: #475470;
+}
+
+.NotificationArea .Container .Header .Icon
+{
+	width: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.NotificationArea .Container .Header .Title
+{
+	padding: 0 2px 0 2px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #475470;
+}
+
+
+.NotificationArea .Container .Content .Icon
+{
+	width: 20px;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 20px;
+}
+
+.NotificationArea .Container .Content
+{
+	vertical-align: top;
+	height: 67px;
+}*/
+/*** End of NotificationArea ***/
+
+body
+{
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid #D4D4D4;
+	border-right: 1px solid #D4D4D4;
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;
+	font-size: 8pt;
+	color: #333;
+}
+
+a
+{
+	color: #3163CE;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+.None
+{
+	display: none;
+}
+
+#PageLayout
+{
+	table-layout: fixed;
+	background-color: #FAFAFA;
+}
+
+#PageHeader
+{
+	background-color: #F6F6F6;
+}
+
+#Logo
+{
+	background-color: #EEEEF2;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#HeaderLine
+{
+	height: 5px;
+	background-image: url(../../images/tabs_border.png);
+	background-repeat: repeat-x;
+}
+
+#TabContent
+{
+	vertical-align: top;
+}
+
+#Splitter
+{
+	width: 3px;
+	border-left: solid 1px #CCCEDB;
+	border-right: solid 1px #CCCEDB;
+	background-color: #EEEEF2;
+	cursor: col-resize;
+}
+
+.SplitterClone
+{
+	position: absolute;
+	width: 5px;
+	background-color: #7F7F7F;
+	z-index: 100;
+}
+
+#TabPageFramesContainer
+{
+	vertical-align: top;
+}
+
+#TabPageFrames
+{
+	overflow: auto;
+	height: expression(document.body.parentNode.clientHeight - TabsGroupContainer.offsetHeight - 8);
+}
+
+#ToolBar
+{
+	width: 140px;
+	padding-right: 5px;
+	text-align: right;
+}
+
+#ToolBar .Button, #ToolBar .ButtonHover, #ToolBar .ButtonActive
+{
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#ToolBar .ButtonHover
+{
+	background-image: url(../../images/btn_hover.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+#ToolBar .ButtonActive
+{
+	background-image: url(../../images/btn_active.png);
+	background-repeat: no-repeat;
+}
+
+#btnColumns, #btnPanels
+{
+	visibility: hidden;
+}
+
+#ColumnsPanel
+{
+	position: absolute;
+	display: none;
+	border: solid 1px #C6C6C6;
+	background-color: #FAFAFA;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Color=#C3C3C3, Strength=2, Direction=225);
+}
+
+#ColumnsPanel .Button, #ColumnsPanel .ButtonHover
+{
+	padding: 3px 0;
+	border: solid 1px #F8F8F8;
+	text-align: center;
+}
+
+#ColumnsPanel .ButtonHover
+{
+	border: solid 1px transparent;
+	background-color: #C9DEF5;
+	color: #333;
+}
+
+#CPEraser, #PMEraser
+{
+	position: absolute;
+	display: none;
+	overflow: hidden;
+	height: 2px;
+	border-top: solid 1px #F8F8F8;
+	z-index: 110;
+}
+
+#PanelsMenu
+{
+	position: absolute;
+	display: none;
+	border: solid 1px #C6C6C6;
+	background-color: #FAFAFA;
+	z-index: 100;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Color=#C3C3C3, Strength=2, Direction=225);
+}
+
+#PanelsMenu .ItemRect
+{
+	padding: 2px;
+	border: none;
+	color: #333;
+}
+
+#PanelsMenu .ItemRectHover
+{
+	padding: 1px;
+	border: solid 1px transparent;
+	background-color: #C9DEF5;
+	color: #333;
+}
+
+#PanelsMenu .ItemRect table, #PanelsMenu .ItemRectHover table
+{
+	width: 100%;
+}
+
+#PanelsMenu .Check
+{
+	width: 20px;
+	text-align: center;
+}
+
+#PanelsMenu .Icon
+{
+	width: 22px;
+	text-align: center;
+}
+
+#PanelsMenu .Caption
+{
+	padding: 4px 6px 3px 20px;
+	cursor: default;
+}
+
+#PanelsMenu .Sep
+{
+	height: 1px;
+	line-height: 1px;
+	background-color: #E0E3E6;
+}
+
+#PanelsMenu .Header
+{
+	padding: 5px 2px;
+	background-color: #EEE;
+	color: #777;
+	font-weight: bold;
+}
+
+#CheckCollect
+{
+	table-layout: fixed;
+}
+
+#CheckCollectNote
+{
+	table-layout: fixed;
+}
+
+#CheckCollectNote .Icon
+{
+	width: 16px;
+	text-align: center;
+}
+
+#CheckCollectNote .Value
+{
+	width: 32px;
+}
+
+#CheckCollectDetails
+{
+	width: 100%;
+	padding: 4px 0;
+}
+
+#CheckCollectDetails td
+{
+	padding: 3px 0 2px 6px;
+}
+
+#CheckCollectDetails .Title
+{
+	padding: 2px 0 4px 0;
+	color: #475470;
+	background-image: url(../../images/ltr/line.png);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+
+#CheckCollectDetails .Label
+{
+	border-bottom: dotted 1px #E0E0E0;
+}
+
+#CheckCollectDetails .LabelHover
+{
+	border-bottom: solid 1px #666;
+}
+
+#CheckCollectDetails .Value
+{
+	width: 32px;
+	border-bottom: dotted 1px #E0E0E0;
+}
+
+#CheckCollectDetails .ValueHover
+{
+	width: 32px;
+	border-bottom: solid 1px #666;
+}
+
+a img { border: 0; }

@@ -1,0 +1,164 @@
+
+.TabStripMargin
+{
+	width: 4px;
+}
+
+#TabsGroupCell
+{
+	position: relative;
+	top: 1px;
+}
+
+#TabsGroupContainer
+{
+	table-layout: fixed;
+	border-bottom: solid 1px #818796;
+}
+
+#TabsGroupOuter
+{
+	position: relative; 
+	overflow: hidden;
+	width: 100%; 
+	top: 1px; 	
+}
+
+#TabsGroupInner
+{
+	position: relative; 
+	width:10000px;
+}
+
+#TabsGroupContainer .Button
+{
+	width: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.TabsMenu
+{
+	visibility: hidden;	
+	position: relative;
+	top: 4px;
+	width: 16px;
+	background-image: url(../../images/tabs_menu_bg.png);
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.TabsMenuHover
+{
+	position: relative;
+	top: 4px;
+	width: 16px;
+	background-image: url(../../images/tabs_menu_hover_bg.png);
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.TabNormal, .TabHover, .TabActive
+{
+	height: 28px;
+	font-size: 8pt;
+	cursor: pointer;
+}
+
+.TabActive
+{
+	cursor: default;
+}
+
+.TabNormal .LeftEdge, .TabHover .LeftEdge, .TabActive .LeftEdge
+{
+	width: 4px;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+
+.TabNormal .Icon, .TabHover .Icon, .TabActive .Icon
+{
+	padding-top: 5px;
+	background-repeat: repeat-x;
+	background-position: bottom left;
+}
+
+.TabNormal .Title, .TabHover .Title, .TabActive .Title
+{
+	padding: 3px 5px 0px;
+	background-repeat: repeat-x;
+	background-position: bottom left;
+	color: black;
+}
+
+.TabNormal .Button, .TabHover .Button, .TabActive .Button
+{
+	padding-top: 5px;
+	background-repeat: repeat-x;
+	background-position: bottom left;
+}
+
+.TabNormal .RightEdge, .TabHover .RightEdge, .TabActive .RightEdge
+{
+	width: 4px;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+
+.TabNormal .LeftEdge
+{
+	background-image: url(../../images/ltr/tab_left_bg.png);
+}
+
+.TabNormal .Icon, .TabNormal .Title, .TabNormal .Button
+{
+	background-image: url(../../images/tab_bg.png);
+}
+
+.TabNormal .RightEdge
+{
+	background-image: url(../../images/ltr/tab_right_bg.png);
+}
+
+.TabHover .LeftEdge
+{
+	background-image: url(../../images/ltr/tab_hover_left_bg.png);
+}
+
+.TabHover .Icon, .TabHover .Title, .TabHover .Button
+{
+	background-image: url(../../images/tab_hover_bg.png);
+	color: #333333;
+}
+
+.TabHover .RightEdge
+{
+	background-image: url(../../images/ltr/tab_hover_right_bg.png);
+}
+
+.TabActive .LeftEdge
+{
+	background-image: url(../../images/ltr/tab_active_left_bg.png);
+}
+
+
+.TabActive .Icon, .TabActive .Title, .TabActive .Button
+{
+	background-image: url(../../images/tab_active_bg.png);
+	font-weight: bold;
+}
+
+.TabActive .RightEdge
+{
+	background-image: url(../../images/ltr/tab_active_right_bg.png);
+}
+
+#TabPageFrames
+{
+}
+
+.TabPageFrame
+{
+	display: none;
+}

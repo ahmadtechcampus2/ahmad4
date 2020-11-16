@@ -1,0 +1,82 @@
+<mstns:schema id="AmnEntry" targetNamespace="Amn08.Entrys" elementFormDefault="qualified" xmlns="Amn08.Entrys" xmlns:mstns="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:NS="Amn08.Entrys">
+  <mstns:group name="Header">
+    <mstns:all>
+      <mstns:element name="EntryNumber" type="mstns:string" />
+      <mstns:element name="Date" type="mstns:string" />
+      <mstns:element name="Notes" type="mstns:string" />
+      <mstns:element name="Currency" type="mstns:string" />
+      <mstns:element name="Rate" type="mstns:string" />
+      <mstns:element name="EntryType" type="mstns:string" />
+      <mstns:element name="DefaultAccount" type="mstns:string" />
+      <mstns:element name="Branch" type="mstns:string" />
+      <mstns:element name="Debit" type="mstns:string" />
+      <mstns:element name="Credit" type="mstns:string" />
+      <mstns:element name="PageNum" type="mstns:string" />
+      <mstns:element name="CurrEquavillantForDebitEntry" type="mstns:string" />
+      <mstns:element name="CurrEquavillantForCreditEntry" type="mstns:string" />
+      <mstns:element name="CurrEquavillantForTotalDebitEntry" type="mstns:string" />
+      <mstns:element name="CurrEquavillantForTotalCreditEntry" type="mstns:string" />
+      <mstns:element name="OtherCurrency" type="mstns:string" />
+      <mstns:element name="CustFlds" type="mstns:string" />
+    </mstns:all>
+  </mstns:group>
+  <mstns:element name="EntryNumber" type="mstns:string" />
+  <mstns:element name="Date" type="mstns:string" />
+  <mstns:element name="Notes" type="mstns:string" />
+  <mstns:element name="Currency" type="mstns:string" />
+  <mstns:element name="Rate" type="mstns:string" />
+  <mstns:element name="EntryType" type="mstns:string" />
+  <mstns:element name="DefaultAccount" type="mstns:string" />
+  <mstns:element name="Branch" type="mstns:string" />
+  <mstns:element name="Debit" type="mstns:string" />
+  <mstns:element name="Credit" type="mstns:string" />
+  <mstns:element name="PageNum" type="mstns:string" />
+  <mstns:element name="CurrEquavillantForDebitEntry" type="mstns:string" />
+  <mstns:element name="CurrEquavillantForCreditEntry" type="mstns:string" />
+  <mstns:element name="CurrEquavillantForTotalDebitEntry" type="mstns:string" />
+  <mstns:element name="CurrEquavillantForTotalCreditEntry" type="mstns:string" />
+  <mstns:element name="OtherCurrency" type="mstns:string" />
+  <mstns:element name="CustFlds" type="mstns:string" />
+  <mstns:element name="Formula" type="mstns:string" />
+  <mstns:element name="Body" type="mstns:string" />
+  <mstns:complexType name="ItemType">
+    <mstns:sequence>
+      <mstns:element name="AccountCode" type="xs:string" />
+      <mstns:element name="AccountName" type="xs:string" />
+      <mstns:element name="Account" type="xs:string" />
+      <mstns:element name="Date" type="xs:string" />
+      <mstns:element name="Debit" type="xs:string" />
+      <mstns:element name="Credit" type="xs:string" />
+      <mstns:element name="Notes" type="xs:string" />
+      <mstns:element name="Curreny" type="xs:string" />
+      <mstns:element name="Rate" type="xs:string" />
+      <mstns:element name="Class" type="xs:string" />
+      <mstns:element name="JobCost" type="xs:string" />
+      <mstns:element name="ContraAcc" type="xs:string" />
+      <mstns:element name="ContraAccCode" type="mstns:string" />
+      <mstns:element name="ContraAccName" type="mstns:string" />
+      <mstns:element name="Equvealnt" type="xs:string" />
+      <mstns:element name="Formula" type="xs:string" />
+    </mstns:sequence>
+  </mstns:complexType>
+  <mstns:element name="Item" type="ItemType">
+  </mstns:element>
+  <mstns:element name="DiscExtra" type="ItemType">
+  </mstns:element>
+  <mstns:group name="FormulaHeader">
+    <mstns:sequence>
+      <mstns:element name="Debit" type="mstns:string" />
+      <mstns:element name="Credit" type="mstns:string" />
+      <mstns:element name="Rate" type="mstns:string" />
+      <mstns:element name="OtherCurRate" type="mstns:string" />
+    </mstns:sequence>
+  </mstns:group>
+  <mstns:group name="FormulaItems">
+    <mstns:sequence>
+      <mstns:element name="Debit" type="mstns:string" />
+      <mstns:element name="Credit" type="mstns:string" />
+      <mstns:element name="Rate" type="mstns:string" />
+      <mstns:element name="OtherCurRate" type="mstns:string" />
+    </mstns:sequence>
+  </mstns:group>
+</mstns:schema>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="windows-1256" ?>
+<AmeenTemplate>
+<PosInfosTemplate>
+<Name>قياسي</Name>
+<InfoItems>
+<InfoItem>
+<Value>الجزئي</Value>
+<ValueIndex>20</ValueIndex>
+<UpperMargin>0</UpperMargin>
+<Width>40</Width>
+<FontSize>9</FontSize>
+<RowIndex>0</RowIndex>
+<ColumnIndex>0</ColumnIndex>
+<ForegroundColor>0</ForegroundColor>
+<BackgroundColor>16777215</BackgroundColor>
+<BorderColor>16777215</BorderColor>
+<FontStyle>0</FontStyle>
+	<IsBordered>1</IsBordered>
+</InfoItem>
+<InfoItem>
+	<Value>0.00</Value>
+	<ValueIndex>11</ValueIndex>
+	<UpperMargin>0</UpperMargin>
+	<Width>60</Width>
+	<FontSize>9</FontSize>
+	<RowIndex>0</RowIndex>
+	<ColumnIndex>1</ColumnIndex>
+	<ForegroundColor>0</ForegroundColor>
+	<BackgroundColor>15781813</BackgroundColor>
+	<BorderColor>16644855</BorderColor>
+	<FontStyle>0</FontStyle>
+<IsBordered>1</IsBordered>
+</InfoItem>
+<InfoItem>
+<Value>الحسم</Value>
+<ValueIndex>20</ValueIndex>
+<UpperMargin>0</UpperMargin>
+<Width>40</Width>
+<FontSize>9</FontSize>
+<RowIndex>1</RowIndex>
+<ColumnIndex>0</ColumnIndex>
+<ForegroundColor>0</ForegroundColor>
+<BackgroundColor>16777215</BackgroundColor>
+<BorderColor>16777215</BorderColor>
+<FontStyle>0</FontStyle>
+<IsBordered>1</IsBordered>
+</InfoItem>
+<InfoItem>
+<Value>0.00</Value>
+<ValueIndex>12</ValueIndex>
+<UpperMargin>0</UpperMargin>
+<Width>60</Width>
+<FontSize>9</FontSize>
+<RowIndex>1</RowIndex>
+<ColumnIndex>1</ColumnIndex>
+<ForegroundColor>0</ForegroundColor>
+<BackgroundColor>15781813</BackgroundColor>
+<BorderColor>16644855</BorderColor>
+<FontStyle>0</FontStyle>
+	<IsBordered>1</IsBordered>
+</InfoItem>
+<InfoItem>
+	<Value>المجموع</Value>
+	<ValueIndex>20</ValueIndex>
+	<UpperMargin>0</UpperMargin>
+	<Width>40</Width>
+	<FontSize>11</FontSize>
+	<RowIndex>2</RowIndex>
+	<ColumnIndex>0</ColumnIndex>
+	<ForegroundColor>0</ForegroundColor>
+	<BackgroundColor>16777215</BackgroundColor>
+	<BorderColor>16777215</BorderColor>
+	<FontStyle>1</FontStyle>
+	<IsBordered>1</IsBordered>
+</InfoItem>
+<InfoItem>
+	<Value>0.00</Value>
+	<ValueIndex>15</ValueIndex>
+	<UpperMargin>0</UpperMargin>
+	<Width>60</Width>
+	<FontSize>11</FontSize>
+	<RowIndex>2</RowIndex>
+	<ColumnIndex>1</ColumnIndex>
+	<ForegroundColor>0</ForegroundColor>
+	<BackgroundColor>15781813</BackgroundColor>
+	<BorderColor>16644855</BorderColor>
+	<FontStyle>1</FontStyle>
+<IsBordered>1</IsBordered>
+</InfoItem>
+</InfoItems>
+</PosInfosTemplate>
+</AmeenTemplate>

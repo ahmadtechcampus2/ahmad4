@@ -1,0 +1,2298 @@
+﻿<?xml version="1.0" encoding="windows-1256" ?>
+<AmeenTemplate>
+  <Main>
+    <Version>
+      <Major>1</Major>
+      <Minor>0</Minor>
+    </Version>
+    <Name>الدليل التركي</Name>
+    <LatinName>Turkish Chart of Accounts</LatinName>
+  </Main>
+  <Accounts>
+    <NormalAccounts>
+       <NormalAccount>
+		<Id>1</Id>
+		<Number>5</Number>
+		<Code>100</Code>
+		<Name>Kasa</Name>
+		<LatinName>Cash</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>2</Id>
+		<Number>6</Number>
+		<Code>101</Code>
+		<Name>Alınan Çekler</Name>
+		<LatinName>Cheques Received</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>3</Id>
+		<Number>7</Number>
+		<Code>102</Code>
+		<Name>Bankalar</Name>
+		<LatinName>Banks</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>4</Id>
+		<Number>8</Number>
+		<Code>103</Code>
+		<Name>Verilen Çek ve Ödeme Emirleri (-)</Name>
+		<LatinName>Cheques Given and Payment Orders(-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>5</Id>
+		<Number>9</Number>
+		<Code>108</Code>
+		<Name>Diğer Hazır Değerler</Name>
+		<LatinName>Other Liguid Assets</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>6</Id>
+		<Number>10</Number>
+		<Code>110</Code>
+		<Name>Hisse Senetleri</Name>
+		<LatinName>Common Stocks</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>7</Id>
+		<Number>11</Number>
+		<Code>111</Code>
+		<Name>Özel Kesim Tahvil, Senet, Bonoları</Name>
+		<LatinName>Private Sector Bonds, Notes and Shares</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>8</Id>
+		<Number>12</Number>
+		<Code>112</Code>
+		<Name>Kamu Kesim Tahvil,Senet, Bonoları</Name>
+		<LatinName>Public Sector Bonds, Notes And Shares</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>9</Id>
+		<Number>13</Number>
+		<Code>118</Code>
+		<Name>Diğer Menkul Kıymetler</Name>
+		<LatinName>Other Marketable Securities</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>10</Id>
+		<Number>14</Number>
+		<Code>119</Code>
+		<Name>Menkul Kıymet Değer Düşüklüğü Karşılığı (-)</Name>
+		<LatinName>Provision for Decrease in Value of Marketable Sec.(-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>11</Id>
+		<Number>15</Number>
+		<Code>120</Code>
+		<Name>Alıcılar</Name>
+		<LatinName>Customers</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>12</Id>
+		<Number>16</Number>
+		<Code>121</Code>
+		<Name>AlacakSenetleri</Name>
+		<LatinName>Notes Receivable</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>13</Id>
+		<Number>17</Number>
+		<Code>122</Code>
+		<Name>Alacak Senetleri Reeskontu (-)</Name>
+		<LatinName>Rediscount of Notes Receivables (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>14</Id>
+		<Number>18</Number>
+		<Code>124</Code>
+		<Name>Kazanılmamış Finansal Kiralama Faiz Gelirleri(-)</Name>
+		<LatinName>Unearned Lease Interest Income (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>15</Id>
+		<Number>19</Number>
+		<Code>126</Code>
+		<Name>Verilen Depozito ve Teminatlar</Name>
+		<LatinName>Deposits and Guarantees Given</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>16</Id>
+		<Number>20</Number>
+		<Code>127</Code>
+		<Name>Diğer Ticari Alacaklar</Name>
+		<LatinName>Other Trade Receivables</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>17</Id>
+		<Number>21</Number>
+		<Code>128</Code>
+		<Name>Şüpheli Ticari Alacaklar</Name>
+		<LatinName>Doubtful Trade Receivables</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>18</Id>
+		<Number>22</Number>
+		<Code>129</Code>
+		<Name>Şüpheli Ticari Alacak Karşılığı (-)</Name>
+		<LatinName>Provisions for Doubtful Trade Receivables (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>19</Id>
+		<Number>23</Number>
+		<Code>131</Code>
+		<Name>Ortaklardan Alacaklar</Name>
+		<LatinName>Due from Shareholders</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>20</Id>
+		<Number>24</Number>
+		<Code>132</Code>
+		<Name>İştiraklerden Alacaklar</Name>
+		<LatinName>Due from Participations</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>21</Id>
+		<Number>25</Number>
+		<Code>133</Code>
+		<Name>Due from Subsidiaries</Name>
+		<LatinName>Due from Subsidiaries</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>22</Id>
+		<Number>26</Number>
+		<Code>135</Code>
+		<Name>Personelden Alacaklar</Name>
+		<LatinName>Due from Personnel</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>23</Id>
+		<Number>27</Number>
+		<Code>136</Code>
+		<Name>Diğer Çeşitli Alacaklar</Name>
+		<LatinName>Other Receivables</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>24</Id>
+		<Number>28</Number>
+		<Code>137</Code>
+		<Name>Diğer Alacak Senetleri Reeskontu (-)</Name>
+		<LatinName>Discounts on Other Notes Receivables(-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>25</Id>
+		<Number>29</Number>
+		<Code>138</Code>
+		<Name>Şüpheli Diğer Alacaklar</Name>
+		<LatinName>Other Doubtful Receivables</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>26</Id>
+		<Number>30</Number>
+		<Code>139</Code>
+		<Name>Şüpheli Diğer Alacaklar Karşılığı (-)</Name>
+		<LatinName>Provision for Other Doubtful Receivables(-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>27</Id>
+		<Number>31</Number>
+		<Code>150</Code>
+		<Name>İlk Madde ve Malzeme</Name>
+		<LatinName>Raw Materials and Supplies</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>28</Id>
+		<Number>32</Number>
+		<Code>151</Code>
+		<Name>Yarı Mamuller</Name>
+		<LatinName>Semi-finished Goods in Production</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>29</Id>
+		<Number>33</Number>
+		<Code>152</Code>
+		<Name>Mamuller</Name>
+		<LatinName>Finished Goods</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>30</Id>
+		<Number>34</Number>
+		<Code>153</Code>
+		<Name>Ticari Mallar</Name>
+		<LatinName>Trade Goods</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>31</Id>
+		<Number>35</Number>
+		<Code>157</Code>
+		<Name>Diğer Stoklar</Name>
+		<LatinName>Other Inventories</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>32</Id>
+		<Number>36</Number>
+		<Code>158</Code>
+		<Name>Stok Değer Düşüklüğü Karşılığı (-)</Name>
+		<LatinName>Provision for Inventories (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>33</Id>
+		<Number>37</Number>
+		<Code>159</Code>
+		<Name>Verilen Sipariş Avansları</Name>
+		<LatinName>Advances Given to Suppliers</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>34</Id>
+		<Number>38</Number>
+		<Code>170</Code>
+		<Name>Yıllara Yaygın İnşaat ve Onarım Maliyetleri</Name>
+		<LatinName>Contract Progress Costs</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>35</Id>
+		<Number>39</Number>
+		<Code>178</Code>
+		<Name>Yıllara Yaygın İnşaat Enflasyon Düzeltme Hesabı</Name>
+		<LatinName>Inflation Adjustments on Contract Progress</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>36</Id>
+		<Number>40</Number>
+		<Code>179</Code>
+		<Name>Taşeronlara Verilen Avanslar</Name>
+		<LatinName>Advances Given to Sub-Contractors</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>37</Id>
+		<Number>41</Number>
+		<Code>180</Code>
+		<Name>Gelecek Aylara Ait Giderler</Name>
+		<LatinName>Prepaid Expense for The Following Months</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>38</Id>
+		<Number>42</Number>
+		<Code>181</Code>
+		<Name>Gelir Tahakkukları</Name>
+		<LatinName>Income Accruals</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>39</Id>
+		<Number>43</Number>
+		<Code>190</Code>
+		<Name>Devreden KDV</Name>
+		<LatinName>Deferred VAT</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>40</Id>
+		<Number>44</Number>
+		<Code>191</Code>
+		<Name>İndirilecek KDV</Name>
+		<LatinName>Deductible VAT</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>41</Id>
+		<Number>45</Number>
+		<Code>192</Code>
+		<Name>Diğer KDV</Name>
+		<LatinName>Other VAT</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>42</Id>
+		<Number>46</Number>
+		<Code>193</Code>
+		<Name>Peşin Ödenen Vergi ve Fonlar</Name>
+		<LatinName>Prepaid Taxes and Funds</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>43</Id>
+		<Number>47</Number>
+		<Code>195</Code>
+		<Name>İş Avansları</Name>
+		<LatinName>Work Advance</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>44</Id>
+		<Number>48</Number>
+		<Code>196</Code>
+		<Name>Personel Avansları</Name>
+		<LatinName>Advance Given To Personnel</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>45</Id>
+		<Number>49</Number>
+		<Code>197</Code>
+		<Name>Sayım Tesellüm Noksanları</Name>
+		<LatinName>Stock Count and Delivery Shortages</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>46</Id>
+		<Number>50</Number>
+		<Code>198</Code>
+		<Name>Diğer Çeşitli Dönen Varlıklar</Name>
+		<LatinName>Other Current Assets</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>47</Id>
+		<Number>51</Number>
+		<Code>199</Code>
+		<Name>Diğer Dönen Varlıklar Karşılığı (-)</Name>
+		<LatinName>Provision for Other Current Assets (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>48</Id>
+		<Number>52</Number>
+		<Code>221</Code>
+		<Name>Alacak Senetleri</Name>
+		<LatinName>Notes Receivable</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>49</Id>
+		<Number>53</Number>
+		<Code>222</Code>
+		<Name>Alacak Senetleri Reeskontu (-)</Name>
+		<LatinName>Rediscount on Notes Receivables (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>50</Id>
+		<Number>54</Number>
+		<Code>224</Code>
+		<Name>Kazanılmamış Finansal Kiralama Faiz Gelirleri (-)</Name>
+		<LatinName>Unearned Lease Interest Income (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>51</Id>
+		<Number>55</Number>
+		<Code>226</Code>
+		<Name>Verilen Depozito ve Teminatlar</Name>
+		<LatinName>Deposits and Guarantees Given</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>52</Id>
+		<Number>56</Number>
+		<Code>229</Code>
+		<Name>Şüpheli Alacaklar Karşılığı (-)</Name>
+		<LatinName>Provison for Doubtful Receivables</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>53</Id>
+		<Number>57</Number>
+		<Code>235</Code>
+		<Name>Personelden Alacaklar</Name>
+		<LatinName>Receivables From Personnel</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>54</Id>
+		<Number>58</Number>
+		<Code>236</Code>
+		<Name>Diğer Çeşitli Alacaklar</Name>
+		<LatinName>Other Receivables</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>55</Id>
+		<Number>59</Number>
+		<Code>237</Code>
+		<Name>Diğer Alacak Senetleri Reeskontu (-)</Name>
+		<LatinName>Rediscount on Other Notes Receivable (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>56</Id>
+		<Number>60</Number>
+		<Code>239</Code>
+		<Name>Şüpheli Diğer Alacaklar Karşılığı (-)</Name>
+		<LatinName>Provision for Other Doubtful Receivables(-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>57</Id>
+		<Number>61</Number>
+		<Code>240</Code>
+		<Name>Bağlı Menkul Kıymetler</Name>
+		<LatinName>Long Term Securities</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>58</Id>
+		<Number>62</Number>
+		<Code>241</Code>
+		<Name>Bağlı Menkul Kıymetler Değer Düşüklüğü Karşılığı (-)</Name>
+		<LatinName>Decrease in Value of Long Term Marketable Securities (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>59</Id>
+		<Number>63</Number>
+		<Code>242</Code>
+		<Name>İştirakler</Name>
+		<LatinName>Participations</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>60</Id>
+		<Number>64</Number>
+		<Code>243</Code>
+		<Name>İştiraklere Sermaye Taahhütleri (-)</Name>
+		<LatinName>Capital Commitments for Participations (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>61</Id>
+		<Number>65</Number>
+		<Code>244</Code>
+		<Name>İştirakler Sermaye Payları Değer Düşüklüğü Karşılığı (-)</Name>
+		<LatinName>Decrease in Value of Participations' Shares (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>62</Id>
+		<Number>66</Number>
+		<Code>245</Code>
+		<Name>Bağlı Ortaklıklar</Name>
+		<LatinName>Subsidiaries</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>63</Id>
+		<Number>67</Number>
+		<Code>246</Code>
+		<Name>Bağlı Ortaklık Sermaye Taahhütleri (-)</Name>
+		<LatinName>Capital Commitments for Subsidiaries (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>64</Id>
+		<Number>68</Number>
+		<Code>247</Code>
+		<Name>Bağlı Ortaklıklar Sermaye Payları Değer Düşüklüğü Krş. (-)</Name>
+		<LatinName>Decrease in Value of Subsidiaries Shares (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>65</Id>
+		<Number>69</Number>
+		<Code>248</Code>
+		<Name>Diğer Mali Duran Varlıklar</Name>
+		<LatinName>Other Financial Assets</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>66</Id>
+		<Number>70</Number>
+		<Code>249</Code>
+		<Name>Diğer Mali Duran Varlıklar Değer Düşüklüğü Krş. (-)</Name>
+		<LatinName>Decrease in Value of Other Financial Assets (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>67</Id>
+		<Number>71</Number>
+		<Code>250</Code>
+		<Name>Arazi ve Arsalar</Name>
+		<LatinName>Land</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>68</Id>
+		<Number>72</Number>
+		<Code>251</Code>
+		<Name>Yeraltı ve Yerüstü Düzenleri</Name>
+		<LatinName>Land Improvements</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>69</Id>
+		<Number>73</Number>
+		<Code>252</Code>
+		<Name>Binalar</Name>
+		<LatinName>Buildings</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>70</Id>
+		<Number>74</Number>
+		<Code>253</Code>
+		<Name>Tesis, Makina ve Cihazlar</Name>
+		<LatinName>Machinery,Equipment and Installations</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>71</Id>
+		<Number>75</Number>
+		<Code>254</Code>
+		<Name>Taşıtlar</Name>
+		<LatinName>Motor Vehicles</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>72</Id>
+		<Number>76</Number>
+		<Code>255</Code>
+		<Name>Demirbaşlar</Name>
+		<LatinName>Furniture and Fixtures</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>73</Id>
+		<Number>77</Number>
+		<Code>256</Code>
+		<Name>Diğer Maddi Duran Varlıklar</Name>
+		<LatinName>Other Tangible Fix Assets</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>74</Id>
+		<Number>78</Number>
+		<Code>257</Code>
+		<Name>Birikmiş Amortismanlar (-)</Name>
+		<LatinName>Accumulated Depreciation(-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>75</Id>
+		<Number>79</Number>
+		<Code>258</Code>
+		<Name>Yapılmakta Olan Yatırımlar</Name>
+		<LatinName>Construction in Progress</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>76</Id>
+		<Number>80</Number>
+		<Code>259</Code>
+		<Name>Verilen Avanslar</Name>
+		<LatinName>Fix Assets Advances Given</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>77</Id>
+		<Number>81</Number>
+		<Code>260</Code>
+		<Name>Haklar</Name>
+		<LatinName>Rights</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>78</Id>
+		<Number>82</Number>
+		<Code>261</Code>
+		<Name>Şerefiyeler</Name>
+		<LatinName>Goodwill</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>79</Id>
+		<Number>83</Number>
+		<Code>262</Code>
+		<Name>Kuruluş ve Örgütlenme Giderleri</Name>
+		<LatinName>Pre-operating Expenses</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>80</Id>
+		<Number>84</Number>
+		<Code>263</Code>
+		<Name>Araştırma ve Geliştirme Giderleri</Name>
+		<LatinName>Research and Development Expenses</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>81</Id>
+		<Number>85</Number>
+		<Code>264</Code>
+		<Name>Özel Maliyetler</Name>
+		<LatinName>Special Cost</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>82</Id>
+		<Number>86</Number>
+		<Code>267</Code>
+		<Name>Diğer Maddi Olmayan Duran Varlıklar</Name>
+		<LatinName>Other Intangible Fixed Assets</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>83</Id>
+		<Number>87</Number>
+		<Code>268</Code>
+		<Name>Birikmiş Amortismanlar (-)</Name>
+		<LatinName>Accumulated Amortization(-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>84</Id>
+		<Number>88</Number>
+		<Code>269</Code>
+		<Name>Verilen Avanslar</Name>
+		<LatinName>Advances Given to Suppliers</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>85</Id>
+		<Number>89</Number>
+		<Code>271</Code>
+		<Name>Arama Giderleri</Name>
+		<LatinName>Research Expenses</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>85</Id>
+		<Number>89</Number>
+		<Code>272</Code>
+		<Name>Hazırlık ve Geliştirme Giderleri</Name>
+		<LatinName>Preperation and Development Expenses</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>86</Id>
+		<Number>90</Number>
+		<Code>277</Code>
+		<Name>Diğer Özel Tükenmeye Tabi Varlıklar</Name>
+		<LatinName>Other Depletable Assets</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>87</Id>
+		<Number>91</Number>
+		<Code>278</Code>
+		<Name>Birikmiş Tükenme Payları (-)</Name>
+		<LatinName>Accumulated Depletion (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>88</Id>
+		<Number>92</Number>
+		<Code>279</Code>
+		<Name>Verilen Avanslar</Name>
+		<LatinName>Advances Given</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>89</Id>
+		<Number>93</Number>
+		<Code>280</Code>
+		<Name>Gelecek Yıllara Ait Giderler</Name>
+		<LatinName>Prepaid Expenses for the Following Years</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>90</Id>
+		<Number>94</Number>
+		<Code>281</Code>
+		<Name>Gelir Tahakkukları</Name>
+		<LatinName>Income Accruals</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>91</Id>
+		<Number>95</Number>
+		<Code>291</Code>
+		<Name>Gelecek Yıllarda İndirilecek KDV</Name>
+		<LatinName>VAT Deductible for the Following Years</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>92</Id>
+		<Number>96</Number>
+		<Code>292</Code>
+		<Name>Diğer KDV</Name>
+		<LatinName>Other VAT</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>93</Id>
+		<Number>97</Number>
+		<Code>293</Code>
+		<Name>Gelecek Yıllar İhtiyacı Stoklar</Name>
+		<LatinName>Long Term Stocks</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>94</Id>
+		<Number>98</Number>
+		<Code>294</Code>
+		<Name>Elden Çıkarılacak Stoklar ve Maddi Duran Varlıklar</Name>
+		<LatinName>Inventories and Tangible Fixed Assets to be Sold</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>95</Id>
+		<Number>99</Number>
+		<Code>295</Code>
+		<Name>Peşin Ödenen Vergiler ve Fonlar</Name>
+		<LatinName>Prepaid Expenses and Funds</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>96</Id>
+		<Number>100</Number>
+		<Code>297</Code>
+		<Name>Diğer Çeşitli Duran Varlıklar</Name>
+		<LatinName>Other Fixed Assets</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>97</Id>
+		<Number>101</Number>
+		<Code>298</Code>
+		<Name>Stok Değer Düşüklüğü Karşılığı (-)</Name>
+		<LatinName>Decrease in Value of Stocks (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>98</Id>
+		<Number>102</Number>
+		<Code>299</Code>
+		<Name>Birikmiş Amortismanlar (-)</Name>
+		<LatinName>Accumulated Depreciation (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>99</Id>
+		<Number>103</Number>
+		<Code>300</Code>
+		<Name>Banka Kredileri</Name>
+		<LatinName>Bank Loans</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>100</Id>
+		<Number>104</Number>
+		<Code>301</Code>
+		<Name>Finansal Kiralama İşlemlerinden</Name>
+		<LatinName>Borçlar Leasing Payables</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>101</Id>
+		<Number>105</Number>
+		<Code>302</Code>
+		<Name>Ertelenmiş Finansal Kiralama Borçlanma Maliyetleri (-)</Name>
+		<LatinName>Interest Payables of Deferred Lease Costs (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>102</Id>
+		<Number>106</Number>
+		<Code>303</Code>
+		<Name>Uzun Vadeli Kredilerin Ana Para,Taksitleri ve Faizleri</Name>
+		<LatinName>Current Maturities of Long Term Credits and Accrued Interest</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>103</Id>
+		<Number>107</Number>
+		<Code>304</Code>
+		<Name>Tahvil Anapara, Borç, Taksit Faizi</Name>
+		<LatinName>Current Maturities of Bonds and Accrued Interest</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>104</Id>
+		<Number>108</Number>
+		<Code>305</Code>
+		<Name>Çıkarılmış Bonolar ve Senetler</Name>
+		<LatinName>Bonds and Notes Issued</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>105</Id>
+		<Number>109</Number>
+		<Code>306</Code>
+		<Name>Çıkarılmış Diğer Menkul Kıymetler</Name>
+		<LatinName>Other Securities Issued</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>106</Id>
+		<Number>110</Number>
+		<Code>308</Code>
+		<Name>Menkul Kıymetler İhraç Farkı (-)</Name>
+		<LatinName>Value Difference of Securities Issued (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>107</Id>
+		<Number>111</Number>
+		<Code>309</Code>
+		<Name>Diğer Mali Borçlar</Name>
+		<LatinName>Other Financial Liabilities</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>108</Id>
+		<Number>112</Number>
+		<Code>320</Code>
+		<Name>Satıcılar</Name>
+		<LatinName>Suppliers</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>109</Id>
+		<Number>113</Number>
+		<Code>321</Code>
+		<Name>Borç Senetleri</Name>
+		<LatinName>Notes Payable</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>110</Id>
+		<Number>114</Number>
+		<Code>322</Code>
+		<Name>Borç Senetleri Reeskontu (-)</Name>
+		<LatinName>Rediscount on Notes Payables (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>111</Id>
+		<Number>115</Number>
+		<Code>326</Code>
+		<Name>Alınan Depozito ve Teminatlar</Name>
+		<LatinName>Deposits and Guarantees Taken</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>112</Id>
+		<Number>116</Number>
+		<Code>329</Code>
+		<Name>Diğer Ticari Borçlar</Name>
+		<LatinName>Other Trade Payables</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>113</Id>
+		<Number>117</Number>
+		<Code>331</Code>
+		<Name>Ortaklara Borçlar</Name>
+		<LatinName>Due to Shareholders</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>114</Id>
+		<Number>118</Number>
+		<Code>332</Code>
+		<Name>İştiraklere Borçlar</Name>
+		<LatinName>Due to Participations</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>115</Id>
+		<Number>119</Number>
+		<Code>333</Code>
+		<Name>Bağlı Ortaklıklara Borçlar</Name>
+		<LatinName>Due to Subsidiaries</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>116</Id>
+		<Number>120</Number>
+		<Code>335</Code>
+		<Name>Personele Borçlar</Name>
+		<LatinName>Due to Personnel</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>117</Id>
+		<Number>121</Number>
+		<Code>336</Code>
+		<Name>Diğer Çeşitli Borçlar</Name>
+		<LatinName>Other Liabilities</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>118</Id>
+		<Number>122</Number>
+		<Code>337</Code>
+		<Name>Diğer Borç Senetleri Reeskontu (-)</Name>
+		<LatinName>Rediscount on Other Notes Payable (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>119</Id>
+		<Number>123</Number>
+		<Code>340</Code>
+		<Name>Alınan Sipariş Avansları</Name>
+		<LatinName>Advances Received</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>120</Id>
+		<Number>124</Number>
+		<Code>349</Code>
+		<Name>Alınan Diğer Avanslar</Name>
+		<LatinName>Other Advances Received</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>121</Id>
+		<Number>125</Number>
+		<Code>350</Code>
+		<Name>Yıllara Yaygın İnşaat ve Onarım Hakedişleri</Name>
+		<LatinName>Contract Progress Income</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>122</Id>
+		<Number>126</Number>
+		<Code>358</Code>
+		<Name>Yıllara Yaygın İnşaat Enflasyon Düzeltme Hesabı</Name>
+		<LatinName>Inflation  Adjustments on Contract Progress Income</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>123</Id>
+		<Number>127</Number>
+		<Code>360</Code>
+		<Name>Ödenecek Vergi ve Fonlar</Name>
+		<LatinName>Taxes And Funds Payables</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>124</Id>
+		<Number>128</Number>
+		<Code>361</Code>
+		<Name>Ödenecek Sosyal Güvenlik Kesintileri</Name>
+		<LatinName>Social Security Premiums Payable</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>125</Id>
+		<Number>129</Number>
+		<Code>368</Code>
+		<Name>Vadesi Geçmiş Ertelenmiş veya Taks. Vergi ve Diğer Yük.</Name>
+		<LatinName>Overdue,Deferred or Restructed Taxes and Other Libilities</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>126</Id>
+		<Number>130</Number>
+		<Code>369</Code>
+		<Name>Ödenecek Diğer Yükümlülükler</Name>
+		<LatinName>Other Liabilities Payable</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>127</Id>
+		<Number>131</Number>
+		<Code>370</Code>
+		<Name>Dönem Karı Vergi ve Diğer Yasal Yükümlülük Karşılığı</Name>
+		<LatinName>Prov. for Income Taxes and Oth.Legal Liabilities</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>128</Id>
+		<Number>132</Number>
+		<Code>371</Code>
+		<Name>Dönem Karı Peşin Ödenen Vergi ve Diğer Yük. (-)</Name>
+		<LatinName>Prepaid Taxes and Funds on Profit for the Period</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>129</Id>
+		<Number>133</Number>
+		<Code>372</Code>
+		<Name>Kıdem Tazminatı Karşılığı</Name>
+		<LatinName>Provision for Employee Termination Benefits</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>130</Id>
+		<Number>134</Number>
+		<Code>373</Code>
+		<Name>Maliyet Giderleri Karşılığı</Name>
+		<LatinName>Provision For Expenses Relating To Costing</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>131</Id>
+		<Number>135</Number>
+		<Code>379</Code>
+		<Name>Diğer Borç ve Gider Karşılıkları</Name>
+		<LatinName>Provision for Other Liabilities and Expenses</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>132</Id>
+		<Number>136</Number>
+		<Code>380</Code>
+		<Name>Gelecek Aylara Ait Gelirler</Name>
+		<LatinName>Short Term Deferred Income</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>133</Id>
+		<Number>137</Number>
+		<Code>381</Code>
+		<Name>Gider Tahakkukları</Name>
+		<LatinName>Expense Accruals</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>134</Id>
+		<Number>138</Number>
+		<Code>391</Code>
+		<Name>Hesaplanan KDV</Name>
+		<LatinName>VAT Calculated</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>135</Id>
+		<Number>139</Number>
+		<Code>392</Code>
+		<Name>Diğer KDV</Name>
+		<LatinName>Other VAT</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>136</Id>
+		<Number>140</Number>
+		<Code>393</Code>
+		<Name>Merkez ve Şubeler Cari Hesabı</Name>
+		<LatinName>Head Office and Branch Current Accounts</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>137</Id>
+		<Number>141</Number>
+		<Code>397</Code>
+		<Name>Sayım ve Tesellüm Fazlaları</Name>
+		<LatinName>Stock Count Delivery Surpluses</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>138</Id>
+		<Number>142</Number>
+		<Code>399</Code>
+		<Name>Diğer Çeşitli Yabancı Kaynaklar</Name>
+		<LatinName>Other Short Term Liabilities</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>139</Id>
+		<Number>143</Number>
+		<Code>400</Code>
+		<Name>Banka Kredileri</Name>
+		<LatinName>Bank Loans</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>140</Id>
+		<Number>144</Number>
+		<Code>401</Code>
+		<Name>Finansal Kiralama İşlemlerinden Borçlar</Name>
+		<LatinName>Leasing Payables</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>141</Id>
+		<Number>145</Number>
+		<Code>402</Code>
+		<Name>Ertelenmiş Finansal Kiralama Borçlanma Maliyetleri (-)</Name>
+		<LatinName>Deferred Lease Interest Payables (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>142</Id>
+		<Number>146</Number>
+		<Code>405</Code>
+		<Name>Çıkarılmış Tahviller</Name>
+		<LatinName>Bonds Issued</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>143</Id>
+		<Number>147</Number>
+		<Code>407</Code>
+		<Name>Çıkarılmış Diğer Menkul Kıymetler</Name>
+		<LatinName>Other Marketable Securities Issued</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>144</Id>
+		<Number>148</Number>
+		<Code>408</Code>
+		<Name>Menkul Kıymetler İhraç Farkı (-)</Name>
+		<LatinName>Value Differences of Securities Inssued (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>145</Id>
+		<Number>149</Number>
+		<Code>409</Code>
+		<Name>Diğer Mali Borçlar</Name>
+		<LatinName>Other Financial Liabilities</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>146</Id>
+		<Number>150</Number>
+		<Code>420</Code>
+		<Name>Satıcılar</Name>
+		<LatinName>Suppliers</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>147</Id>
+		<Number>151</Number>
+		<Code>421</Code>
+		<Name>Borç Senetleri</Name>
+		<LatinName>Notes Payable</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>148</Id>
+		<Number>152</Number>
+		<Code>422</Code>
+		<Name>Borç Senetleri Reeskontu (-)</Name>
+		<LatinName>Rediscount on Notes Payable(-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>149</Id>
+		<Number>153</Number>
+		<Code>426</Code>
+		<Name>Alınan Depozito ve Teminatlar</Name>
+		<LatinName>Deposits and Guarentees Taken</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>150</Id>
+		<Number>154</Number>
+		<Code>429</Code>
+		<Name>Diğer Ticari Borçlar</Name>
+		<LatinName>Other Trade Payables</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>151</Id>
+		<Number>155</Number>
+		<Code>431</Code>
+		<Name>Ortaklara Borçlar</Name>
+		<LatinName>Due to Shareholders</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>152</Id>
+		<Number>156</Number>
+		<Code>432</Code>
+		<Name>İştiraklere Borçlar</Name>
+		<LatinName>Due to Participations</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>153</Id>
+		<Number>157</Number>
+		<Code>433</Code>
+		<Name>Bağlı Ortaklıklara Borçlar</Name>
+		<LatinName>Due to Subsidiaries</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>154</Id>
+		<Number>158</Number>
+		<Code>436</Code>
+		<Name>Diğer Çeşitli Borçlar</Name>
+		<LatinName>Other Payables</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>155</Id>
+		<Number>159</Number>
+		<Code>437</Code>
+		<Name>Diğer Borç Senetleri Reeskontu (-)</Name>
+		<LatinName>Rediscount on Notes Payable (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>156</Id>
+		<Number>160</Number>
+		<Code>438</Code>
+		<Name>Kamuya Olan Ertelenmiş veya Taksitlendirilmiş Borçlar</Name>
+		<LatinName>Deferred or Restructed Debts of Public Sector</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>156</Id>
+		<Number>160</Number>
+		<Code>440</Code>
+		<Name>Alınan Sipariş Avansları</Name>
+		<LatinName>Advances Received</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>157</Id>
+		<Number>161</Number>
+		<Code>449</Code>
+		<Name>Alınan Diğer Avanslar</Name>
+		<LatinName>Other Advances Received</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>158</Id>
+		<Number>162</Number>
+		<Code>472</Code>
+		<Name>Kıdem Tazminatı Karşılıkları</Name>
+		<LatinName>Provisions for Employee Termination Benefits</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>159</Id>
+		<Number>163</Number>
+		<Code>479</Code>
+		<Name>Diğer Borç ve Gider Karşılıkları</Name>
+		<LatinName>Provisions for Other Liabilities and Expenses</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>160</Id>
+		<Number>164</Number>
+		<Code>480</Code>
+		<Name>Gelecek Yıllara Ait Gelirler</Name>
+		<LatinName>Long Term Deferred Income</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>161</Id>
+		<Number>165</Number>
+		<Code>481</Code>
+		<Name>Gider Tahakkukları</Name>
+		<LatinName>Expense Accruals</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>162</Id>
+		<Number>166</Number>
+		<Code>492</Code>
+		<Name>Gelecek Yıllara Ertelenen veya Terkin Edilecek KDV</Name>
+		<LatinName>Long Term Deferred or Postponed VAT</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>163</Id>
+		<Number>167</Number>
+		<Code>493</Code>
+		<Name>Tesise Katılma Payları</Name>
+		<LatinName>Installation Participation</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>164</Id>
+		<Number>168</Number>
+		<Code>499</Code>
+		<Name>Diğer Çeşitli Uzun Vadeli Yabancı Kaynaklar</Name>
+		<LatinName>Other Long Term Liabilities</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>165</Id>
+		<Number>169</Number>
+		<Code>500</Code>
+		<Name>Sermaye</Name>
+		<LatinName>Share Capital</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>166</Id>
+		<Number>170</Number>
+		<Code>501</Code>
+		<Name>Ödenmemiş Sermaye (-)</Name>
+		<LatinName>Unpaid Share Capital(-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>167</Id>
+		<Number>171</Number>
+		<Code>502</Code>
+		<Name>Sermaye Düzeltmesi Olumlu Farkları</Name>
+		<LatinName>Pozitive Distinction from Share Capital Adjustment</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>168</Id>
+		<Number>172</Number>
+		<Code>503</Code>
+		<Name>Sermaye Düzeltmesi Olumsuz Farkları (-)</Name>
+		<LatinName>Negative Distinction from Share Capital Adjustment (-)</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>169</Id>
+		<Number>173</Number>
+		<Code>520</Code>
+		<Name>Hisse Senedi İhraç Primleri</Name>
+		<LatinName>Share Premium</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>170</Id>
+		<Number>174</Number>
+		<Code>521</Code>
+		<Name>Hisse Senedi İptal Karları</Name>
+		<LatinName>Share Premium of Cancelled Shares</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>171</Id>
+		<Number>175</Number>
+		<Code>522</Code>
+		<Name>M.D.V. Yeniden Değerleme Artışları</Name>
+		<LatinName>Revaluation Fund of Tangible Fixed Assets</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>172</Id>
+		<Number>176</Number>
+		<Code>523</Code>
+		<Name>İştirakler Yeniden Değerleme Artışları</Name>
+		<LatinName>Revaluation Fund of Investments</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>173</Id>
+		<Number>177</Number>
+		<Code>529</Code>
+		<Name>Diğer Sermaye Yedekleri</Name>
+		<LatinName>Other Share Capital Reserves</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>174</Id>
+		<Number>178</Number>
+		<Code>540</Code>
+		<Name>Yasal Yedekler</Name>
+		<LatinName>Legal Reserves</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>175</Id>
+		<Number>179</Number>
+		<Code>541</Code>
+		<Name>Statü Yedekleri</Name>
+		<LatinName>Special Reserves</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>176</Id>
+		<Number>180</Number>
+		<Code>542</Code>
+		<Name>Olağanüstü Yedekler</Name>
+		<LatinName>Extraordinary Reserves</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>177</Id>
+		<Number>181</Number>
+		<Code>548</Code>
+		<Name>Diğer Kar Yedekleri</Name>
+		<LatinName>Other Profit Reserves</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>178</Id>
+		<Number>182</Number>
+		<Code>549</Code>
+		<Name>Özel Fonlar</Name>
+		<LatinName>Special Funds</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>179</Id>
+		<Number>183</Number>
+		<Code>570</Code>
+		<Name>Geçmiş Yıllar Karları</Name>
+		<LatinName>Previous Year's Profits</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>180</Id>
+		<Number>184</Number>
+		<Code>580</Code>
+		<Name>Geçmiş Yıllar Zararları</Name>
+		<LatinName>Previous Year's Losses</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>181</Id>
+		<Number>185</Number>
+		<Code>590</Code>
+		<Name>Dönem Net Karı</Name>
+		<LatinName>Net Profit For The Period</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>182</Id>
+		<Number>186</Number>
+		<Code>591</Code>
+		<Name>Dönem Net Zararı</Name>
+		<LatinName>Net Loss For The Period</LatinName>
+		<FinalAccountId>1</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>183</Id>
+		<Number>187</Number>
+		<Code>600</Code>
+		<Name>Yurtiçi Satışlar</Name>
+		<LatinName>Domestic Sales</LatinName>
+		<FinalAccountId>3</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>184</Id>
+		<Number>188</Number>
+		<Code>601</Code>
+		<Name>Yurtdışı Satışlar</Name>
+		<LatinName>Export Sales</LatinName>
+		<FinalAccountId>3</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>185</Id>
+		<Number>189</Number>
+		<Code>602</Code>
+		<Name>Diğer Gelirler</Name>
+		<LatinName>Other Sales</LatinName>
+		<FinalAccountId>3</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>186</Id>
+		<Number>190</Number>
+		<Code>610</Code>
+		<Name>Satış İadeleri (-)</Name>
+		<LatinName>Sales Returns (-)</LatinName>
+		<FinalAccountId>3</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>187</Id>
+		<Number>191</Number>
+		<Code>611</Code>
+		<Name>Satış Iskontoları (-)</Name>
+		<LatinName>Sales Discounts (-)</LatinName>
+		<FinalAccountId>3</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>189</Id>
+		<Number>192</Number>
+		<Code>612</Code>
+		<Name>Diğer İndirimler (-)</Name>
+		<LatinName>Other Discounts (-)</LatinName>
+		<FinalAccountId>3</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>190</Id>
+		<Number>194</Number>
+		<Code>620</Code>
+		<Name>Satılan Mamuller Maliyeti (-)</Name>
+		<LatinName>Cost of Goods Solds(Product)  (-)</LatinName>
+		<FinalAccountId>3</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>191</Id>
+		<Number>195</Number>
+		<Code>621</Code>
+		<Name>Satılan Ticari Mallar Maliyeti (-)</Name>
+		<LatinName>Cost of Trade Goods Sold (-)</LatinName>
+		<FinalAccountId>3</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>192</Id>
+		<Number>196</Number>
+		<Code>622</Code>
+		<Name>Satılan Hizmet Maliyeti (-)</Name>
+		<LatinName>Cost of Services Sold (-)</LatinName>
+		<FinalAccountId>3</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>193</Id>
+		<Number>197</Number>
+		<Code>623</Code>
+		<Name>Diğer Satışların Maliyeti (-)</Name>
+		<LatinName>Cost of Other Sales (-)</LatinName>
+		<FinalAccountId>3</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>194</Id>
+		<Number>198</Number>
+		<Code>630</Code>
+		<Name>Araştırma ve Geliştirme Giderleri (-)</Name>
+		<LatinName>Research and Development Expenses (-)</LatinName>
+		<FinalAccountId>3</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>195</Id>
+		<Number>199</Number>
+		<Code>631</Code>
+		<Name>Pazarlama, Satış ve Dağıtım Giderleri (-)</Name>
+		<LatinName>Marketing, Selling and Distribution Expenses (-)</LatinName>
+		<FinalAccountId>3</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>196</Id>
+		<Number>200</Number>
+		<Code>632</Code>
+		<Name>Genel Yönetim Giderleri (-)</Name>
+		<LatinName>General Administrative Expenses (-)</LatinName>
+		<FinalAccountId>3</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>197</Id>
+		<Number>201</Number>
+		<Code>640</Code>
+		<Name>İştiraklerden Temettü Gelirleri</Name>
+		<LatinName>Dividend Income from Participations</LatinName>
+		<FinalAccountId>3</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>198</Id>
+		<Number>202</Number>
+		<Code>641</Code>
+		<Name>Bağlı Ortaklıklardan Temettü Geliri</Name>
+		<LatinName>Dividend Income from Subsidiaries</LatinName>
+		<FinalAccountId>3</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>199</Id>
+		<Number>203</Number>
+		<Code>642</Code>
+		<Name>Faiz Geliri</Name>
+		<LatinName>Interest Income</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>200</Id>
+		<Number>204</Number>
+		<Code>643</Code>
+		<Name>Komisyon Gelirleri</Name>
+		<LatinName>Commission Income</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>201</Id>
+		<Number>205</Number>
+		<Code>644</Code>
+		<Name>Konusu Kalmayan Karşılıklar</Name>
+		<LatinName>Provisions No Longer Required</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>202</Id>
+		<Number>206</Number>
+		<Code>645</Code>
+		<Name>Menkul Kıymetler Satış Karları</Name>
+		<LatinName>Gains on Marketable Securities' Sales</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>203</Id>
+		<Number>207</Number>
+		<Code>646</Code>
+		<Name>Kambiyo Karları</Name>
+		<LatinName>Foreign Exchange Gain</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>204</Id>
+		<Number>208</Number>
+		<Code>647</Code>
+		<Name>Reeskont Faiz Gelirleri</Name>
+		<LatinName>Rediscount on Interest Gain</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>205</Id>
+		<Number>209</Number>
+		<Code>648</Code>
+		<Name>Enflasyon Düzeltmesi Karları</Name>
+		<LatinName>Gains from Inflation Adjustments</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>206</Id>
+		<Number>210</Number>
+		<Code>649</Code>
+		<Name>Faaliyetle İlgili Diğer Olağan Gelirler ve Karlar</Name>
+		<LatinName>Other Income and Profit from Operations</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>207</Id>
+		<Number>211</Number>
+		<Code>653</Code>
+		<Name>Komisyon Giderleri (-)</Name>
+		<LatinName>Commision Expenses (-)</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>208</Id>
+		<Number>212</Number>
+		<Code>654</Code>
+		<Name>Karşılık Giderleri (-)</Name>
+		<LatinName>Provision Expenses (-)</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>209</Id>
+		<Number>213</Number>
+		<Code>655</Code>
+		<Name>Menkul Kıymet Satış Zararları (-)</Name>
+		<LatinName>Losses on Marketable Securities' Sales(-)</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>210</Id>
+		<Number>214</Number>
+		<Code>656</Code>
+		<Name>Kambiyo Zararları (-)</Name>
+		<LatinName>Foreign Exchange Losses (-)</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>211</Id>
+		<Number>215</Number>
+		<Code>657</Code>
+		<Name>Reeskont Faiz Giderleri (-)</Name>
+		<LatinName>Interest Expenses on Discounted Notes (-)</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>212</Id>
+		<Number>216</Number>
+		<Code>658</Code>
+		<Name>Enflasyon Düzeltmesi Zararları (-)</Name>
+		<LatinName>Loss from Inflation Adjustments (-)</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>213</Id>
+		<Number>217</Number>
+		<Code>659</Code>
+		<Name>Faaliyetle İlgili Diğer Olağan Gider ve Zararlar (-)</Name>
+		<LatinName>Other Expenses and Losses (-)</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>214</Id>
+		<Number>218</Number>
+		<Code>660</Code>
+		<Name>Kısa Vadeli Borçlanma Giderleri (-)</Name>
+		<LatinName>Short-Term Borrowing Expenses (-)</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>215</Id>
+		<Number>219</Number>
+		<Code>661</Code>
+		<Name>Uzun Vadeli Borçlanma Giderleri (-)</Name>
+		<LatinName>Long-Term Borrowing Expenses (-)</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>216</Id>
+		<Number>220</Number>
+		<Code>671</Code>
+		<Name>Önceki Dönem Gelir ve Karları</Name>
+		<LatinName>Income and Profit Relating to Previous Periods</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>217</Id>
+		<Number>221</Number>
+		<Code>679</Code>
+		<Name>Diğer Olağandışı Gelir ve Karlar</Name>
+		<LatinName>Other Extraordinary Expenses and Losses (-)</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>218</Id>
+		<Number>222</Number>
+		<Code>680</Code>
+		<Name>Çalışmayan Kısım Gider ve Zararları (-)</Name>
+		<LatinName>Idle Capacity Expenses and Losses (-)</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>219</Id>
+		<Number>223</Number>
+		<Code>681</Code>
+		<Name>Önceki Dönem Gider ve Zararları (-)</Name>
+		<LatinName>Previous Period Expenses and Losses (-)</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>219</Id>
+		<Number>223</Number>
+		<Code>689</Code>
+		<Name>Diğer Olağandışı Gider ve Zararlar (-)</Name>
+		<LatinName>Other Extraordinary Expense and Losses (-)</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>221</Id>
+		<Number>225</Number>
+		<Code>710</Code>
+		<Name>Direkt İlk Madde Ve Malzeme</Name>
+		<LatinName>Direct Raw Materials And Supplies Expenses</LatinName>
+		<FinalAccountId>4</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>222</Id>
+		<Number>226</Number>
+		<Code>711</Code>
+		<Name>Direkt İlk Madde Ve Malzeme Yansıtma</Name>
+		<LatinName>Reflection Account For Direct Raw Materials And Supplies</LatinName>
+		<FinalAccountId>4</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>223</Id>
+		<Number>227</Number>
+		<Code>712</Code>
+		<Name>Direkt ilk Madde ve Mal. Fiyat Farkı</Name>
+		<LatinName>Price Differences Of Direct Raw Materials And Supplies</LatinName>
+		<FinalAccountId>4</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>224</Id>
+		<Number>228</Number>
+		<Code>713</Code>
+		<Name>Direkt ilk Madde ve Mal. Miktar Farkı</Name>
+		<LatinName>Quantity Differences Of Direct Raw Materials And Supplies</LatinName>
+		<FinalAccountId>4</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>225</Id>
+		<Number>229</Number>
+		<Code>720</Code>
+		<Name>Direkt İşçilik Giderleri</Name>
+		<LatinName>Direct Labour Expenses</LatinName>
+		<FinalAccountId>4</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>226</Id>
+		<Number>230</Number>
+		<Code>721</Code>
+		<Name>Direkt İşçilik Giderleri Yansıtma Hesabı</Name>
+		<LatinName>Reflection Account For Direct Labour Expenses</LatinName>
+		<FinalAccountId>4</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>227</Id>
+		<Number>231</Number>
+		<Code>722</Code>
+		<Name>Direkt İşçilik Ücret Farkları</Name>
+		<LatinName>Direct Labor Wage Differences</LatinName>
+		<FinalAccountId>4</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>228</Id>
+		<Number>232</Number>
+		<Code>723</Code>
+		<Name>Direkt İşçilik Süre (Zaman) Farkları</Name>
+		<LatinName>Direct Labor Time Differences</LatinName>
+		<FinalAccountId>4</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>229</Id>
+		<Number>233</Number>
+		<Code>730</Code>
+		<Name>Genel Üretim Giderleri</Name>
+		<LatinName>General Production Expenses</LatinName>
+		<FinalAccountId>4</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>230</Id>
+		<Number>234</Number>
+		<Code>731</Code>
+		<Name>Genel Üretim Giderleri Yansıtma Hesabı</Name>
+		<LatinName>Reflection Account For General Production Expenses</LatinName>
+		<FinalAccountId>4</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>231</Id>
+		<Number>235</Number>
+		<Code>732</Code>
+		<Name>Genel Üretim Giderleri Bütçe Farkları</Name>
+		<LatinName>Budget Differences Of General Production Expenses</LatinName>
+		<FinalAccountId>4</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>232</Id>
+		<Number>236</Number>
+		<Code>733</Code>
+		<Name>Genel Üretim Giderleri Verimlilik Farkları</Name>
+		<LatinName>Productivity Differences Of General Production Expenses</LatinName>
+		<FinalAccountId>4</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>233</Id>
+		<Number>237</Number>
+		<Code>734</Code>
+		<Name>Genel Üretim Giderleri Kapasite Farkları</Name>
+		<LatinName>Capacity Differences Of General Production Expenses</LatinName>
+		<FinalAccountId>4</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>234</Id>
+		<Number>238</Number>
+		<Code>740</Code>
+		<Name>Hizmet Üretim Maliyeti</Name>
+		<LatinName>Cost Of Production Of Services</LatinName>
+		<FinalAccountId>4</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>235</Id>
+		<Number>239</Number>
+		<Code>741</Code>
+		<Name>Hizmet Üretim Maliyeti Yansıtma Hesabı</Name>
+		<LatinName>Reflection Account For Cost Of Production Of Services</LatinName>
+		<FinalAccountId>4</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>236</Id>
+		<Number>240</Number>
+		<Code>742</Code>
+		<Name>Hizmet Üretim Maliyeti Fark Hesapları</Name>
+		<LatinName>Cost Of Production Of Services Difference Account</LatinName>
+		<FinalAccountId>4</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>237</Id>
+		<Number>241</Number>
+		<Code>750</Code>
+		<Name>Araştırma ve Geliştirme Giderleri</Name>
+		<LatinName>Research And Development Expenses</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>238</Id>
+		<Number>242</Number>
+		<Code>751</Code>
+		<Name>Araştırma ve Geliştirme Giderleri Yansıtma Hesabı</Name>
+		<LatinName>Reflection Account For Research And Development Expenses</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>239</Id>
+		<Number>243</Number>
+		<Code>752</Code>
+		<Name>Araştırma ve Geliştirme Gider Farkları</Name>
+		<LatinName>Research And Development Expenses Difference Account</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>240</Id>
+		<Number>244</Number>
+		<Code>760</Code>
+		<Name>Pazarlama, Satış ve Dağıtım Giderleri</Name>
+		<LatinName>Marketing, Sales And Distribution Expenses</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>241</Id>
+		<Number>245</Number>
+		<Code>761</Code>
+		<Name>Pazarlama, Satış ve Dağıtım Giderleri Yansıtma Hesabı</Name>
+		<LatinName>Reflection Account For Marketing, Sales And Distribution Expenses</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>242</Id>
+		<Number>246</Number>
+		<Code>762</Code>
+		<Name>Pazarlama Satış Dağıtım Giderleri Fark Hesabı</Name>
+		<LatinName>Marketing, Sales And Distribution Expenses Difference Account</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>243</Id>
+		<Number>247</Number>
+		<Code>770</Code>
+		<Name>Genel Yönetim Giderleri</Name>
+		<LatinName>General And Administrative Expenses</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>244</Id>
+		<Number>248</Number>
+		<Code>771</Code>
+		<Name>Genel Yönetim Giderleri Yansıtma Hesabı</Name>
+		<LatinName>Reflection Account For General And Administrative Expenses</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>245</Id>
+		<Number>249</Number>
+		<Code>772</Code>
+		<Name>Genel Yönetim Gider Farkları Hesabı</Name>
+		<LatinName>General And Administrative Expenses Difference Account</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>246</Id>
+		<Number>250</Number>
+		<Code>780</Code>
+		<Name>Finansman Giderleri Hesabı</Name>
+		<LatinName>Financial Expenses</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>246</Id>
+		<Number>250</Number>
+		<Code>781</Code>
+		<Name>Finansman Giderleri Hesabı Yansıtma Hesabı</Name>
+		<LatinName>Reflection Account For Financial Expenses</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+	  <NormalAccount>
+		<Id>247</Id>
+		<Number>251</Number>
+		<Code>782</Code>
+		<Name>Finansman Giderleri Fark Hesabı</Name>
+		<LatinName>Financial Expenses Difference Account</LatinName>
+		<FinalAccountId>2</FinalAccountId>
+		<ParentAccountId>0</ParentAccountId>
+	  </NormalAccount>
+    </NormalAccounts>
+    <ClosingAccounts>
+      <ClosingAccount>
+        <Id>1</Id>
+        <Number>1</Number>
+        <Code>00</Code>
+        <Name>الميزانية</Name>
+        <LatinName>Balance sheet</LatinName>
+        <FinalAccountId>Set By User</FinalAccountId>
+        <ParentAccountId>0</ParentAccountId>
+        <ShouldTransfer>0</ShouldTransfer>
+      </ClosingAccount>
+      <ClosingAccount>
+        <Id>2</Id>
+        <Number>2</Number>
+        <Code>01</Code>
+        <Name>الأرباح والخسائر</Name>
+        <LatinName>Profit and loss</LatinName>
+        <FinalAccountId>Set By User</FinalAccountId>
+        <ParentAccountId>1</ParentAccountId>
+        <ShouldTransfer>1</ShouldTransfer>
+      </ClosingAccount>
+      <ClosingAccount>
+        <Id>3</Id>
+        <Number>3</Number>
+        <Code>02</Code>
+        <Name>المتاجرة</Name>
+        <LatinName>Trading</LatinName>
+        <FinalAccountId>Set By User</FinalAccountId>
+        <ParentAccountId>2</ParentAccountId>
+        <ShouldTransfer>1</ShouldTransfer>
+      </ClosingAccount>
+	  <ClosingAccount>
+        <Id>4</Id>
+        <Number>4</Number>
+        <Code>03</Code>
+        <Name>التشغيل</Name>
+        <LatinName>Set By User</LatinName>
+        <FinalAccountId>Set By User</FinalAccountId>
+        <ParentAccountId>2</ParentAccountId>
+        <ShouldTransfer>1</ShouldTransfer>
+      </ClosingAccount>
+    </ClosingAccounts>
+  </Accounts>
+</AmeenTemplate>

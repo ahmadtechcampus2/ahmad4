@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding = "windows-1256" ?>
+<Terms>
+	<Main>
+		<Name>чгфЦи гАЦуьАмгй гАЦуяМи</Name>
+    <LatinName>List of Egyptian terminology</LatinName>
+		<Ver>1.0</Ver>
+	</Main>
+	<Settings>
+		<SideBar>Yes</SideBar>
+		<Icon></Icon>
+	</Settings>
+	<Items>
+		<Item>
+			<Src>ъхси</Src>
+			<Dst>ря</Dst>
+		</Item>
+		<Item>
+			<Src>хжгзи цФА гАЦои</Src>
+			<Dst>ЦнрФД цФА гАЦои</Dst>
+		</Item>
+		<Item>
+			<Src>зЦАМи ЦДгчАи</Src>
+			<Dst>ДчА цуДгщ</Dst>
+		</Item>
+		<Item>
+			<Src>хсзя</Src>
+			<Dst>хкЦД</Dst>
+		</Item>
+		<Item>
+			<Src>йзгоА</Src>
+			<Dst>уящ</Dst>
+		</Item>
+		<Item>
+			<Src>ЦФг&amp;о</Src>
+			<Dst>цуД&amp;гщ</Dst>
+		</Item>
+		<Item>
+			<Src>ЦФго</Src>
+			<Dst>цуДгщ</Dst>
+		</Item>
+		<Item>
+			<Src>Цгои лоМои</Src>
+			<Dst>уДщ лоМо</Dst>
+		</Item>
+		<Item>
+			<Src>Цгои</Src>
+			<Dst>уДщ</Dst>
+		</Item>
+		<Item>
+			<Src>хМгДгй</Src>
+			<Dst>тяФмгй</Dst>
+		</Item>
+		<Item>
+			<Src>хМгД</Src>
+			<Dst>тям</Dst>
+		</Item>
+		<Item>
+			<Src>чгзои гАтяФмгй</Src>
+			<Dst>чгзои гАхМгДгй</Dst>
+		</Item>
+		<Item>
+			<Src>мсЦМгй</Src>
+			<Dst>нуФЦгй</Dst>
+		</Item>
+		<Item>
+			<Src>мсЦ</Src>
+			<Dst>нуЦ</Dst>
+		</Item>
+		<Item>
+			<Src>ДЕгфМ</Src>
+			<Dst>угщМ</Dst>
+		</Item>
+		<Item>
+			<Src>рхФД</Src>
+			<Dst>зЦМА</Dst>
+		</Item>
+		<Item>
+			<Src>рхгфД</Src>
+			<Dst>зЦАга</Dst>
+		</Item>
+		<Item>
+			<Src>ЦсйФозгй</Src>
+			<Dst>ЦнгрД</Dst>
+		</Item>
+		<Item>
+			<Src>ЦсйФоз</Src>
+			<Dst>ЦнрД</Dst>
+		</Item>
+		<Item>
+			<Src>яуМо цФА гАЦои</Src>
+			<Dst>яуМо цФА гАщйяи</Dst>
+		</Item>
+		<Item>
+			<Src>Цщяч</Src>
+			<Dst>чьгзМ</Dst>
+		</Item>
+		<Item>
+			<Src>ЦФрз</Src>
+			<Dst>ЦДоФх</Dst>
+		</Item>
+		<Item>
+			<Src>ЦсйФозМи</Src>
+			<Dst>ЦнрДМ</Dst>
+		</Item>
+		<Item>
+			<Src>ноЦМи</Src>
+			<Dst>ноЦМ</Dst>
+		</Item>
+		<Item>
+			<Src>ЦсйФозМ</Src>
+			<Dst>ЦнрДМ</Dst>
+		</Item>
+		<Item>
+			<Src>Цуящ</Src>
+			<Dst>хДъ</Dst>
+		</Item>
+		<Item>
+			<Src>ФсьМ</Src>
+			<Dst>ЦйФсь</Dst>
+		</Item>
+		<Item>
+			<Src>йщуМАМ</Src>
+			<Dst>лрфМ</Dst>
+		</Item>
+	</Items>
+</Terms>

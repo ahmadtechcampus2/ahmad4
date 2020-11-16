@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="windows-1256" ?>
+<AmeenTemplate>
+	<Main>
+		<Version>
+			<Major>1</Major>
+			<Minor>0</Minor>
+		</Version>
+		<Name>دليل مصرف سورية المركزي</Name>
+		<LatinName>Central Bank of Syria Chart of Accounts</LatinName>
+	</Main>
+	<Accounts>
+		<NormalAccounts>
+			<NormalAccount>
+				<Id>1</Id>
+				<Number>1</Number>
+				<Code>1</Code>
+				<Name>الموجودات</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>0</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>2</Id>
+				<Number>2</Number>
+				<Code>2</Code>
+				<Name>المطاليب وحقوق الملكية</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>0</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>3</Id>
+				<Number>3</Number>
+				<Code>3</Code>
+				<Name>الحسابات النظامية وحسابات خارج الميزانية</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>0</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>4</Id>
+				<Number>4</Number>
+				<Code>4</Code>
+				<Name>المصاريف والإيرادات</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>0</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>5</Id>
+				<Number>5</Number>
+				<Code>10000</Code>
+				<Name>موجودات متداولة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>1</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>6</Id>
+				<Number>6</Number>
+				<Code>10100</Code>
+				<Name>النقد المحلي</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>5</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>7</Id>
+				<Number>7</Number>
+				<Code>10110</Code>
+				<Name>النقد المحلي في الصندوق</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>6</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>8</Id>
+				<Number>8</Number>
+				<Code>10120</Code>
+				<Name>النقد المحلي في الطريق</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>6</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>9</Id>
+				<Number>9</Number>
+				<Code>11100</Code>
+				<Name>صندوق العملات الاجنبية</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>5</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>10</Id>
+				<Number>10</Number>
+				<Code>11110</Code>
+				<Name>الصندوق الرئيسي</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>9</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>11</Id>
+				<Number>11</Number>
+				<Code>11120</Code>
+				<Name>عملات أجنبية في الطريق</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>9</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>12</Id>
+				<Number>12</Number>
+				<Code>11130</Code>
+				<Name>عملات أجنبية في الشحن</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>9</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>13</Id>
+				<Number>13</Number>
+				<Code>12100</Code>
+				<Name>مصرف سورية المركزي</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>5</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>14</Id>
+				<Number>14</Number>
+				<Code>12110</Code>
+				<Name>حسابات جارية</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>13</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>15</Id>
+				<Number>15</Number>
+				<Code>12170</Code>
+				<Name>حسابات أخرى</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>13</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>16</Id>
+				<Number>16</Number>
+				<Code>13100</Code>
+				<Name>المصارف</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>5</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>17</Id>
+				<Number>17</Number>
+				<Code>13110</Code>
+				<Name>حسابات جارية</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>16</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>18</Id>
+				<Number>18</Number>
+				<Code>13120</Code>
+				<Name>حسابات لأجل او لسابق اشعار</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>16</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>19</Id>
+				<Number>19</Number>
+				<Code>13170</Code>
+				<Name>حسابات أخرى</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>16</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>20</Id>
+				<Number>20</Number>
+				<Code>14100</Code>
+				<Name>المؤسسة الام والمؤسسات الشقيقة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>5</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>21</Id>
+				<Number>21</Number>
+				<Code>14110</Code>
+				<Name>حسابات جارية</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>20</ParentAccountId>
+			</NormalAccount>
+
+			<NormalAccount>
+				<Id>22</Id>
+				<Number>22</Number>
+				<Code>14120</Code>
+				<Name>حسابات لأجل او لسابق اشعار</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>20</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>23</Id>
+				<Number>23</Number>
+				<Code>14170</Code>
+				<Name>حسابات أخرى</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>20</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>24</Id>
+				<Number>24</Number>
+				<Code>16100</Code>
+				<Name>شيكات ووسائل دفع محررة مشتراة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>5</ParentAccountId>
+			</NormalAccount>
+
+			<NormalAccount>
+				<Id>25</Id>
+				<Number>25</Number>
+				<Code>16110</Code>
+				<Name>شيكات مشتراة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>24</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>26</Id>
+				<Number>26</Number>
+				<Code>16111</Code>
+				<Name>شيكات مشتراة من المصارف</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>25</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>27</Id>
+				<Number>27</Number>
+				<Code>16112</Code>
+				<Name>شيكات مشتراة من الافراد</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>25</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>28</Id>
+				<Number>28</Number>
+				<Code>16119</Code>
+				<Name>شيكات مشتراة من جهات أخرى</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>25</ParentAccountId>
+			</NormalAccount>
+
+			<NormalAccount>
+				<Id>29</Id>
+				<Number>29</Number>
+				<Code>16120</Code>
+				<Name>شيكات سياحية مشتراة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>25</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>30</Id>
+				<Number>30</Number>
+				<Code>16130</Code>
+				<Name>وسائل دفع محررة مشتراة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>24</ParentAccountId>
+			</NormalAccount>
+
+			<NormalAccount>
+				<Id>31</Id>
+				<Number>31</Number>
+				<Code>16131</Code>
+				<Name>وسائل دفع محررة مشتراة من المصارف</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>30</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>32</Id>
+				<Number>32</Number>
+				<Code>16132</Code>
+				<Name>وسائل دفع محررة مشتراة من الأفراد</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>30</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>33</Id>
+				<Number>33</Number>
+				<Code>16139</Code>
+				<Name>وسائل دفع محررة مشتراة من جهات اخرى</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>30</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>34</Id>
+				<Number>34</Number>
+				<Code>18000</Code>
+				<Name>الموجودات الثابتة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>1</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>35</Id>
+				<Number>35</Number>
+				<Code>18100</Code>
+				<Name>صافي مساهمات وحصص في شركات ومؤسسات</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>34</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>36</Id>
+				<Number>36</Number>
+				<Code>18110</Code>
+				<Name>مساهمات وحصص في شركات ومؤسسات</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>35</ParentAccountId>
+			</NormalAccount>
+
+			<NormalAccount>
+				<Id>37</Id>
+				<Number>37</Number>
+				<Code>18190</Code>
+				<Name>مؤونة تدني في مساهمات وحصص في شركات و مؤسسات</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>35</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>38</Id>
+				<Number>38</Number>
+				<Code>18200</Code>
+				<Name>صافي موجودات ثابتة غير مادية</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>34</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>39</Id>
+				<Number>39</Number>
+				<Code>18210</Code>
+				<Name>فروغ المحل</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>38</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>40</Id>
+				<Number>40</Number>
+				<Code>18220</Code>
+				<Name>اطفاء فروغ المحل</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>38</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>41</Id>
+				<Number>41</Number>
+				<Code>18230</Code>
+				<Name>الشهرة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>38</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>42</Id>
+				<Number>42</Number>
+				<Code>18280</Code>
+				<Name>موجودات غير مادية أخرى</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>38</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>43</Id>
+				<Number>43</Number>
+				<Code>18290</Code>
+				<Name>اطفاء موجودات غير مادية اخرى</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>38</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>44</Id>
+				<Number>44</Number>
+				<Code>18300</Code>
+				<Name>صافي موجودات ثابتة مادية</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>34</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>45</Id>
+				<Number>45</Number>
+				<Code>18310</Code>
+				<Name>عقارات ومباني</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>44</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>46</Id>
+				<Number>46</Number>
+				<Code>18320</Code>
+				<Name>مخصص استهلاك العقارات والمباني</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>44</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>47</Id>
+				<Number>47</Number>
+				<Code>18330</Code>
+				<Name>آثاث وأدوات وآلات ووسائل نقل</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>44</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>48</Id>
+				<Number>48</Number>
+				<Code>18340</Code>
+				<Name>مخصص استهلاك الآثاث والادوات والآلات ووسائل النقل</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>44</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>49</Id>
+				<Number>49</Number>
+				<Code>18350</Code>
+				<Name>موجودات ثابتة مادية قيد الانجاز</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>44</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>50</Id>
+				<Number>50</Number>
+				<Code>18360</Code>
+				<Name>مؤونة تدني الموجودات الثابتة المادية</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>44</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>51</Id>
+				<Number>51</Number>
+				<Code>19100</Code>
+				<Name>موجودات أخرى</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>1</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>52</Id>
+				<Number>52</Number>
+				<Code>19110</Code>
+				<Name>مصاريف مدفوعة مقدماً</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>51</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>53</Id>
+				<Number>53</Number>
+				<Code>19120</Code>
+				<Name>ايرادات مستحقة غير مقبوضة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>51</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>54</Id>
+				<Number>54</Number>
+				<Code>19130</Code>
+				<Name>تأمينات مدفوعة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>51</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>55</Id>
+				<Number>55</Number>
+				<Code>19140</Code>
+				<Name>حسابات انتقالية ومدينون مختلفون</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>51</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>56</Id>
+				<Number>56</Number>
+				<Code>19150</Code>
+				<Name>مخزون اللوازم والقرطاسية</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>51</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>57</Id>
+				<Number>57</Number>
+				<Code>19160</Code>
+				<Name>طوابع</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>51</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>58</Id>
+				<Number>58</Number>
+				<Code>19180</Code>
+				<Name>موجودات مختلفة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>51</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>59</Id>
+				<Number>59</Number>
+				<Code>19190</Code>
+				<Name>مؤونة تدني قيمة الموجودات الاخرى</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>51</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>60</Id>
+				<Number>60</Number>
+				<Code>19900</Code>
+				<Name>احتياطي نقدي لدى المصارف مقابل رأس المال والاحتياطيات</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>1</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>61</Id>
+				<Number>61</Number>
+				<Code>19999</Code>
+				<Name>مجموع الموجودات</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>1</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>62</Id>
+				<Number>62</Number>
+				<Code>20000</Code>
+				<Name>مصارف ومؤسسات مالية دائنة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>2</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>63</Id>
+				<Number>63</Number>
+				<Code>20100</Code>
+				<Name>حسابات مدينة صرفة دائنة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>62</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>64</Id>
+				<Number>64</Number>
+				<Code>21000</Code>
+				<Name>مطاليب متداولة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>2</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>65</Id>
+				<Number>65</Number>
+				<Code>21100</Code>
+				<Name>قيم برسم الدفع</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>64</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>66</Id>
+				<Number>66</Number>
+				<Code>21100</Code>
+				<Name>حوالات وأوامر الدفع</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>64</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>67</Id>
+				<Number>67</Number>
+				<Code>21300</Code>
+				<Name>أرباح للتوزيع</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>64</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>68</Id>
+				<Number>68</Number>
+				<Code>21400</Code>
+				<Name>مؤونات لمواجهة أعباء محتملة الدفع</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>64</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>69</Id>
+				<Number>69</Number>
+				<Code>21500</Code>
+				<Name>دائنون مختلفون</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>64</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>70</Id>
+				<Number>70</Number>
+				<Code>22000</Code>
+				<Name>مطاليب طويلة الأجل</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>2</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>71</Id>
+				<Number>71</Number>
+				<Code>22100</Code>
+				<Name>قروض من الغير موافق عليها من مصرف سورية المركزي</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>70</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>72</Id>
+				<Number>72</Number>
+				<Code>23000</Code>
+				<Name>مطاليب أخرى</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>2</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>73</Id>
+				<Number>73</Number>
+				<Code>23100</Code>
+				<Name>نفقات مستحقة غير مدفوعة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>72</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>74</Id>
+				<Number>74</Number>
+				<Code>23200</Code>
+				<Name>ايرادات مقبوضة مقدماً</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>72</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>75</Id>
+				<Number>75</Number>
+				<Code>29000</Code>
+				<Name>حقوق الملكية</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>2</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>76</Id>
+				<Number>76</Number>
+				<Code>29100</Code>
+				<Name>ارباح (خسائر) فروقات اعادة تخمين</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>75</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>77</Id>
+				<Number>77</Number>
+				<Code>29300</Code>
+				<Name>صافي ارباح (خسائر) الفترة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>75</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>78</Id>
+				<Number>78</Number>
+				<Code>29400</Code>
+				<Name>صافي ارباح (خسائر) الدورة المالية السابقة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>75</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>79</Id>
+				<Number>79</Number>
+				<Code>29500</Code>
+				<Name>صافي ارباح (خسائر) مدورة</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>75</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>80</Id>
+				<Number>80</Number>
+				<Code>29600</Code>
+				<Name>احتياطيات</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>75</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>81</Id>
+				<Number>81</Number>
+				<Code>29610</Code>
+				<Name>احتياطي قانوني</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>80</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>82</Id>
+				<Number>82</Number>
+				<Code>29620</Code>
+				<Name>احتياطي خاص</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>80</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>83</Id>
+				<Number>83</Number>
+				<Code>29630</Code>
+				<Name>احتياطيات أخرى</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>80</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>84</Id>
+				<Number>84</Number>
+				<Code>29700</Code>
+				<Name>علاوات (خصم) اصدار</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>2</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>85</Id>
+				<Number>85</Number>
+				<Code>29900</Code>
+				<Name>رأس المال</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>2</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>86</Id>
+				<Number>86</Number>
+				<Code>29999</Code>
+				<Name>مجموع المطاليب وحقوق الملكية</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>2</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>87</Id>
+				<Number>87</Number>
+				<Code>30100</Code>
+				<Name>أموال مودعة برسم التحويل والنقل في الداخل</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>3</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>88</Id>
+				<Number>88</Number>
+				<Code>30200</Code>
+				<Name>أموال مودعة برسم التحويل والنقل إلى الخارج</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>3</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>89</Id>
+				<Number>89</Number>
+				<Code>30900</Code>
+				<Name>كفالات مستلمة من المصارف لصالح المصرف المركزي</Name>
+				<LatinName />
+				<FinalAccountId>135</FinalAccountId>
+				<ParentAccountId>3</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>90</Id>
+				<Number>90</Number>
+				<Code>40100</Code>
+				<Name>أصافي أرباح (خسائر ) صرف وتقييم</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>4</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>91</Id>
+				<Number>91</Number>
+				<Code>40110</Code>
+				<Name>فروقات صرف ايجابية</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>90</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>92</Id>
+				<Number>92</Number>
+				<Code>40120</Code>
+				<Name>فروقات صرف سلبية</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>90</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>93</Id>
+				<Number>93</Number>
+				<Code>40130</Code>
+				<Name>فروقات تقييم ايجابية</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>90</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>94</Id>
+				<Number>94</Number>
+				<Code>40140</Code>
+				<Name>فروقات تقييم سلبية</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>90</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>95</Id>
+				<Number>95</Number>
+				<Code>40200</Code>
+				<Name>ايرادات أخرى</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>4</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>96</Id>
+				<Number>96</Number>
+				<Code>40220</Code>
+				<Name>عائدات المساهمات</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>95</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>97</Id>
+				<Number>97</Number>
+				<Code>40230</Code>
+				<Name>عمولات محققة</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>95</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>98</Id>
+				<Number>98</Number>
+				<Code>40240</Code>
+				<Name>ايرادات مختلفة</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>95</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>99</Id>
+				<Number>99</Number>
+				<Code>40300</Code>
+				<Name>أعباء أخرى</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>4</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>100</Id>
+				<Number>100</Number>
+				<Code>40310</Code>
+				<Name>عمولات مدفوعة</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>99</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>101</Id>
+				<Number>101</Number>
+				<Code>40320</Code>
+				<Name>أعباء مختلفة</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>99</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>102</Id>
+				<Number>102</Number>
+				<Code>40400</Code>
+				<Name>الاجمالي</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>4</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>103</Id>
+				<Number>103</Number>
+				<Code>40500</Code>
+				<Name>الاستهلاكات والاطفاءات ومؤونات التدني في قيمة الموجودات الثابتة</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>4</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>104</Id>
+				<Number>104</Number>
+				<Code>40510</Code>
+				<Name>استهلاكات موجودات ثابتة مادية</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>103</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>105</Id>
+				<Number>105</Number>
+				<Code>40520</Code>
+				<Name>مؤونة تدني موجودات ثابتة مادية</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>103</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>106</Id>
+				<Number>106</Number>
+				<Code>40530</Code>
+				<Name>اطفاء موجودات ثابتة غير مادية</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>103</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>107</Id>
+				<Number>107</Number>
+				<Code>40540</Code>
+				<Name>مؤونة تدني موجودات ثابتة غير مادية</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>103</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>108</Id>
+				<Number>108</Number>
+				<Code>40600</Code>
+				<Name>مؤونة تدني قيمة المساهمات والحصص في الشركات والمؤسسات</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>4</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>109</Id>
+				<Number>109</Number>
+				<Code>40610</Code>
+				<Name>مؤونة التدني</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>108</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>110</Id>
+				<Number>110</Number>
+				<Code>40900</Code>
+				<Name>المصاريف الادارية والعامة</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>4</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>111</Id>
+				<Number>111</Number>
+				<Code>40910</Code>
+				<Name>الرواتب والأجور ومتمماتها</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>110</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>112</Id>
+				<Number>112</Number>
+				<Code>40920</Code>
+				<Name>التعويضات</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>110</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>113</Id>
+				<Number>113</Number>
+				<Code>40930</Code>
+				<Name>نفقات التأسيس</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>110</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>114</Id>
+				<Number>114</Number>
+				<Code>40940</Code>
+				<Name>الايجار</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>110</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>115</Id>
+				<Number>115</Number>
+				<Code>40950</Code>
+				<Name>الاصلاح والصيانة</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>110</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>116</Id>
+				<Number>116</Number>
+				<Code>40960</Code>
+				<Name>الرسوم والضرائب</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>110</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>117</Id>
+				<Number>117</Number>
+				<Code>40970</Code>
+				<Name>اللوازم والقرطاسية</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>110</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>118</Id>
+				<Number>118</Number>
+				<Code>40980</Code>
+				<Name>المؤونات المختلفة</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>110</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>119</Id>
+				<Number>119</Number>
+				<Code>40990</Code>
+				<Name>الأعباء والنفقات الادارية المختلفة</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>110</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>120</Id>
+				<Number>120</Number>
+				<Code>41000</Code>
+				<Name>صافي النتيجة قبل الضريبة</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>4</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>121</Id>
+				<Number>121</Number>
+				<Code>42000</Code>
+				<Name>الضريبة على الارباح</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>4</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>122</Id>
+				<Number>122</Number>
+				<Code>43000</Code>
+				<Name>صافي النتيجة بعد الضريبة</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>4</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>123</Id>
+				<Number>123</Number>
+				<Code>44000</Code>
+				<Name>صافي أرباح (خسائر) رأسمالية</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>4</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>124</Id>
+				<Number>124</Number>
+				<Code>44010</Code>
+				<Name>ارباح (خسائر) بيع الاستثمارات المالية</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>123</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>125</Id>
+				<Number>125</Number>
+				<Code>44020</Code>
+				<Name>ارباح (خسائر) بيع المساهمات والحصص</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>123</ParentAccountId>
+			</NormalAccount>
+
+			<NormalAccount>
+				<Id>126</Id>
+				<Number>126</Number>
+				<Code>44030</Code>
+				<Name>ارباح (خسائر) بيع الموجودات الثابتة المادية</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>123</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>127</Id>
+				<Number>127</Number>
+				<Code>44040</Code>
+				<Name>ارباح (خسائر) رأسمالية أخرى</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>123</ParentAccountId>
+			</NormalAccount>
+
+			<NormalAccount>
+				<Id>128</Id>
+				<Number>128</Number>
+				<Code>45000</Code>
+				<Name>الضريبة على الارباح الرأسمالية</Name>
+				<LatinName />
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>4</ParentAccountId>
+			</NormalAccount>
+			<NormalAccount>
+				<Id>129</Id>
+				<Number>129</Number>
+				<Code>49999</Code>
+				<Name>مصافي نتيجة الفترة</Name>
+				<LatinName/>
+				<FinalAccountId>136</FinalAccountId>
+				<ParentAccountId>4</ParentAccountId>
+			</NormalAccount>
+
+		</NormalAccounts>
+		<ClosingAccounts>
+			<ClosingAccount>
+				<Id>1</Id>
+				<Number>135</Number>
+				<Code>9</Code>
+				<Name>الميزانية</Name>
+				<LatinName>Balance Sheet</LatinName>
+				<FinalAccountId>Set By User</FinalAccountId>
+				<ParentAccountId>0</ParentAccountId>
+				<ShouldTransfer>0</ShouldTransfer>
+			</ClosingAccount>
+			<ClosingAccount>
+				<Id>2</Id>
+				<Number>136</Number>
+				<Code>91</Code>
+				<Name>بيان الدخل</Name>
+				<LatinName>Profit and Loss</LatinName>
+				<FinalAccountId>Set By User</FinalAccountId>
+				<ParentAccountId>135</ParentAccountId>
+				<ShouldTransfer>1</ShouldTransfer>
+			</ClosingAccount>
+		</ClosingAccounts>
+	</Accounts>
+	<DefaultAccounts>
+		<Cash>Set by user</Cash>
+		<Cust>Set by user</Cust>
+		<Balance>Set by user</Balance>
+		<ProfitAndLoss>Set by user</ProfitAndLoss>
+		<Trading>Set by user</Trading>
+	</DefaultAccounts>
+</AmeenTemplate>

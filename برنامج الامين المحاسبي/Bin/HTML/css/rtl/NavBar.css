@@ -1,0 +1,151 @@
+﻿
+#NavBar
+{
+	width: 200px;
+	padding: 0px;
+	vertical-align: top;
+	background-color: white;
+}
+
+#NavBarCaption
+{
+	height: 20px;
+	padding-top: 4px;
+	padding-right: 6px;
+	background-image: url(../../images/nb_caption_bg.png);
+	background-repeat: repeat-x;
+	color: White;
+	font-size: 9pt;
+	font-weight: bold;
+}
+
+#NavBarCaption table
+{
+	table-layout: fixed;
+}
+
+#NavBarCaption div
+{
+	overflow: hidden;
+	height: 16px;
+	text-overflow: ellipsis;
+}
+
+.NavBarButton
+{
+	width: 18px;
+	visibility: hidden;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+#NavBarContent 
+{
+	overflow: auto;
+	height: expression(document.body.parentNode.clientHeight - Logo.offsetHeight - NavBarCaption.offsetHeight - NavBarGrip.offsetHeight - NavBarPanes.offsetHeight - NavBarFooter.offsetHeight - 1);
+}
+
+#NavBarGrip
+{
+	table-layout: fixed;
+	height: 7px;
+	cursor: n-resize;
+}
+
+#NavBarGrip .NavBarLP, #NavBarGrip .NavBarRP
+{
+	background-image: url(../../images/nb_grip_bg.png);
+	background-repeat: repeat-x;
+}
+
+#NavBarGrip .NavBarMP
+{
+	width: 38px;
+	background-image: url(../../images/nb_grip.png);
+	background-repeat: no-repeat;
+}
+
+#NavBarPanes
+{
+	table-layout: fixed;
+}
+
+.NavBarPane, .NavBarPaneHover, .NavBarPaneSelected, .NavBarPaneActive
+{
+	height: 31px;
+	border-bottom: solid 1px #7C91B6;
+	background-repeat: repeat-x;
+}
+
+.NavBarPane
+{
+	background-image: url(../../images/nb_pane_bg.png);
+}
+
+.NavBarPaneHover
+{
+	background-image: url(../../images/nb_pane_hover_bg.png);
+	cursor: pointer;
+}
+
+.NavBarPaneSelected
+{
+	background-image: url(../../images/nb_pane_selected_bg.png);
+}
+
+.NavBarPaneActive
+{
+	background-image: url(../../images/nb_pane_active_bg.png);
+	cursor: pointer;
+}
+
+.NavBarPane .Icon, .NavBarPaneHover .Icon, .NavBarPaneSelected .Icon, .NavBarPaneActive .Icon
+{
+	width: 34px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.NavBarPane .Caption, .NavBarPaneHover .Caption, .NavBarPaneSelected .Caption, .NavBarPaneActive .Caption
+{
+	font-size: 8.5pt;
+	font-weight: bold;
+}
+
+#NavBarFooter
+{
+	height: 30px;
+	background-image: url(../../images/nb_footer_bg.png);
+	background-repeat: repeat-x;
+	text-align: left;
+}
+
+#NavBarFooter table
+{
+	height: 100%;
+}
+
+.NavBarFooterIcon, .NavBarFooterIconHover, .NavBarFooterIconSelected, .NavBarFooterIconActive
+{
+	width: 16px;
+	padding: 0 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.NavBarFooterIconHover
+{
+	background-image: url(../../images/nb_pane_hover_bg.png);
+	cursor: pointer;
+}
+
+.NavBarFooterIconSelected
+{
+	background-image: url(../../images/nb_pane_selected_bg.png);
+}
+
+.NavBarFooterIconActive
+{
+	background-image: url(../../images/nb_pane_active_bg.png);
+}

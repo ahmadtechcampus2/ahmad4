@@ -1,0 +1,1 @@
+CREATE  FUNCTION FetchIndications(	@DrugGuid UNIQUEIDENTIFIER							) RETURNS @result TABLE (Indication [nvarchar](1000) )BEGININSERT INTO @resultSELECT indication FROM drugIndications000  WHERE matGuid = @DrugGuid or @DrugGuid = 0x0RETURN END

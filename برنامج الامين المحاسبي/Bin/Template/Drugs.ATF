@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding = "windows-1256" ?>
+<Terms>
+	<Main>
+		<Name>ё«∆г… «бг’ЎбЌ«  «б’нѕб«дн…</Name>
+    <LatinName>List of pharmaceutical terminology</LatinName>
+		<Ver>1.0</Ver>
+	</Main>
+	<Settings>
+		<SideBar>Yes</SideBar>
+		<Icon></Icon>
+	</Settings>
+	<Items>
+		<Item>
+			<Src>г«ѕ…</Src>
+			<Dst>ѕж«Ѕ</Dst>
+		</Item>
+		<Item>
+			<Src>г&amp;ж«ѕ</Src>
+			<Dst>√&amp;ѕжн…</Dst>
+		</Item>
+		<Item>
+			<Src>гж«ѕ</Src>
+			<Dst>√ѕжн…</Dst>
+		</Item>
+		<Item>
+			<Src>г«ѕ… ћѕнѕ…</Src>
+			<Dst>ѕж«Ѕ ћѕнѕ</Dst>
+		</Item>
+		<Item>
+			<Src>«бгж«’Ё« </Src>
+			<Dst>«б —ян» «бянг«∆н</Dst>
+		</Item>
+		<Item>
+			<Src>д’Ё «бћгб…</Src>
+			<Dst>«б’«Ён</Dst>
+		</Item>
+		<Item>
+			<Src>«бћгб…</Src>
+			<Dst>«б’нѕбн</Dst>
+		</Item>
+		<Item>
+			<Src>«бён«”</Src>
+			<Dst>«б ’днЁ</Dst>
+		</Item>
+		<Item>
+			<Src>«бг’ѕ—</Src>
+			<Dst>«бЏн«—</Dst>
+		</Item>
+		<Item>
+			<Src>гя«д «б ж«ћѕ</Src>
+			<Dst>«б‘яб</Dst>
+		</Item>
+		<Item>
+			<Src>«б√гнд</Src>
+			<Dst>«б√гнд [дў«г «б’нѕбн« ]</Dst>
+		</Item>
+	</Items>
+</Terms>

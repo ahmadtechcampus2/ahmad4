@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1256" />
+	<link type="text/css" rel="stylesheet" href="css/ltr/Desktop.css" />
+</head>
+<body>
+	<table id="PageLayout" cellpadding="0" cellspacing="0">
+		<tr>
+			<td id="NavBar">
+				<div id="Logo"><img src="images/SyrianSoft-English.png" alt="" /></div>
+				<div id="NavBarCaption">
+					<table cellpadding="0" cellspacing="0">
+						<tr>
+							<td><div></div></td>
+							<td class="NavBarButton" id="NavBarPM"><img src="images/dock_panel.png" alt="اللوحات" /></td>
+							<td class="NavBarButton" id="NavBarRefresh"><img src="images/dock_refresh.png" alt="Refresh" /></td>
+							<td class="NavBarButton" id="NavBarDock"><img src="images/dock.png" alt="Dock" /></td>
+						</tr>
+					</table>
+				</div>
+				<div id="NavBarContent"></div>
+				<table id="NavBarGrip" cellpadding="0" cellspacing="0">
+					<tr>
+						<td class="NavBarLP"></td>
+						<td class="NavBarMP"></td>
+						<td class="NavBarRP"></td>
+					</tr>
+				</table>
+				<table id="NavBarPanes" cellpadding="0" cellspacing="0"></table>
+				<div id="NavBarFooter">
+					<table cellpadding="0" cellspacing="0">
+						<tr>
+							<td id="NavBarMenu" class="NavBarFooterIcon"><img src="images/ltr/nb_menu_disabled.png" alt="" /></td>
+						</tr>
+					</table>
+				</div>
+			</td>
+			<td id="Splitter">&nbsp;</td>
+			<td valign="top">
+				<table cellpadding="0" cellspacing="0">
+					<tr>
+						<td>
+							<div id="NotificationArea"> </div>
+						</td>
+					</tr>
+					<tr>
+						<td id="PageHeader">
+							<table id="TabsGroupContainer" cellpadding="0" cellspacing="0">
+								<tr>
+									<td class="TabStripMargin"></td>
+									<td id="TabsMenu" class="TabsMenu"><img src="images/tabs_menu_arrow.png" alt="" /></td>
+									<td id="TabsGroupCell">
+										<div id="TabsGroupOuter">
+											<div id="TabsGroupInner">
+												<table id="TabsGroup" cellpadding="0" cellspacing="0"><tr></tr></table>
+											</div>
+										</div>
+									</td>
+									<td id="ToolBar">
+										<table cellpadding="0" cellspacing="1">
+											<tr>
+												<td id="btnPanels" class="Button None" menu="mnuTP_WebSite" onclick="onPanelsClick();"><img src="images/panel16.png" alt="Panels" /></td>
+												<td id="btnColumns" class="Button" onclick="onColumnsClick();"><img src="images/columns16.png" alt="Columns" /></td>
+												<td class="Button" onclick="onRefreshClick();"><img src="images/tab_refresh.png" alt="Refresh" /></td>
+												<td id="btnCustomize" class="Button None" onclick="onCustomizeClick();"><img src="images/custom.png" alt="Customize" /></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td id="TabContent">
+							<table cellpadding="0" cellspacing="0">
+								<tr>
+									<td id="TabPageFramesContainer"><div id="TabPageFrames"></div></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table id="ColumnsPanel" cellpadding="0" cellspacing="2">
+		<tr>
+			<td>
+				<table id="CPColumns" cellpadding="2" cellspacing="0">
+					<tr>
+						<td><img src="images/columns.png" alt="" /></td>
+						<td><img src="images/columns.png" alt="" /></td>
+						<td><img src="images/columns.png" alt="" /></td>
+						<td><img src="images/columns.png" alt="" /></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td id="CPLabel" class="Button" onclick="onCPLableClick();">Cancel</td>
+		</tr>
+	</table>
+	<div id="PanelsMenu">
+		<table cellpadding="0" cellspacing="1"></table>
+	</div>
+	<div id="CPEraser"></div>
+	<div id="PMEraser"></div>
+	<script type="text/javascript" language="javascript">var g_Direction = "ltr";</script>
+	<script type="text/javascript" language="javascript" src="js/Sjcl.js"></script>
+	<script type="text/javascript" language="javascript" src="js/desktop.js"></script>
+</body>
+</html>

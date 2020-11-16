@@ -1,0 +1,6 @@
+<SmtpConfig>
+  <ProviderName>Gmail</ProviderName>
+  <SmtpClient>smtp.gmail.com</SmtpClient>
+  <Port>587</Port>
+  <EnableSsl>true</EnableSsl>
+</SmtpConfig>

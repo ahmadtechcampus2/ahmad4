@@ -1,0 +1,12 @@
+<SMSConfig>
+  <ProviderName>clickatell</ProviderName>
+  <BaseURL>http://api.clickatell.com/http/sendmsg</BaseURL>
+  <MessageName>text</MessageName>
+  <ToName>to</ToName>
+  <RequestAttributes>
+    <RequestAttribute Name="user" Value=""/>
+    <RequestAttribute Name="password" Value=""/>
+    <RequestAttribute Name="api_id" Value=""/>
+  </RequestAttributes>
+  <SuccessResponse> </SuccessResponse>
+</SMSConfig>

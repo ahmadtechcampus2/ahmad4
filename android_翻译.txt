@@ -1,0 +1,161 @@
+
+My Order==>
+My Wallet==>
+Error repair==>
+My Order==>
+Language Setting==>
+About Us==>
+ongoing==>
+complete==>
+Returned And Unpaid==>
+cancelled==>
+timeout==>
+borrowable==>
+returnable==>
+Choose your country and area==>
+Bind phone number==>
+Please choose country code==>
+Please enter phone number==>
+Please choose date of birth==>
+Please enter verify code==>
+Please enter password==>
+Entered password differ from the another==>
+modify successfully!==>
+Register==>
+authorized login==>
+Successfully rented==>
+Failed rented==>
+device not supported Google play==>
+require camera permission==>
+please scan the device QR code==>
+business hours：==>
+phone number：==>
+Check for update==>
+Tips==>
+Confirm==>
+Cancel==>
+Apply for Complaint==>
+Please enter the complaint content==>
+FAQ==>
+Add bank card==>
+Bank card management==>
+Unbind bank card==>
+Billing details==>
+My wallet==>
+Refund deposit or not?==>
+Order details==>
+Make payment==>
+Pay deposit==>
+Recharge amount==>
+recharge failed==>
+System message==>
+Problem description==>
+upload pictures==>
+click below to add bank_card==>
+Get verify code==>
+Try again==>
+Forget password==>
+please choose language==>
+Login==>
+login with verify code==>
+申请提现==>
+payment details==>
+order status==>
+total paid==>
+charging standard==>
+payment method==>
+order information==>
+order number==>
+device number==>
+time to return  device==>
+battery charging time==>
+battery charging place==>
+Please select payment method==>
+Please select a recharge amount==>
+Complete==>
+Submit==>
+Please scan the QR code on device==>
+Search for nearby device==>
+rent time==>
+use time==>
+total cost==>
+Are you sure you want to log out?==>
+network error!==>
+no data!==>
+confirm to withdraw cash==>
+Funds will be the original way back, whether to withdraw==>
+Appeal==>
+The current version is already the latest version==>
+Pay the rent==>
+You need to pay==>
+Balance payment==>
+Momo Pay==>
+Debit or Credit Card Payment==>
+Duration of use==>
+Loading...==>
+load more failed==>
+No more data==>
+The wallet deductions==>
+You have an unpaid order, please rent the charging bank after the payment is completed.==>
+Payment successful==>
+Payment failed==>
+1、A deposit is required before renting a charging bank==>
+2、The deposit refund will be refunded within 3-5 working days.==>
+Deposit information ==>
+Please confirm the authorization information==>
+In order to ensure the normal operation of the program, you need to authorize and log in to the basic information (the basic information only contains avatars, nicknames, etc.)==>
+Your information will be kept strictly confidential==>
+Rental information==>
+1、Support charging port: Micro USB / Type C / Lightning==>
+2、%s / %s %s, Max %s VND==>
+Privacy Policy==>
+User guide==>
+Invite friends==>
+Advertising==>
+Setting==>
+Other==>
+Power bank can\'t pop up normally==>
+QR code anomaly==>
+Charging cable damaged==>
+Please select the cause of the failure==>
+Please scan the QR code or enter \n the cabinet number==>
+Confirm rental==>
+I have agreed to the agreement==>
+Verification code==>
+Please enter new password==>
+Please confirm the new password==>
+How to Get Rewards?==>
+Invite friends to get extra minutes==>
+The user enters the QR code when registering, and both parties can get additional free minute coupons.coupons.whenregistering, and both parties can get additional free minute coupons.==>
+Copy==>
+Your reward==>
+Number of friends \n invited successfully==>
+Current remaining \n minutes==>
+Registered==>
+Password==>
+Current Balance==>
+Recharge==>
+Withdrawal==>
+Your wallet balance is less than 99,you can\'t use the rental power bank==>
+Recharge Details==>
+usage time==>
+Recharge failed==>
+Enter verification code==>
+Send==>
+Next step==>
+Your Name==>
+Please enter your name==>
+Invitation code==>
+Fill in the friend invitation code==>
+Date of birth==>
+Year==>
+Gender==>
+Select gender==>
+Finish==>
+About us==>
+Privacy agreement==>
+Terms of use==>
+Logout==>
+Go to navigation==>
+Return==>
+

@@ -1,0 +1,162 @@
+﻿html {
+	height: 100%;
+}
+
+body {
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+.dropdown-menu {
+	font-size: 12px;
+}
+
+.dropdown-menu .divider {
+	margin: 3px 1px;
+}
+
+.dropdown-menu > li > a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0081c2;
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+}
+
+.k-grid-header .k-header {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-weight: bold;
+}
+
+.k-grid td {
+	line-height: 1.4em;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid transparent;
+}
+
+.k-state-selected {
+  background-color: #0081c2;
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+}
+
+.a-none {
+	display: none;
+}
+
+.a-loading, .a-loading:hover {
+	background: transparent url(Silver/big-progress.gif) no-repeat center center;
+}
+
+.a-toobar {
+	display: none;
+    padding: 1px 1px 2px;
+	background-color: #F8F8F8;
+	border: 1px solid #E7E7E7;
+}
+
+.a-header {
+	display: none;
+	margin: 5px 25px;
+}
+
+.a-header table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+
+.a-header th {
+	padding: 5px;
+	text-align: center;
+	border-bottom: 2px solid rgb(223,223,223);
+	font-size: 14px;
+}
+
+.a-header td {
+	padding: 4px;
+}
+
+.a-header span {
+	font-weight: bold;
+	color: #666;
+}
+
+.a-container {
+	padding: 1px 1px 0;
+}
+
+.a-grid {
+	visibility: hidden;
+}
+
+.a-grid-lines .k-grid-content td {
+	border-bottom-color: #DBDBDE;
+}
+
+.a-row-size-1 .k-state-selected {
+	font-size: 100%;
+}
+
+.a-row-size-2 .k-state-selected {
+	font-size: 200%;
+}
+
+.a-row-size-3 .k-state-selected {
+	font-size: 300%;
+}
+
+.a-row-size-4 .k-state-selected {
+	font-size: 400%;
+}
+
+.a-col-groups, .a-col-groups div {
+	border-bottom-width: 0;
+}
+
+.a-col-groups .k-grid-content {
+	visibility: hidden;
+	overflow-x: hidden;
+}
+
+.a-col-groups .k-grid-content td {
+	padding: 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+.a-col-groups th {
+	text-align: center!important;
+}
+
+.a-footers {
+	visibility: hidden;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	padding-bottom: 1px;
+}
+
+.a-footers thead {
+	display: none;
+}
+
+.a-footers div {
+	border-top-width: 0;
+	border-bottom-width: 0;
+}
+
+.a-footers .k-grid-content {
+	overflow: hidden;
+}
+
+.a-footers .k-grid-content td {
+	border-color: #444;
+	background-color: #6987B4;
+	color: White;
+}
+
+.a-ft-total td {
+	color: #800000;
+	background-color: #F4F4F4;
+	font-weight: bold;
+}

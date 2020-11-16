@@ -1,0 +1,62 @@
+#########################################################
+CREATE VIEW vwAsAg
+AS
+	SELECT
+		[as].[asGUID],
+		[as].[asNumber],
+		[as].[asCode],
+		[as].[asName],
+		[as].[asLatinName],
+		[as].[asAccPtr],
+		[as].[asDepAccPtr],
+		[as].[asAccuDepAccPtr],
+		[as].[asOutAccPtr],
+		[as].[asCalcType],
+		[as].[asCostJob],
+		[as].[asModel],
+		[as].[asOrigin],
+		[as].[asCompany],
+		[as].[asManufDate],
+		[as].[asSupplier],
+		[as].[asSpec],
+		[as].[asLCNum],
+		[as].[asLCDate],
+		[as].[asArrvDate],
+		[as].[asCost],
+		[as].[asCount], 
+		[as].[asTotalCost],
+		[as].[asCurrencyPtr],
+		[as].[asCurrencyVal],
+		[as].[asLifeExp],
+		[as].[asDepRatio],
+		[as].[asDepValue],
+		[as].[asScrapValue],
+		[as].[asUsageDate],
+		[as].[asPurchBill],
+		[as].[asPurchDate],
+		[as].[asInDate],
+		[as].[asEntryNum],
+		[as].[asEntryDate],
+		[as].[asSecurity],
+		[as].[asNotes],
+		[ag].[agGUID],
+		[ag].[agNumber],
+		[ag].[agCode],
+		[ag].[agName],
+		[ag].[agLatinName],
+		[ag].[agNotes],
+		[ag].[agSecurity],
+		[ag].[agType],
+		[ag].[agAssAccPtr],
+		[ag].[agDepAccPtr],
+		[ag].[agAccuDepAccPtr],
+		[ag].[agOutAccPtr],
+		[ag].[agCalcType],
+		[ag].[agParent],
+		[ag].[agCostJob]
+	FROM
+		[vwAs] AS [as] INNER JOIN [vwAg] AS [ag]
+		ON [as].[asParent] = [ag].[agGUID]
+
+#########################################################
+#END

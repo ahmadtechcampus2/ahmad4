@@ -1,0 +1,61 @@
+<mstns:schema id="AmnBill" targetNamespace="Amn08.Orders" elementFormDefault="qualified" xmlns="Amn08.Orders" xmlns:mstns="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:NS="Amn08.Orders">
+	<mstns:group name="AddInfo">
+		<mstns:all>
+			<mstns:element name="SSDate" type="mstns:string" />
+			<mstns:element name="SADate" type="mstns:string" />
+			<mstns:element name="SDDate" type="mstns:string" />
+			<mstns:element name="SPDate" type="mstns:string" />
+			<mstns:element name="ASDate" type="mstns:string" />
+			<mstns:element name="AADate" type="mstns:string" />
+			<mstns:element name="ADDate" type="mstns:string" />
+			<mstns:element name="APDate" type="mstns:string" />
+			<mstns:element name="ShipCondition" type="mstns:string" />
+			<mstns:element name="ShipWay" type="mstns:string" />
+			<mstns:element name="ShipCompany" type="mstns:string" />
+			<mstns:element name="DeliveryCondition" type="mstns:string" />
+			<mstns:element name="PredictedDate" type="mstns:string" />
+		</mstns:all>
+	</mstns:group>
+	<mstns:element name="SSDate" type="mstns:string">
+	</mstns:element>
+	<mstns:element name="SADate" type="mstns:string">
+	</mstns:element>
+	<mstns:element name="SDDate" type="mstns:string">
+	</mstns:element>
+	<mstns:element name="SPDate" type="mstns:string">
+	</mstns:element>
+	<mstns:element name="ASDate" type="mstns:string">
+	</mstns:element>
+	<mstns:element name="AADate" type="mstns:string">
+	</mstns:element>
+	<mstns:element name="ADDate" type="mstns:string">
+	</mstns:element>
+	<mstns:element name="APDate" type="mstns:string">
+	</mstns:element>
+	<mstns:element name="ShipCondition" type="mstns:string">
+	</mstns:element>
+	<mstns:element name="ShipWay" type="mstns:string">
+	</mstns:element>
+	<mstns:element name="ShipCompany" type="mstns:string">
+	</mstns:element>
+	<mstns:element name="DeliveryCondition" type="mstns:string">
+	</mstns:element>
+	<mstns:element name="PredicctedDate" type="mstns:string">
+	</mstns:element>
+	<mstns:complexType name="ApprovalType">
+		<mstns:sequence>
+			<mstns:element name="UserName" type="mstns:string" />
+			<mstns:element name="Approved" type="mstns:string" />
+		</mstns:sequence>
+	</mstns:complexType>
+	<mstns:complexType name="AttachedDocType">
+		<mstns:sequence>
+			<mstns:element name="DocName" type="mstns:string" />
+			<mstns:element name="Achieved" type="mstns:string" />
+		</mstns:sequence>
+	</mstns:complexType>
+	<mstns:element name="UserApproval" type="ApprovalType">
+	</mstns:element>
+	<mstns:element name="AttachedDoc" type="AttachedDocType">
+	</mstns:element>
+</mstns:schema>

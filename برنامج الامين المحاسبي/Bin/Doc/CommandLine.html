@@ -1,0 +1,206 @@
+<html dir="rtl">
+	<head>
+		<title>خيارات سطر الأوامر</title>
+		<meta http-equiv="Content-Language" content="ar-sy">
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1256">
+		<link rel="stylesheet" type="text/css" href="amndocs.css">
+	</head>
+	<body dir="rtl">
+		<h1 dir="rtl"><span lang="ar-sy">خيارات سطر الأوامر</span></h1>
+		<p><b class="bterm">‎© 2006 SyrianSoft كافة الحقوق محفوظة.</b></p>
+		<h2 dir="rtl"><span lang="ar-sy">مقدمة</span></h2>
+		<p dir="rtl"><span lang="ar-sy">يشرح هذا الملف الخيارات الممكنة لسطر أوامر تشغيل 
+برنامج الأمين.</span></p>
+		<h2 dir="rtl"><span lang="ar-sy">الخيارات</span></h2>
+		<p dir="rtl"><span lang="ar-sy">يمكن تشغيل برنامج الأمين من خلال الرمز الموضوع 
+على سطح المكتب ولكن هذا الرمز لا يمكن وضع خيارات لسطر الأوامر حيث إن طلب خصائص 
+هذا الرمز يعرض إعدادات البرنامج من إعدادات ملقم </span>SQL Server<span lang="ar-sy"> 
+أو إعدادات البريد الإلكتروني. ويمكن وضع رمز يمكن تحديد خيارات سطر الأوامر من 
+خلال نسخ الرمز الموجود في (ابدأ</span>
+			-&gt;
+			<span lang="ar-sy">البرامج -</span>&gt;<span lang="ar-sy"></span>Al-Ameen
+			<span lang="ar-sy">2004)</span>
+			<span lang="ar-sy">حيث يمكن نسخه 
+إلى سطح المكتب وعندها يمكن طلب خصائص هذا الرمز من خلال زر الفأرة اليميني حيث 
+تظهر نافذة يمكن من خلالها وضع خيارات سطر الأوامر، في هذه النافذة ستجد الحقل 
+(الهدف:) مكتوب فيه شيء يشبه:</span></p>
+		<p dir="ltr" class="Code">"C:\Program Files\SyrianSoft\Al-Ameen 
+			70\bin\AmnStart.exe"</p>
+		<p><span lang="ar-sy">يتم إضافة أية خيارات بعد هذا السطر، مثلاً لتشغيل البرنامج 
+بالواجهة الإنجليزية يتم إضافة الخيار (</span>la<span lang="ar-sy">)</span>
+			<span lang="ar-sy">كما يلي:</span></p>
+		<p dir="ltr" class="Code">"C:\Program Files\SyrianSoft\Al-Ameen 
+			70\bin\AmnStart.exe"<span lang="ar-sy"></span>/la</p>
+		<p dir="rtl"><span lang="ar-sy">لاحظ أن الخيارات يتم إضافتها خارج علامتي 
+الاقتباس وليس داخلها. كما يمكن استخدام الرمز </span>/<span lang="ar-sy"> أو 
+الرمز - أي يمكن أن نكتب السطر السابق كما يلي:</span></p>
+		<p dir="ltr" class="Code">"C:\Program Files\SyrianSoft\Al-Ameen 
+			70\bin\AmnStart.exe"<span lang="ar-sy"> 
+-</span>la</p>
+		<p dir="rtl"><span lang="ar-sy">ويرجى عدم الخلط بين الرمزين / و </span>\<span lang="ar-sy">.</span></p>
+		<p dir="rtl"><span lang="ar-sy">والخيارات الممكنة هي:</span></p>
+		<table border="0" width="100%" id="table1" cellspacing="3" cellpadding="2">
+			<tr>
+				<td width="150" class="TblHdr"><span lang="ar-sy">الخيار</span></td>
+				<td class="TblHdr"><span lang="ar-sy">الشرح</span></td>
+			</tr>
+			<tr>
+				<td width="150" dir="ltr" align="right" class="TblVHdr">
+					<p dir="ltr" align="right">/la</p>
+				</td>
+				<td class="TblText"><span lang="ar-sy">بدء البرنامج بالواجهة العربية.</span></td>
+			</tr>
+			<tr>
+				<td width="150" dir="ltr" align="right" class="TblVHdr">/le</td>
+				<td class="TblText"><span lang="ar-sy">بدء البرنامج بالواجهة الإنجليزية.</span></td>
+			</tr>
+			<tr>
+				<td width="150" dir="ltr" align="right" class="TblVHdr">filename</td>
+				<td class="TblText"><span lang="ar-sy">فتح الملف </span>filename<span lang="ar-sy"> 
+		مباشرة عند فتح البرنامج (هذا الملف من نوع </span>sdf<span lang="ar-sy"> 
+		عادة)</span></td>
+			</tr>
+			<tr>
+				<td width="150" dir="ltr" align="right" class="TblVHdr">/login_name:username</td>
+				<td class="TblText"><span lang="ar-sy">الدخول إلى الملف باسم </span>username<span lang="ar-sy">.</span></td>
+			</tr>
+			<tr>
+				<td width="150" dir="ltr" align="right" class="TblVHdr">/login_pw:password</td>
+				<td class="TblText"><span lang="ar-sy">الدخول إلى الملف باستخدام كلمة المرور </span>
+					password<span lang="ar-sy">.</span></td>
+			</tr>
+			<tr>
+				<td width="150" dir="ltr" align="right" class="TblVHdr">/password:password</td>
+				<td class="TblText"><span lang="ar-sy">الدخول إلى الملف باستخدام كلمة المرور </span>
+					password
+					<span lang="ar-sy">(مشابهة تماماً لاستخدام </span>login_pw<span lang="ar-sy">).</span></td>
+			</tr>
+			<tr>
+				<td width="150" dir="ltr" align="right" class="TblVHdr">/pi:plugin_params</td>
+				<td class="TblText"><span lang="ar-sy">تشغيل الأمين وتنفيذ الإضافة </span>plugin_params<span lang="ar-sy"> 
+		(راجع تنفيذ خيارات الإضافات أدناه).</span></td>
+			</tr>
+			<tr>
+				<td width="150" dir="ltr" align="right" class="TblVHdr">/px:plugin_params</td>
+				<td class="TblText"><span lang="ar-sy">تشغيل الأمين وتنفيذ الإضافة </span>plugin_params<span lang="ar-sy"> 
+		ثم الخروج من البرنامج (راجع تنفيذ خيارات الإضافات أدناه).</span></td>
+			</tr>
+			<tr>
+				<td width="150" dir="ltr" align="right" class="TblVHdr">/pos</td>
+				<td class="TblText"><span lang="ar-sy">تشغيل واجهة نقاط البيع مباشرة بعد الدخول 
+		للبرنامج.</span></td>
+			</tr>
+			<tr>
+				<td width="150" dir="ltr" align="right" class="TblVHdr">/exit</td>
+				<td class="TblText"><span lang="ar-sy">تستخدم مع الخيار </span>pos
+					<span lang="ar-sy">
+		السابق للسماح بالخروج من واجهة نقاط البيع إلى البرنامج (في حال عدم تحديد 
+		هذا الخيار يتم إغلاق البرنامج عند إغلاق واجهة نقاط البيع)</span></td>
+			</tr>
+			<tr>
+				<td width="150" dir="ltr" align="right" class="TblVHdr">/nowin</td>
+				<td class="TblText"><span lang="ar-sy">تستخدم مع الخيار </span>pos
+					<span lang="ar-sy">
+		السابق للخروج من نظام التشغيل وإطفاء الجهاز بعد الخروج من واجهة نقاط 
+		البيع.</span></td>
+			</tr>
+		</table>
+		<h2>&nbsp;</h2>
+		<h2><span lang="ar-sy">تنفيذ خيارات الإضافات</span></h2>
+		<p><span lang="ar-sy">يمكن تنفيذ بعض المهام المؤتمتة من خلال الخيارين </span>pi
+			<span lang="ar-sy">و </span>px&nbsp;
+			<span lang="ar-sy">حيث يمكن تنفيذ عمليات 
+الاستيراد والتصدير من خلال سطر الأوامر.</span></p>
+		<h3>الاستيراد والتصدير عن طريق سطر الأوامر</h3>
+		<p><span lang="ar-sy">يمكنك القيام بالاستيراد والتصدير عن طريق سطر الأوامر حيث يتم إضافة ما يلي إلى 
+سطر الأوامر:</span></p>
+		<ul>
+			<li>
+				اسم ملف sdf مع مساره مثلاً: d:\amn32\data\data001\data.sdf<span lang="ar-sy">&nbsp;&nbsp; 
+	وعند وجود فراغات في اسم الملف أو المسار يجب وضع اسم الملف بين علامتي اقتباس 
+	مثل </span>"c:\My Documents\Ameen Files\2004 Files\data.sdf"<span lang="ar-sy">.</span>
+			<li>
+				اسم المستخدم بعد
+				<span lang="ar-sy">الخيار </span>login_name مثل:</li>
+		</ul>
+		<p dir="ltr" class="Code">/login_name:مدير</p>
+		<ul>
+			<li>
+				كلمة المرور بعد
+				<span lang="ar-sy">الخيار</span>
+				&nbsp;login_pw<span lang="ar-sy"></span>مثل:</li>
+		</ul>
+		<p dir="ltr" class="Code">/login_pw:123</p>
+		<h4>تصدير ملف عن طريق
+			<span lang="ar-sy">سطر الأوامر</span></h4>
+		<p><span lang="ar-sy">بعد إضافة اسم الملف واسم المستخدم وكلمة المرور قم بإضافة ما يلي:</span></p>
+<UL>
+			<li>
+				<span lang="ar-sy">pi:export</span>
+			<li>
+				<span lang="ar-sy">أضف فاصلة , </span>
+			<li>
+				<span lang="ar-sy">أضف اسم الملف الذي سيتم التصدير إليه وذلك بعد إضافة ExportFile: مثال: 
+ExportFile:"c:\a1.xml" </span>
+			<li>
+				<span lang="ar-sy">أضف فاصلة , </span>
+			<li>
+				<span lang="ar-sy">أضف اسم الملف الذي يحوي خيارات التصدير بعد إضافة cfgFile: مثال: cfgFile:"c:\MyExportSettings.xml" 
+مع العلم أن الملف MyExportSettings.xml هو ملف الخيارات ولإنشاء هذا الملف يجب 
+عليك أولاً أن تفتح برنامج الأمين ثم تختار ملف ثم استيراد وتصدير ثم تصدير إلى ملف 
+ثم انقر فوق كبسة تخصيص وحدد خيارات التصدير التي تريدها ثم انقر موافق ثم انقر فوق 
+كبسة حفظ الإعدادات فتظهر نافذة تطلب منك إدخال اسم لملف الإعدادات الذي هو من نوع 
+xml حدد الاسم ثم اختر حفظ.</span> 
+  <LI>الخياران التاليان اختياريان أي أنه بإمكانك إضافتهما أولا حسب الحاجة وهما 
+  يمثلان التواريخ التي سيتم التصدير وفقاً لها وعند تحديد هذه التواريخ سيتم تجاهل 
+  التواريخ التي قد تم تحديدها أثناء حفظ الإعدادات، لذلك إذا أردت إضافة هذه 
+  التواريخ قم بمايلي:</LI></UL>
+<OL dir=rtl style="MARGIN-LEFT: 0px">
+  <OL dir=rtl style="MARGIN-LEFT: 0px">
+    <OL>
+      <LI>أضف فاصلة ،</LI>
+      <LI>أضف قيمة تاريخ البداية وذلك بعد إضافة الخيار StartDate: مثال 
+      StartDate:"1/1/2004" وإذا أردت أن يكون التاريخ هو تاريخ اليوم فقم بإضافة 
+      الخيار now بدلاً من إضافة تاريخ البداية مثال StartDate:"now"</LI>
+      <LI>أضف فاصلة ،</LI>
+      <LI>أضف قيمة تاريخ النهاية وذلك بعد إضافة الخيار EndDate: مثال 
+      EndDate:"10/10/2004" وإذا أردت أن يكون التاريخ هو تاريخ اليوم فقم بإضافة 
+      الخيار now بدلاً من إضافة تاريخ النهاية مثال EndDate:"now"</LI></OL></OL></OL>
+<BLOCKQUOTE dir=rtl style="MARGIN-LEFT: 0px"><span lang="ar-sy">الصيغة النهائية ستكون بالشكل:</span></BLOCKQUOTE>
+		<P dir="ltr" class="Code"><span lang="ar-sy">"C:\Program 
+Files\SyrianSoft\Al-Ameen 70\bin\AmnStart.exe" d:\Amn32\data\data001\data.sdf 
+/login_name:"عبد الرحمن" / login_pw:"أهلا بكم" 
+pi:export,ExportFile:"c:\a1.xml",cfgFile:"c:\ 
+MyExportSettings.xml"</span></P>
+		<H4 dir="rtl">
+			<br>
+			<span lang="ar-sy">الاستيراد من ملف عن طريق Command Line</span></H4>
+		<span lang="ar-sy">
+<P><br>
+بعد إضافة اسم الملف واسم المستخدم وكلمة المرور قم بإضافة ما يلي:</span></P>
+		<ul>
+			<li>
+				<span lang="ar-sy">pi:import</span>
+			<li>
+				<span lang="ar-sy">أضف فاصلة , </span>
+			<li>
+				<span lang="ar-sy">أضف اسم الملف الذي يحوي خيارات الاستيراد بعد إضافة :cfgFile مثال: cfgFile:"c:\MyImportSettings.xml" 
+مع العلم أن الملف MyImportSettings.xml هو ملف خيارات الاستيراد ولإنشاء هذا الملف 
+يجب عليك أولاً أن تفتح برنامج الأمين ثم تختار ملف ثم استيراد وتصدير ثم استيراد 
+من ملف ثم تحديد الملف أو مجموعة الملفات التي سيتم الاستيراد منها ثم تحديد خيارات 
+الاستيراد كاملةً ثم القيام بحفظ هذه الخيارات من خلال اختيار حفظ الإعدادات فتظهر 
+نافذة تطلب منك إدخال اسم لملف الإعدادات الذي هو من نوع xml حدد الاسم ثم اختر حفظ.</span></li>
+		</ul>
+		<p><span lang="ar-sy">
+<br>
+الصيغة النهائية ستكون بالشكل:</span></p>
+		<p dir="ltr" class="Code"><span lang="ar-sy">"C:\Program Files\SyrianSoft\Al-Ameen 70\bin\AmnStart.exe" 
+d:\Amn32\data\data001\data.sdf /login_name:مدير /pi:import,cfgFile:"c:\MyImportSettings.xml"</span></p>
+		<p><span lang="ar-sy">
+<br>
+ملاحظة: نتائج الاستيراد والتصدير وكل الرسائل التي ينبغي أن تظهر لن تظهر لأن 
+العمل يتم في نمط Silent يتم تخزينها في ملف AmnMsg.log الموجود على القرص c:\ 
+مبدئياً.<br>
+&nbsp;</span></p>
+	</body>
+</html>

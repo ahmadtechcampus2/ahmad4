@@ -1,0 +1,4961 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AmeenTemplate>
+  <Main>
+    <Version>
+      <Major>1</Major>
+      <Minor>0</Minor>
+    </Version>
+    <Name>النظام المحاسبي الحكومي العراقي</Name>
+    <LatinName>Iraqi Governmental Chart of Accounts (Arabic)</LatinName>
+  </Main>
+  <Accounts>
+    <NormalAccounts>
+      <NormalAccount>
+        <Id>1</Id>
+        <Number>4</Number>
+        <Code>ف1</Code>
+        <Name>نفقات الافراد العاملين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>125</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>2</Id>
+        <Number>5</Number>
+        <Code>ف1م01</Code>
+        <Name>رواتب الموظفين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>4</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>3</Id>
+        <Number>6</Number>
+        <Code>ف1م03</Code>
+        <Name>رواتب المستخدمين غير العراقيين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>4</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>4</Id>
+        <Number>7</Number>
+        <Code>ف1م04</Code>
+        <Name>مخصصات الزوجية والاولاد للموظفين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>4</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>5</Id>
+        <Number>8</Number>
+        <Code>ف1م04ن001</Code>
+        <Name>المخصصات الزوجية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>7</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>6</Id>
+        <Number>9</Number>
+        <Code>ف1م04ن002</Code>
+        <Name>علاوة الاولاد(مخصصات الاولاد)</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>7</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>7</Id>
+        <Number>10</Number>
+        <Code>ف1م06</Code>
+        <Name>مخصصات الزوجية والاولاد لغير العراقيين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>4</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>8</Id>
+        <Number>11</Number>
+        <Code>ف1م07</Code>
+        <Name>المساهمة في التقاعد</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>4</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>9</Id>
+        <Number>12</Number>
+        <Code>ف1م09</Code>
+        <Name>مخصصات الموظفين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>4</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>10</Id>
+        <Number>13</Number>
+        <Code>ف1م09ن001</Code>
+        <Name>مخصصات الخدمة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>11</Id>
+        <Number>14</Number>
+        <Code>ف1م09ن002</Code>
+        <Name>مخصصات الضيافة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>12</Id>
+        <Number>15</Number>
+        <Code>ف1م09ن003</Code>
+        <Name>اجور الاعمال الاضافية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>13</Id>
+        <Number>16</Number>
+        <Code>ف1م09ن004</Code>
+        <Name>مخصصات الوكالة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>14</Id>
+        <Number>17</Number>
+        <Code>ف1م09ن005</Code>
+        <Name>اجور الخدمات الخاصة التي تمنح لبعض العاملين في الدولة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>15</Id>
+        <Number>18</Number>
+        <Code>ف1م09ن006</Code>
+        <Name>مخصصات مهنية وفنية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>16</Id>
+        <Number>19</Number>
+        <Code>ف1م09ن007</Code>
+        <Name>مخصصات نائية(محلية)</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>17</Id>
+        <Number>20</Number>
+        <Code>ف1م09ن008</Code>
+        <Name>مخصصات مخاطر</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>18</Id>
+        <Number>21</Number>
+        <Code>ف1م09ن009</Code>
+        <Name>مخصصات مناوبة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>19</Id>
+        <Number>22</Number>
+        <Code>ف1م09ن010</Code>
+        <Name>مخصصات الخدمة الجامعية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>20</Id>
+        <Number>23</Number>
+        <Code>ف1م09ن011</Code>
+        <Name>مخصصات الباحثين العلميين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>21</Id>
+        <Number>24</Number>
+        <Code>ف1م09ن012</Code>
+        <Name>مخصصات قضائية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>22</Id>
+        <Number>25</Number>
+        <Code>ف1م09ن013</Code>
+        <Name>مخصصات التفرع العلمي والطبي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>23</Id>
+        <Number>26</Number>
+        <Code>ف1م09ن014</Code>
+        <Name>مخصصات خاصة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>24</Id>
+        <Number>27</Number>
+        <Code>ف1م09ن015</Code>
+        <Name>مخصصات عدوى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>25</Id>
+        <Number>28</Number>
+        <Code>ف1م09ن016</Code>
+        <Name>مخصصات الارزاق</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>26</Id>
+        <Number>29</Number>
+        <Code>ف1م09ن017</Code>
+        <Name>المخصصات والاجور لمنتسبي قوى الامن الداخلي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>27</Id>
+        <Number>30</Number>
+        <Code>ف1م09ن018</Code>
+        <Name>مخصصات السكن</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>28</Id>
+        <Number>31</Number>
+        <Code>ف1م09ن020</Code>
+        <Name>مخصصات التبليغ</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>12</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>29</Id>
+        <Number>32</Number>
+        <Code>ف1م11</Code>
+        <Name>مخصصات الخبراء غير العراقيين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>4</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>30</Id>
+        <Number>33</Number>
+        <Code>ف1م12</Code>
+        <Name>اجور المحاضرات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>4</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>31</Id>
+        <Number>34</Number>
+        <Code>ف1م13</Code>
+        <Name>المكافئات التشجيعية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>4</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>32</Id>
+        <Number>35</Number>
+        <Code>ف1م14</Code>
+        <Name>اجور الامتحانات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>4</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>33</Id>
+        <Number>36</Number>
+        <Code>ف1م15</Code>
+        <Name>اقساط التأمين على العاملين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>4</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>34</Id>
+        <Number>37</Number>
+        <Code>ف1م15ن001</Code>
+        <Name>التأمين على الحياة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>36</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>35</Id>
+        <Number>38</Number>
+        <Code>ف1م15ن002</Code>
+        <Name>التأمين ضد الحوادث والاصابات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>36</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>36</Id>
+        <Number>39</Number>
+        <Code>ف1م15ن003</Code>
+        <Name>الضمان الصحي(التأمين الصحي)</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>36</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>37</Id>
+        <Number>40</Number>
+        <Code>ف1م16</Code>
+        <Name>مخصصات الخدمة الخارجية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>4</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>38</Id>
+        <Number>41</Number>
+        <Code>ف1م18</Code>
+        <Name>اجور اللجان</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>4</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>39</Id>
+        <Number>42</Number>
+        <Code>ف2</Code>
+        <Name>المستلزمات الخدمية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>125</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>40</Id>
+        <Number>43</Number>
+        <Code>ف2م01</Code>
+        <Name>مخصصات ونفقات السفر</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>41</Id>
+        <Number>44</Number>
+        <Code>ف2م01ن001</Code>
+        <Name>المخصصات الليلية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>43</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>42</Id>
+        <Number>45</Number>
+        <Code>ف2م01ن002</Code>
+        <Name>وسائط النقل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>43</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>43</Id>
+        <Number>46</Number>
+        <Code>ف2م01ن003</Code>
+        <Name>نفقات السكن</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>43</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>44</Id>
+        <Number>47</Number>
+        <Code>ف2م01ن004</Code>
+        <Name>نفقات اخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>43</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>45</Id>
+        <Number>48</Number>
+        <Code>ف2م02</Code>
+        <Name>مخصصات ونفقات الايفاد</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>46</Id>
+        <Number>49</Number>
+        <Code>ف2م02ن001</Code>
+        <Name>المخصصات الليلية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>48</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>47</Id>
+        <Number>50</Number>
+        <Code>ف2م02ن002</Code>
+        <Name>وسائط النقل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>48</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>48</Id>
+        <Number>51</Number>
+        <Code>ف2م02ن003</Code>
+        <Name>نفقات السكن</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>48</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>49</Id>
+        <Number>52</Number>
+        <Code>ف2م02ن004</Code>
+        <Name>نفقات اخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>48</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>50</Id>
+        <Number>53</Number>
+        <Code>ف2م03</Code>
+        <Name>مخصصات ونفقات التحويل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>51</Id>
+        <Number>54</Number>
+        <Code>ف2م04</Code>
+        <Name>النشر والاعلام</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>52</Id>
+        <Number>55</Number>
+        <Code>ف2م05</Code>
+        <Name>نفقات الطبع</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>53</Id>
+        <Number>56</Number>
+        <Code>ف2م06</Code>
+        <Name>البريد</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>54</Id>
+        <Number>57</Number>
+        <Code>ف2م07</Code>
+        <Name>البرق والهاتف</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>55</Id>
+        <Number>58</Number>
+        <Code>ف2م08</Code>
+        <Name>ايجار الاراضي والمباني</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>56</Id>
+        <Number>59</Number>
+        <Code>ف2م09</Code>
+        <Name>ايجار المكائن والمعدات ووسائط النقل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>57</Id>
+        <Number>60</Number>
+        <Code>ف2م10</Code>
+        <Name>اقساط التأمين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>58</Id>
+        <Number>61</Number>
+        <Code>ف2م12</Code>
+        <Name>اجور المحامين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>59</Id>
+        <Number>62</Number>
+        <Code>ف2م13</Code>
+        <Name>الضيافة والوفود والعلاقات العامة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>60</Id>
+        <Number>63</Number>
+        <Code>ف2م14</Code>
+        <Name>المؤتمرات والندوات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>61</Id>
+        <Number>64</Number>
+        <Code>ف2م15</Code>
+        <Name>الاحتفالات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>62</Id>
+        <Number>65</Number>
+        <Code>ف2م16</Code>
+        <Name>الدفاع المدني</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>63</Id>
+        <Number>66</Number>
+        <Code>ف2م17</Code>
+        <Name>مكافأة واوسمة لغير منتسبي الدولة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>64</Id>
+        <Number>67</Number>
+        <Code>ف2م18</Code>
+        <Name>المتنوعة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>65</Id>
+        <Number>68</Number>
+        <Code>ف2م19</Code>
+        <Name>بدل الاشتراك في الدورات التدريبية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>66</Id>
+        <Number>69</Number>
+        <Code>ف2م21</Code>
+        <Name>النشاط الرياضي والكشف</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>67</Id>
+        <Number>70</Number>
+        <Code>ف2م22</Code>
+        <Name>النشاط المدرسي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>68</Id>
+        <Number>71</Number>
+        <Code>ف2م23</Code>
+        <Name>مسح وتحديد اصناف الاراضي وتسجيلها</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>69</Id>
+        <Number>72</Number>
+        <Code>ف2م24</Code>
+        <Name>نقل الوفود</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>70</Id>
+        <Number>73</Number>
+        <Code>ف2م25</Code>
+        <Name>نقل الشهود والموقوفين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>71</Id>
+        <Number>74</Number>
+        <Code>ف2م26</Code>
+        <Name>نفقات الملح</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>72</Id>
+        <Number>75</Number>
+        <Code>ف2م28</Code>
+        <Name>مخصصات التلاميذ</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>73</Id>
+        <Number>76</Number>
+        <Code>ف2م27</Code>
+        <Name>عمولة بيع الطوابع</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>74</Id>
+        <Number>77</Number>
+        <Code>ف2م29</Code>
+        <Name>المجازين دراسيا</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>75</Id>
+        <Number>78</Number>
+        <Code>ف2م30</Code>
+        <Name>تنضيف الدائرة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>76</Id>
+        <Number>79</Number>
+        <Code>ف2م31</Code>
+        <Name>اجور الانتساب الى المؤسسات العلمية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>77</Id>
+        <Number>80</Number>
+        <Code>ف2م32</Code>
+        <Name>تعضيد البحوث العلمية والترجمة والتأليف</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>78</Id>
+        <Number>81</Number>
+        <Code>ف2م33</Code>
+        <Name>اجور الخبراء الاستشاريين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>79</Id>
+        <Number>82</Number>
+        <Code>ف2م34</Code>
+        <Name>اجو ايداع المفاتيح الاحتياطية لدى المصارف</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>80</Id>
+        <Number>83</Number>
+        <Code>ف2م35</Code>
+        <Name>نفقات طبع الطوابع المالية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>81</Id>
+        <Number>84</Number>
+        <Code>ف2م42</Code>
+        <Name>تحميل وتفريغ المواد والسلع</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>42</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>82</Id>
+        <Number>85</Number>
+        <Code>ف2م03ن001</Code>
+        <Name>المخصصات الليلية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>53</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>83</Id>
+        <Number>86</Number>
+        <Code>ف2م03ن002</Code>
+        <Name>اجور وسائط النقل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>53</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>84</Id>
+        <Number>87</Number>
+        <Code>ف2م03ن003</Code>
+        <Name>نفقات اخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>53</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>85</Id>
+        <Number>88</Number>
+        <Code>ف2م04ن001</Code>
+        <Name>نفقات النشر</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>54</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>86</Id>
+        <Number>89</Number>
+        <Code>ف2م04ن002</Code>
+        <Name>نفقات الاعلام</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>54</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>87</Id>
+        <Number>90</Number>
+        <Code>ف2م04ن003</Code>
+        <Name>الاشتراك في الصحف</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>54</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>88</Id>
+        <Number>91</Number>
+        <Code>ف2م06ن001</Code>
+        <Name>طوابع بريدية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>56</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>89</Id>
+        <Number>92</Number>
+        <Code>ف2م06ن002</Code>
+        <Name>نفقات نقل البريد الاساسي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>56</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>90</Id>
+        <Number>93</Number>
+        <Code>ف2م07ن001</Code>
+        <Name>الاجور المقطوعة والنداءات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>57</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>91</Id>
+        <Number>94</Number>
+        <Code>ف2م07ن002</Code>
+        <Name>اجور نصب ونقل الهاتف</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>57</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>92</Id>
+        <Number>95</Number>
+        <Code>ف2م07ن003</Code>
+        <Name>ايجار البدالات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>57</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>93</Id>
+        <Number>96</Number>
+        <Code>ف2م07ن004</Code>
+        <Name>اجور البرقيات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>57</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>94</Id>
+        <Number>97</Number>
+        <Code>ف2م07ن005</Code>
+        <Name>ايجار التلكس</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>57</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>95</Id>
+        <Number>98</Number>
+        <Code>ف2م08ن001</Code>
+        <Name>ايجار الاراضي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>58</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>96</Id>
+        <Number>99</Number>
+        <Code>ف2م08ن002</Code>
+        <Name>ايجار المباني</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>58</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>97</Id>
+        <Number>100</Number>
+        <Code>ف2م08ن003</Code>
+        <Name>ايجار المخازن</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>58</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>98</Id>
+        <Number>101</Number>
+        <Code>ف2م08ن004</Code>
+        <Name>ايجارات اخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>58</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>99</Id>
+        <Number>102</Number>
+        <Code>ف2م09ن001</Code>
+        <Name>ايجار وسائط النقل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>59</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>100</Id>
+        <Number>103</Number>
+        <Code>ف2م09ن002</Code>
+        <Name>ايجار الحاسبات الالكترونية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>59</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>101</Id>
+        <Number>104</Number>
+        <Code>ف2م09ن003</Code>
+        <Name>ايجار اثاث ولوازم</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>59</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>102</Id>
+        <Number>105</Number>
+        <Code>ف2م09ن004</Code>
+        <Name>ايجارات اخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>59</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>103</Id>
+        <Number>106</Number>
+        <Code>ف2م10ن001</Code>
+        <Name>اقساط تأمين المسؤلية الشخصية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>60</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>104</Id>
+        <Number>107</Number>
+        <Code>ف2م10ن002</Code>
+        <Name>اقساط تأمين الاموال والموجودات الثابتة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>60</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>105</Id>
+        <Number>108</Number>
+        <Code>ف2م10ن003</Code>
+        <Name>اقساط التأمين على المركبات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>60</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>106</Id>
+        <Number>109</Number>
+        <Code>ف3</Code>
+        <Name>المستلزمات السلعية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>125</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>107</Id>
+        <Number>110</Number>
+        <Code>ف4</Code>
+        <Name>صيانة الموجودات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>125</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>108</Id>
+        <Number>111</Number>
+        <Code>ف5</Code>
+        <Name>النفقات الرأسمالية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>125</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>109</Id>
+        <Number>112</Number>
+        <Code>ف6</Code>
+        <Name>النفقات التحويلية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>125</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>110</Id>
+        <Number>113</Number>
+        <Code>ف7</Code>
+        <Name>الالتزامات والمساعدات والاستثمارات الخارجية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>125</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>111</Id>
+        <Number>114</Number>
+        <Code>ف8</Code>
+        <Name>البرامج الخاصة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>125</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>112</Id>
+        <Number>115</Number>
+        <Code>ف9</Code>
+        <Name>الرواتب والمكافأت التقاعدية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>125</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>113</Id>
+        <Number>116</Number>
+        <Code>ع1</Code>
+        <Name>الضرائب على الدخول والثروات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>126</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>114</Id>
+        <Number>117</Number>
+        <Code>ع2</Code>
+        <Name>الضرائب السلعية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>126</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>115</Id>
+        <Number>118</Number>
+        <Code>ع3</Code>
+        <Name>الرسوم الاخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>126</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>116</Id>
+        <Number>119</Number>
+        <Code>ع4</Code>
+        <Name>ايرادات الموازنة الجارية من الموارد النفطيةوالثروة المعدنية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>126</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>117</Id>
+        <Number>120</Number>
+        <Code>ع5</Code>
+        <Name>ايرادات رأسمالية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>126</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>118</Id>
+        <Number>121</Number>
+        <Code>ع6</Code>
+        <Name>ايرادات ايجار املاك الدولة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>126</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>119</Id>
+        <Number>122</Number>
+        <Code>ع7</Code>
+        <Name>الايرادات التحويلية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>126</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>120</Id>
+        <Number>123</Number>
+        <Code>ع8</Code>
+        <Name>خدمات الدوائر للغير</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>126</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>121</Id>
+        <Number>124</Number>
+        <Code>ع9</Code>
+        <Name>ايرادات غير مصنفة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>126</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>122</Id>
+        <Number>125</Number>
+        <Code>1</Code>
+        <Name>المصروفات</Name>
+        <FinalAccountId>1</FinalAccountId>
+        <ParentAccountId>0</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>123</Id>
+        <Number>126</Number>
+        <Code>2</Code>
+        <Name>الايرادات</Name>
+        <FinalAccountId>1</FinalAccountId>
+        <ParentAccountId>0</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>124</Id>
+        <Number>127</Number>
+        <Code>ف3م01</Code>
+        <Name>القرطاسية والمطبوعات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>109</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>125</Id>
+        <Number>128</Number>
+        <Code>ف3م02</Code>
+        <Name>اجور الماء</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>109</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>126</Id>
+        <Number>129</Number>
+        <Code>ف3م03</Code>
+        <Name>اجور الكهرباء</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>109</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>127</Id>
+        <Number>130</Number>
+        <Code>ف3م04</Code>
+        <Name>الوقود</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>109</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>128</Id>
+        <Number>131</Number>
+        <Code>ف3م05</Code>
+        <Name>الملابس</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>109</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>129</Id>
+        <Number>132</Number>
+        <Code>ف3م06</Code>
+        <Name>الاغذية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>109</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>130</Id>
+        <Number>133</Number>
+        <Code>ف3م07</Code>
+        <Name>الادوية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>109</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>131</Id>
+        <Number>134</Number>
+        <Code>ف3م08</Code>
+        <Name>مواد المكافحة والوقاية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>109</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>132</Id>
+        <Number>135</Number>
+        <Code>ف3م09</Code>
+        <Name>المواد واللوازم</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>109</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>133</Id>
+        <Number>136</Number>
+        <Code>ف3م10</Code>
+        <Name>الكتب المدرسية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>109</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>134</Id>
+        <Number>137</Number>
+        <Code>ف3م11</Code>
+        <Name>التجهيزات للمرضى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>109</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>135</Id>
+        <Number>138</Number>
+        <Code>ف3م12</Code>
+        <Name>التجهيزات واللوازم الرياضية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>109</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>136</Id>
+        <Number>139</Number>
+        <Code>ف3م13</Code>
+        <Name>علف الحيوانات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>109</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>137</Id>
+        <Number>140</Number>
+        <Code>ف3م01ن001</Code>
+        <Name>القرطاسية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>127</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>138</Id>
+        <Number>141</Number>
+        <Code>ف3م01ن002</Code>
+        <Name>المطبوعات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>127</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>139</Id>
+        <Number>142</Number>
+        <Code>ف3م02ن001</Code>
+        <Name>اجور الماء</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>128</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>140</Id>
+        <Number>143</Number>
+        <Code>ف3م02ن002</Code>
+        <Name>اجور المجاري</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>128</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>141</Id>
+        <Number>144</Number>
+        <Code>ف3م05ن001</Code>
+        <Name>ملابس الموظفين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>131</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>142</Id>
+        <Number>145</Number>
+        <Code>ف3م05ن003</Code>
+        <Name>ملابس منتسبي قوى الامن الداخلي من غير الضباط</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>131</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>143</Id>
+        <Number>146</Number>
+        <Code>ف3م05ن004</Code>
+        <Name>ملابس اخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>131</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>144</Id>
+        <Number>147</Number>
+        <Code>ف3م08ن001</Code>
+        <Name>مواد المكافحة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>134</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>145</Id>
+        <Number>148</Number>
+        <Code>ف3م08ن002</Code>
+        <Name>مواد الوقاية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>134</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>146</Id>
+        <Number>149</Number>
+        <Code>ف3م09ن001</Code>
+        <Name>اللوازم المختبرية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>135</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>147</Id>
+        <Number>150</Number>
+        <Code>ف3م09ن002</Code>
+        <Name>اللوازم الطبية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>135</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>148</Id>
+        <Number>151</Number>
+        <Code>ف3م09ن003</Code>
+        <Name>اللوازم المدرسية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>135</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>149</Id>
+        <Number>152</Number>
+        <Code>ف3م09ن004</Code>
+        <Name>اللوازم الصناعية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>135</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>150</Id>
+        <Number>153</Number>
+        <Code>ف3م09ن005</Code>
+        <Name>اللوازم الزراعية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>135</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>151</Id>
+        <Number>154</Number>
+        <Code>ف3م09ن006</Code>
+        <Name>المواد واللوازم الاخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>135</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>152</Id>
+        <Number>155</Number>
+        <Code>ف3م11ن001</Code>
+        <Name>الملابس</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>137</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>153</Id>
+        <Number>156</Number>
+        <Code>ف3م11ن002</Code>
+        <Name>البياضات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>137</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>154</Id>
+        <Number>157</Number>
+        <Code>ف3م11ن003</Code>
+        <Name>المفروشات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>137</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>155</Id>
+        <Number>158</Number>
+        <Code>ف4م01</Code>
+        <Name>صيانة الاثاث</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>110</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>156</Id>
+        <Number>159</Number>
+        <Code>ف4م02</Code>
+        <Name>صيانة المباني</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>110</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>157</Id>
+        <Number>160</Number>
+        <Code>ف4م03</Code>
+        <Name>صيانة الطرق والجسور</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>110</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>158</Id>
+        <Number>161</Number>
+        <Code>ف4م04</Code>
+        <Name>صيانةالتأسيسات المائية والكهربائية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>110</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>159</Id>
+        <Number>162</Number>
+        <Code>ف4م05</Code>
+        <Name>صيانة الاجهزة والمكائن والالات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>110</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>160</Id>
+        <Number>163</Number>
+        <Code>ف4م06</Code>
+        <Name>صيانة وسائط النقل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>110</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>161</Id>
+        <Number>164</Number>
+        <Code>ف4م07</Code>
+        <Name>صيانةالكتب والسجلات والوثائق</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>110</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>162</Id>
+        <Number>165</Number>
+        <Code>ف4م08</Code>
+        <Name>صيانة المبازل ومشاريع الري</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>110</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>163</Id>
+        <Number>166</Number>
+        <Code>ف4م09</Code>
+        <Name>صيانة منشأت السدود</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>110</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>164</Id>
+        <Number>167</Number>
+        <Code>ف4م10</Code>
+        <Name>صيانة الاسلحة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>110</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>165</Id>
+        <Number>168</Number>
+        <Code>ف4م03ن001</Code>
+        <Name>صيانة الطرق</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>160</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>166</Id>
+        <Number>169</Number>
+        <Code>ف4م03ن002</Code>
+        <Name>صيانة الجسور</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>160</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>167</Id>
+        <Number>170</Number>
+        <Code>ف4م04ن001</Code>
+        <Name>صيانة التأسيسات المائية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>161</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>168</Id>
+        <Number>171</Number>
+        <Code>ف4م04ن002</Code>
+        <Name>صيانة التأسيسات الكهربائية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>161</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>169</Id>
+        <Number>172</Number>
+        <Code>ف4م06ن001</Code>
+        <Name>صيانة سيارات الصالون</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>163</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>170</Id>
+        <Number>173</Number>
+        <Code>ف4م06ن002</Code>
+        <Name>صيانة سيارات الحمل(لوريات)</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>163</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>171</Id>
+        <Number>174</Number>
+        <Code>ف4م06ن003</Code>
+        <Name>صيانة سيارات العمل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>163</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>172</Id>
+        <Number>175</Number>
+        <Code>ف4م06ن004</Code>
+        <Name>صيانةالزوارق</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>163</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>173</Id>
+        <Number>176</Number>
+        <Code>ف4م06ن005</Code>
+        <Name>صيانة وسائط النقل الاخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>163</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>174</Id>
+        <Number>177</Number>
+        <Code>ف4م07ن001</Code>
+        <Name>صيانة الكتب</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>164</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>175</Id>
+        <Number>178</Number>
+        <Code>ف4م07ن002</Code>
+        <Name>صيانة السجلات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>164</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>176</Id>
+        <Number>179</Number>
+        <Code>ف4م07ن003</Code>
+        <Name>صيانة المجلات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>164</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>177</Id>
+        <Number>180</Number>
+        <Code>ف4م07ن004</Code>
+        <Name>صيانة وثائق التسجيل الاخرى كأفلام واشرطة التسجيل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>164</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>178</Id>
+        <Number>181</Number>
+        <Code>ف4م08ن001</Code>
+        <Name>صيانة المبازل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>165</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>179</Id>
+        <Number>182</Number>
+        <Code>ف4م08ن002</Code>
+        <Name>صيانة مشاريع الري الصغرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>165</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>180</Id>
+        <Number>183</Number>
+        <Code>ف5م01</Code>
+        <Name>الاثاث</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>111</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>181</Id>
+        <Number>184</Number>
+        <Code>ف5م04</Code>
+        <Name>السيارات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>111</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>182</Id>
+        <Number>185</Number>
+        <Code>ف5م05</Code>
+        <Name>وسائط النقل الاخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>111</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>183</Id>
+        <Number>186</Number>
+        <Code>ف5م06</Code>
+        <Name>المكائن والاجهزة والالات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>111</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>184</Id>
+        <Number>187</Number>
+        <Code>ف5م07</Code>
+        <Name>الاراضي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>111</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>185</Id>
+        <Number>188</Number>
+        <Code>ف5م08</Code>
+        <Name>المباني</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>111</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>186</Id>
+        <Number>189</Number>
+        <Code>ف5م09</Code>
+        <Name>الكتب والمجلات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>111</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>187</Id>
+        <Number>190</Number>
+        <Code>ف5م10</Code>
+        <Name>الافلام السينمائية والوثائقية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>111</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>188</Id>
+        <Number>191</Number>
+        <Code>ف5م11</Code>
+        <Name>الاسلحة والاعتدة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>111</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>189</Id>
+        <Number>192</Number>
+        <Code>ف5م12</Code>
+        <Name>المسارح ولوازمها والاجهزة الموسيقية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>111</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>190</Id>
+        <Number>193</Number>
+        <Code>ف5م14</Code>
+        <Name>الحيوانات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>111</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>191</Id>
+        <Number>194</Number>
+        <Code>ف5م15</Code>
+        <Name>اللوازم والتجهيزات الخاصة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>111</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>192</Id>
+        <Number>195</Number>
+        <Code>ف5م01ن001</Code>
+        <Name>الاثاث الخشبية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>183</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>193</Id>
+        <Number>196</Number>
+        <Code>ف5م01ن002</Code>
+        <Name>الاثاث المعدنية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>183</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>194</Id>
+        <Number>197</Number>
+        <Code>ف5م01ن003</Code>
+        <Name>الاثاث الاخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>183</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>195</Id>
+        <Number>198</Number>
+        <Code>ف5م04ن001</Code>
+        <Name>سيارات الصالون</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>184</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>196</Id>
+        <Number>199</Number>
+        <Code>ف5م04ن002</Code>
+        <Name>سيارات الحمل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>184</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>197</Id>
+        <Number>200</Number>
+        <Code>ف5م04ن003</Code>
+        <Name>السيارات الحقلية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>184</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>198</Id>
+        <Number>201</Number>
+        <Code>ف5م04ن004</Code>
+        <Name>الباصات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>184</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>199</Id>
+        <Number>202</Number>
+        <Code>ف5م04ن005</Code>
+        <Name>سيارات ذات مواصفات خاصة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>184</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>200</Id>
+        <Number>203</Number>
+        <Code>ف5م05ن001</Code>
+        <Name>السفن</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>185</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>201</Id>
+        <Number>204</Number>
+        <Code>ف5م05ن002</Code>
+        <Name>الزوارق</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>185</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>202</Id>
+        <Number>205</Number>
+        <Code>ف5م05ن003</Code>
+        <Name>القاطرات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>185</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>203</Id>
+        <Number>206</Number>
+        <Code>ف5م05ن004</Code>
+        <Name>العجلات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>185</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>204</Id>
+        <Number>207</Number>
+        <Code>ف5م05ن005</Code>
+        <Name>الطائرات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>185</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>205</Id>
+        <Number>208</Number>
+        <Code>ف5م05ن006</Code>
+        <Name>الدراجات البخارية والهوائية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>185</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>206</Id>
+        <Number>209</Number>
+        <Code>ف5م06ن001</Code>
+        <Name>المكائن والالات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>186</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>207</Id>
+        <Number>210</Number>
+        <Code>ف5م06ن002</Code>
+        <Name>الاجهزة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>186</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>208</Id>
+        <Number>211</Number>
+        <Code>ف5م06ن003</Code>
+        <Name>الالات الحاسبة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>186</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>209</Id>
+        <Number>212</Number>
+        <Code>ف5م06ن004</Code>
+        <Name>الالات الطابعة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>186</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>210</Id>
+        <Number>213</Number>
+        <Code>ف5م06ن005</Code>
+        <Name>الات الاستنساخ</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>186</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>211</Id>
+        <Number>214</Number>
+        <Code>ف5م06ن006</Code>
+        <Name>الات التصوير والمايكروفلم</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>186</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>212</Id>
+        <Number>215</Number>
+        <Code>ف5م06ن007</Code>
+        <Name>الات الاتصال كالتلكس والبدالات والطابعات المبرقة وغيرها</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>186</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>213</Id>
+        <Number>216</Number>
+        <Code>ف5م06ن008</Code>
+        <Name>الحاسبات الالكترونية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>186</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>214</Id>
+        <Number>217</Number>
+        <Code>ف5م06ن009</Code>
+        <Name>اخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>186</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>215</Id>
+        <Number>218</Number>
+        <Code>ف5م08ن001</Code>
+        <Name>مباني سكنية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>188</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>216</Id>
+        <Number>219</Number>
+        <Code>ف5م08ن002</Code>
+        <Name>مباني غير سكنية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>188</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>217</Id>
+        <Number>220</Number>
+        <Code>ف5م09ن001</Code>
+        <Name>الكتب</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>189</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>218</Id>
+        <Number>221</Number>
+        <Code>ف5م09ن002</Code>
+        <Name>المجلات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>189</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>219</Id>
+        <Number>222</Number>
+        <Code>ف5م10ن001</Code>
+        <Name>الافلام السينمائية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>190</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>220</Id>
+        <Number>223</Number>
+        <Code>ف5م10ن002</Code>
+        <Name>الافلام الوثائقية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>190</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>221</Id>
+        <Number>224</Number>
+        <Code>ف5م10ن003</Code>
+        <Name>افلام المايكروفلم</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>190</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>222</Id>
+        <Number>225</Number>
+        <Code>ف5م12ن001</Code>
+        <Name>المسارح ولوازمها</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>192</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>223</Id>
+        <Number>226</Number>
+        <Code>ف5م12ن002</Code>
+        <Name>الاجهزة الموسيقية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>192</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>224</Id>
+        <Number>227</Number>
+        <Code>ف6م01</Code>
+        <Name>الرديات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>112</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>225</Id>
+        <Number>228</Number>
+        <Code>ف6م02</Code>
+        <Name>التعويضات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>112</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>226</Id>
+        <Number>229</Number>
+        <Code>ف6م03</Code>
+        <Name>اطفاء ديون غير قابلة للتحصيل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>112</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>227</Id>
+        <Number>230</Number>
+        <Code>ف6م04</Code>
+        <Name>النفقات الخاصة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>112</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>228</Id>
+        <Number>231</Number>
+        <Code>ف6م05</Code>
+        <Name>فوائد القروض الداخلية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>112</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>229</Id>
+        <Number>232</Number>
+        <Code>ف6م06</Code>
+        <Name>فوائد القروض الخارجية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>112</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>230</Id>
+        <Number>233</Number>
+        <Code>ف6م20</Code>
+        <Name>المنح الاخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>112</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>231</Id>
+        <Number>234</Number>
+        <Code>ف6م29</Code>
+        <Name>الرسوم القضائية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>112</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>232</Id>
+        <Number>235</Number>
+        <Code>ف7م01</Code>
+        <Name>المساهمات العربية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>113</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>233</Id>
+        <Number>236</Number>
+        <Code>ف7م02</Code>
+        <Name>المساهمات الدولية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>113</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>234</Id>
+        <Number>237</Number>
+        <Code>ف7م03</Code>
+        <Name>المساعدات العربية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>113</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>235</Id>
+        <Number>238</Number>
+        <Code>ف8م01</Code>
+        <Name>البرامج التدريبية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>114</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>236</Id>
+        <Number>239</Number>
+        <Code>ف8م02</Code>
+        <Name>البرامج الصحية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>114</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>237</Id>
+        <Number>240</Number>
+        <Code>ف9م01</Code>
+        <Name>رواتب التقاعد المدنية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>115</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>238</Id>
+        <Number>241</Number>
+        <Code>ف9م02</Code>
+        <Name>رواتب التقاعد العسكرية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>115</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>239</Id>
+        <Number>242</Number>
+        <Code>ف9م05</Code>
+        <Name>المكافأت التقاعدية المدنية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>115</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>240</Id>
+        <Number>243</Number>
+        <Code>ف9م06</Code>
+        <Name>المكافأت التقاعدية العسكرية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>115</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>241</Id>
+        <Number>245</Number>
+        <Code>3</Code>
+        <Name>السلف</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>0</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>242</Id>
+        <Number>246</Number>
+        <Code>4</Code>
+        <Name>الامانات</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>0</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>243</Id>
+        <Number>247</Number>
+        <Code>5</Code>
+        <Name>حسابات النقدية</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>0</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>244</Id>
+        <Number>249</Number>
+        <Code>7</Code>
+        <Name>الحسابات الجارية</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>0</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>245</Id>
+        <Number>250</Number>
+        <Code>8</Code>
+        <Name>حسابات التسوية</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>0</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>246</Id>
+        <Number>251</Number>
+        <Code>9</Code>
+        <Name>القروض</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>0</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>247</Id>
+        <Number>252</Number>
+        <Code>10</Code>
+        <Name>حساب الموجودات الثابتة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>0</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>248</Id>
+        <Number>253</Number>
+        <Code>11</Code>
+        <Name>الاحتياطيات وحساب التخصيص</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>0</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>249</Id>
+        <Number>254</Number>
+        <Code>ع1م1</Code>
+        <Name>الضريبة على الدخول</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>116</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>250</Id>
+        <Number>255</Number>
+        <Code>ع1م2</Code>
+        <Name>ضريبة التركات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>116</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>251</Id>
+        <Number>256</Number>
+        <Code>ع1م3</Code>
+        <Name>ضريبة العقار</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>116</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>252</Id>
+        <Number>257</Number>
+        <Code>ع1م4</Code>
+        <Name>ضريبة العرصات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>116</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>253</Id>
+        <Number>258</Number>
+        <Code>ع1م5</Code>
+        <Name>بقايا ضريبة الاراضي الزراعية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>116</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>254</Id>
+        <Number>259</Number>
+        <Code>ع1م1ن2</Code>
+        <Name>الضريبة على ارباح فئات القطاع الخاص</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>254</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>255</Id>
+        <Number>260</Number>
+        <Code>ع1م1ن4</Code>
+        <Name>بقايا الضريبة على دخول منتسبي دوائر الدولة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>254</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>256</Id>
+        <Number>261</Number>
+        <Code>ع1م1ن5</Code>
+        <Name>الضريبة على دخول منتسبي القطاع الخاص</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>254</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>257</Id>
+        <Number>262</Number>
+        <Code>ع1م1ن7</Code>
+        <Name>الغرامات المفروضة على المتخلفين عن تقديم تقرير الضريبة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>254</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>258</Id>
+        <Number>263</Number>
+        <Code>ع1م3ن1</Code>
+        <Name>ضريبة العقار الاساسية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>256</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>259</Id>
+        <Number>264</Number>
+        <Code>ع1م3ن2</Code>
+        <Name>بقايا حصة الخزينة من ضريبة العقار الاساسية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>256</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>260</Id>
+        <Number>265</Number>
+        <Code>ع1م3ن3</Code>
+        <Name>ضريبة العقار الاضافية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>256</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>261</Id>
+        <Number>266</Number>
+        <Code>ع1م3ن4</Code>
+        <Name>الاضافية التأخيرية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>256</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>262</Id>
+        <Number>267</Number>
+        <Code>ع1م3ن5</Code>
+        <Name>ضريبة العقار_منطقة الحكم الذاتي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>256</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>263</Id>
+        <Number>268</Number>
+        <Code>ع1م4ن1</Code>
+        <Name>ضريبة العرصات الاساسية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>257</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>264</Id>
+        <Number>269</Number>
+        <Code>ع1م4ن2</Code>
+        <Name>ضريبة العرصات _منطقة الحكم الذاتي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>257</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>265</Id>
+        <Number>270</Number>
+        <Code>ع2م1</Code>
+        <Name>الرسوم الكمركية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>117</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>266</Id>
+        <Number>271</Number>
+        <Code>ع2م2</Code>
+        <Name>رسوم المكس</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>117</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>267</Id>
+        <Number>272</Number>
+        <Code>ع2م3</Code>
+        <Name>رسوم الانتاج</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>117</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>268</Id>
+        <Number>273</Number>
+        <Code>ع2م1ن1</Code>
+        <Name>رسوم الوارد الكمركي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>270</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>269</Id>
+        <Number>274</Number>
+        <Code>ع2م1ن2</Code>
+        <Name>رسوم الصادر الكمركي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>270</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>270</Id>
+        <Number>275</Number>
+        <Code>ع2م1ن3</Code>
+        <Name>الضميمة على الرسم الكمركي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>270</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>271</Id>
+        <Number>276</Number>
+        <Code>ع2م1ن4</Code>
+        <Name>عوائد المرور الترانسيت</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>270</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>272</Id>
+        <Number>277</Number>
+        <Code>ع2م1ن5</Code>
+        <Name>الضريبة الخاصة على الاستيراد الشخصي للسيارات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>270</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>273</Id>
+        <Number>278</Number>
+        <Code>ع2م2ن1</Code>
+        <Name>رسوم الكحول المستعمل لتسيير الموتورات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>271</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>274</Id>
+        <Number>279</Number>
+        <Code>ع2م2ن2</Code>
+        <Name>رسوم الكيروسين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>271</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>275</Id>
+        <Number>280</Number>
+        <Code>ع2م2ن3</Code>
+        <Name>رسوم الدهن للسيارات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>271</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>276</Id>
+        <Number>281</Number>
+        <Code>ع2م2ن4</Code>
+        <Name>المكس على المنتجات النفطية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>271</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>277</Id>
+        <Number>282</Number>
+        <Code>ع2م2ن5</Code>
+        <Name>رسوم الباورفورمين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>271</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>278</Id>
+        <Number>283</Number>
+        <Code>ع2م2ن6</Code>
+        <Name>رسوم شمع البرافين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>271</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>279</Id>
+        <Number>284</Number>
+        <Code>ع2م2ن12</Code>
+        <Name>رسوم الخمور</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>271</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>280</Id>
+        <Number>285</Number>
+        <Code>ع2م3ن2</Code>
+        <Name>رسوم الانتاج على صناعة السكاير</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>272</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>281</Id>
+        <Number>286</Number>
+        <Code>ع2م3ن3</Code>
+        <Name>رسوم الانتاج على صناعة المشروبات الغازية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>272</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>282</Id>
+        <Number>287</Number>
+        <Code>ع2م3ن4</Code>
+        <Name>رسوم الانتاج على صناعةالبيرة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>272</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>283</Id>
+        <Number>288</Number>
+        <Code>ع2م3ن6</Code>
+        <Name>رسوم انتاج السمنت</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>272</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>284</Id>
+        <Number>289</Number>
+        <Code>ع2م3ن7</Code>
+        <Name>رسوم الانتاج على المشروبات الروحية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>272</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>285</Id>
+        <Number>290</Number>
+        <Code>ع2م3ن8</Code>
+        <Name>رسوم الانتاج الموحد على الزيوت النباتية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>272</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>286</Id>
+        <Number>291</Number>
+        <Code>ع2م3ن9</Code>
+        <Name>رسوم الانتاج على الصناعات الدوائية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>272</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>287</Id>
+        <Number>292</Number>
+        <Code>ع2م3ن 10</Code>
+        <Name>رسوم الانتاج علىمنتجات القطاع الصناعي المختلط</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>272</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>288</Id>
+        <Number>293</Number>
+        <Code>ع2م3ن11</Code>
+        <Name>رسوم الانتاج الموحد على منتجات المنشأة العامة للتعليب</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>272</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>289</Id>
+        <Number>294</Number>
+        <Code>ع3م1</Code>
+        <Name>رسوم الطوابع المالية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>118</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>290</Id>
+        <Number>295</Number>
+        <Code>ع3م2</Code>
+        <Name>الرسوم القضائية والعدلية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>118</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>291</Id>
+        <Number>296</Number>
+        <Code>ع3م3</Code>
+        <Name>رسوم التسجيل العقاري</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>118</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>292</Id>
+        <Number>297</Number>
+        <Code>ع3م4</Code>
+        <Name>رسوم السيارات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>118</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>293</Id>
+        <Number>298</Number>
+        <Code>ع3م5</Code>
+        <Name>رسوم الخدمات الصحية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>118</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>294</Id>
+        <Number>299</Number>
+        <Code>ع3م6</Code>
+        <Name>رسوم التسجيل والنشر التجاري</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>118</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>295</Id>
+        <Number>300</Number>
+        <Code>ع3م7</Code>
+        <Name>رسوم الاجازات والرخص</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>118</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>296</Id>
+        <Number>301</Number>
+        <Code>ع3م8</Code>
+        <Name>الرسوم المتنوعة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>118</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>297</Id>
+        <Number>302</Number>
+        <Code>ع3م9</Code>
+        <Name>رسوم دعم المجهود الحربي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>118</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>298</Id>
+        <Number>303</Number>
+        <Code>ع3م1ن1</Code>
+        <Name>رسوم الطوابع المالية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>294</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>299</Id>
+        <Number>304</Number>
+        <Code>ع3م1ن2</Code>
+        <Name>رسوم الطوابع المالية المستحصلة نقدا</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>294</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>300</Id>
+        <Number>305</Number>
+        <Code>ع3م1ن3</Code>
+        <Name>رسوم طوابع جوازات السفر</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>294</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>301</Id>
+        <Number>306</Number>
+        <Code>ع3م2ن1</Code>
+        <Name>رسوم المحاكم المدنية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>295</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>302</Id>
+        <Number>307</Number>
+        <Code>ع3م2ن2</Code>
+        <Name>رسوم المحاكم الشرعية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>295</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>303</Id>
+        <Number>308</Number>
+        <Code>ع3م2ن3</Code>
+        <Name>رسوم محاكم الاستئناف والتمييز</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>295</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>304</Id>
+        <Number>309</Number>
+        <Code>ع3م2ن4</Code>
+        <Name>رسوم محاكم العمل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>295</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>305</Id>
+        <Number>310</Number>
+        <Code>ع3م2ن5</Code>
+        <Name>رسوم المحاكم الكمركية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>295</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>306</Id>
+        <Number>311</Number>
+        <Code>ع3م2ن6</Code>
+        <Name>رسوم الكتاب العدول</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>295</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>307</Id>
+        <Number>312</Number>
+        <Code>ع3م2ن7</Code>
+        <Name>رسوم دوائر التنفيذ</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>295</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>308</Id>
+        <Number>313</Number>
+        <Code>ع3م3ن1</Code>
+        <Name>رسوم التسجيل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>296</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>309</Id>
+        <Number>314</Number>
+        <Code>ع3م3ن2</Code>
+        <Name>رسوم المسح واجور الخرائط</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>296</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>310</Id>
+        <Number>315</Number>
+        <Code>ع3م3ن3</Code>
+        <Name>رسوم الفحص والقيدية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>296</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>311</Id>
+        <Number>316</Number>
+        <Code>ع3م3ن4</Code>
+        <Name>ايرادات التسجيل المجدد</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>296</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>312</Id>
+        <Number>317</Number>
+        <Code>ع3م4ن1</Code>
+        <Name>رسوم تسجيل المركبات وتجديدها</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>297</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>313</Id>
+        <Number>318</Number>
+        <Code>ع3م4ن2</Code>
+        <Name>رسوم على نقل ملكية السيارات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>297</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>314</Id>
+        <Number>319</Number>
+        <Code>ع3م4ن3</Code>
+        <Name>رسوم على السيارات التي تغادر العراق</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>297</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>315</Id>
+        <Number>320</Number>
+        <Code>ع3م4ن4</Code>
+        <Name>رسوم الادخال الكمركي المؤقت للسيارات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>297</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>316</Id>
+        <Number>321</Number>
+        <Code>ع3م5ن1</Code>
+        <Name>ايراد بطاقات التأمين الصحي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>298</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>317</Id>
+        <Number>322</Number>
+        <Code>ع3م5ن2</Code>
+        <Name>رسوم الدخول الى العيادات الخارجية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>298</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>318</Id>
+        <Number>323</Number>
+        <Code>ع3م5ن3</Code>
+        <Name>رسوم التأمين الصحي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>298</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>319</Id>
+        <Number>324</Number>
+        <Code>ع3م6ن1</Code>
+        <Name>رسوم تسجيل ونشر الشركات والوكالات التجارية وفروعها</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>299</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>320</Id>
+        <Number>325</Number>
+        <Code>ع3م7ن1</Code>
+        <Name>رسوم منح وتجديد اجازات ممارسة المهن</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>300</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>321</Id>
+        <Number>326</Number>
+        <Code>ع3م7ن3</Code>
+        <Name>رسوم الهويات وتجديدها</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>300</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>322</Id>
+        <Number>327</Number>
+        <Code>ع3م7ن4</Code>
+        <Name>رسوم المضخات الزراعية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>300</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>323</Id>
+        <Number>328</Number>
+        <Code>ع3م7ن6</Code>
+        <Name>رسوم المسافرين بالطائرات المدنية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>300</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>324</Id>
+        <Number>329</Number>
+        <Code>ع3م7ن7</Code>
+        <Name>الرسوم الاخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>300</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>325</Id>
+        <Number>330</Number>
+        <Code>ع3م8ن1</Code>
+        <Name>رسوم الدخول الى صالات العرض</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>301</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>326</Id>
+        <Number>331</Number>
+        <Code>ع3م8ن3</Code>
+        <Name>رسوم تصديق السجلات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>301</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>327</Id>
+        <Number>332</Number>
+        <Code>ع3م8ن4</Code>
+        <Name>رسوم براءة الاختراع والنماذج الصناعية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>301</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>328</Id>
+        <Number>333</Number>
+        <Code>ع4م1</Code>
+        <Name>ايرادات الموازنة من الموارد النفطية والثروة المعدنية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>119</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>329</Id>
+        <Number>334</Number>
+        <Code>ع4م3</Code>
+        <Name>حصة الموازنة من ارباح القطاع المصرفي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>119</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>330</Id>
+        <Number>335</Number>
+        <Code>ع4م4</Code>
+        <Name>حصة الموازنة من ارباح القطاع الاشتراكي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>119</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>331</Id>
+        <Number>336</Number>
+        <Code>ع4م6</Code>
+        <Name>حصة الموازنة من ارباح القطاع التجاري</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>119</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>332</Id>
+        <Number>337</Number>
+        <Code>ع4م7</Code>
+        <Name>حصة الموازنة من ارباح قطاع النقل والمواصلات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>119</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>333</Id>
+        <Number>338</Number>
+        <Code>ع4م8</Code>
+        <Name>حصة الموازنة من ارباح القطاع الزراعي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>119</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>334</Id>
+        <Number>339</Number>
+        <Code>ع4م9</Code>
+        <Name>حصة الموازنة من ارباح قطاع الوحدات العامة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>119</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>335</Id>
+        <Number>340</Number>
+        <Code>ع4م10</Code>
+        <Name>حصة الموازنة من ارباح قطاع التشييد والبناء</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>119</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>336</Id>
+        <Number>341</Number>
+        <Code>ع4م11</Code>
+        <Name>حصة الموازنة من ارباح القطاع النفطي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>119</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>337</Id>
+        <Number>342</Number>
+        <Code>ع4م3ن1</Code>
+        <Name>البنك المركزي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>334</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>338</Id>
+        <Number>343</Number>
+        <Code>ع4م3ن2</Code>
+        <Name>مصرف الرافدين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>334</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>339</Id>
+        <Number>344</Number>
+        <Code>ع4م3ن3</Code>
+        <Name>المصرف الزراعي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>334</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>340</Id>
+        <Number>345</Number>
+        <Code>ع4م3ن4</Code>
+        <Name>المصرف الصناعي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>334</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>341</Id>
+        <Number>346</Number>
+        <Code>ع4م3ن5</Code>
+        <Name>شركة التأمين الوطنية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>334</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>342</Id>
+        <Number>347</Number>
+        <Code>ع4م4ن6</Code>
+        <Name>المنشأة العامة لمنتوجات الالبان</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>335</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>343</Id>
+        <Number>348</Number>
+        <Code>ع4م4ن7</Code>
+        <Name>المنشأة العامة للزيةت النباتية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>335</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>344</Id>
+        <Number>349</Number>
+        <Code>ع4م4ن23</Code>
+        <Name>معمل الالبسة الجاهزة في السليمانية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>335</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>345</Id>
+        <Number>350</Number>
+        <Code>ع4م6ن2</Code>
+        <Name>الشركة العامة لتجارة السيارات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>336</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>346</Id>
+        <Number>351</Number>
+        <Code>ع4م6ن5</Code>
+        <Name>الشركة العامة لتجارة المواد الانشائية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>336</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>347</Id>
+        <Number>352</Number>
+        <Code>ع4م6ن11</Code>
+        <Name>الشركة العامة لتجارة المواد الغذائية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>336</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>348</Id>
+        <Number>353</Number>
+        <Code>ع4م7ن14</Code>
+        <Name>المنشأة العامة للخطوط الجوية العراقية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>337</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>349</Id>
+        <Number>354</Number>
+        <Code>ع4م7ن21</Code>
+        <Name>المنشأة العامةللاتصالات والبريد</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>337</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>350</Id>
+        <Number>355</Number>
+        <Code>ع4م7ن23</Code>
+        <Name>المنشأة العامة للنقل المائي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>337</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>351</Id>
+        <Number>356</Number>
+        <Code>ع4م8ن26</Code>
+        <Name>المنشأة العامة للتجهيزات الزراعية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>338</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>352</Id>
+        <Number>357</Number>
+        <Code>ع4م8ن28</Code>
+        <Name>الشركة العراقية لمقاولات استصلاح الاراضي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>338</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>353</Id>
+        <Number>358</Number>
+        <Code>ع4م8ن39</Code>
+        <Name>شركة حفر الابار المائية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>338</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>354</Id>
+        <Number>359</Number>
+        <Code>ع4م8ن40</Code>
+        <Name>هيئة ادارة مشروع الدجيلة الزراعي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>338</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>355</Id>
+        <Number>360</Number>
+        <Code>ع4م9ن1</Code>
+        <Name>دار الحرية للطباعة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>339</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>356</Id>
+        <Number>361</Number>
+        <Code>ع4م9ن2</Code>
+        <Name>الدار الوطنية للتوزيع والاعلان</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>339</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>357</Id>
+        <Number>362</Number>
+        <Code>ع4م9ن16</Code>
+        <Name>دار الجماهير للصحافة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>339</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>358</Id>
+        <Number>363</Number>
+        <Code>ع4م9ن18</Code>
+        <Name>مجلة الف باء</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>339</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>359</Id>
+        <Number>364</Number>
+        <Code>ع4م10ن5</Code>
+        <Name>المركز القومي للاستشارات الهندسية والمعمارية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>340</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>360</Id>
+        <Number>365</Number>
+        <Code>ع4م10ن9</Code>
+        <Name>المركز القومي للمختبرات الانشائية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>340</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>361</Id>
+        <Number>366</Number>
+        <Code>ع4م11ن7</Code>
+        <Name>المنشأة العامة للخطوط والانابيب</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>341</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>362</Id>
+        <Number>367</Number>
+        <Code>ع4م11ن8</Code>
+        <Name>شركة المشاريع النفطية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>341</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>363</Id>
+        <Number>368</Number>
+        <Code>ع4م11ن9</Code>
+        <Name>شركة توزيع المنتجات النفطية والغاز</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>341</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>364</Id>
+        <Number>369</Number>
+        <Code>ع5م1</Code>
+        <Name>بيع الاراضي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>120</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>365</Id>
+        <Number>370</Number>
+        <Code>ع5م2</Code>
+        <Name>بيع مباني</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>120</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>366</Id>
+        <Number>371</Number>
+        <Code>ع5م3</Code>
+        <Name>بيع المكائن والاجهزة والمعدات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>120</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>367</Id>
+        <Number>372</Number>
+        <Code>ع5م4</Code>
+        <Name>بيع وسائط النقل والانتقال</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>120</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>368</Id>
+        <Number>373</Number>
+        <Code>ع5م5</Code>
+        <Name>بيع لوازم وتجهيزات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>120</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>369</Id>
+        <Number>374</Number>
+        <Code>ع5م7</Code>
+        <Name>بيع ممتلكات المنشأت الملغاة التابعة لوزارة الزراعة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>120</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>370</Id>
+        <Number>375</Number>
+        <Code>ع5م1ن1</Code>
+        <Name>بيع اراضي للاستغلال غير الزراعي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>369</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>371</Id>
+        <Number>376</Number>
+        <Code>ع5م1ن2</Code>
+        <Name>بيع اراضي للاستغلال الزراعي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>369</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>372</Id>
+        <Number>377</Number>
+        <Code>ع5م2ن1</Code>
+        <Name>بيع الدور السكنية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>370</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>373</Id>
+        <Number>378</Number>
+        <Code>ع5م2ن2</Code>
+        <Name>بيع الشقق السكنية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>370</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>374</Id>
+        <Number>379</Number>
+        <Code>ع5م2ن3</Code>
+        <Name>بيع عقارات اخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>370</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>375</Id>
+        <Number>380</Number>
+        <Code>ع5م3ن1</Code>
+        <Name>بيع الاثاث والاجهزة المكتبية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>371</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>376</Id>
+        <Number>381</Number>
+        <Code>ع5م3ن2</Code>
+        <Name>بيع الموجودات والمعدات المستعملة في النشاط</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>371</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>377</Id>
+        <Number>382</Number>
+        <Code>ع5م5ن1</Code>
+        <Name>بيع اسلحة واعتدة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>373</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>378</Id>
+        <Number>383</Number>
+        <Code>ع5م5ن2</Code>
+        <Name>بيع ملابس</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>373</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>379</Id>
+        <Number>384</Number>
+        <Code>ع5م5ن3</Code>
+        <Name>بيع حيوانات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>373</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>380</Id>
+        <Number>385</Number>
+        <Code>ع5م5ن4</Code>
+        <Name>بيع كتب ومجلات مستعملة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>373</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>381</Id>
+        <Number>386</Number>
+        <Code>ع6م1</Code>
+        <Name>ايجار مباني</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>121</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>382</Id>
+        <Number>387</Number>
+        <Code>ع6م2</Code>
+        <Name>ايجار الاراضي والارصفة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>121</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>383</Id>
+        <Number>388</Number>
+        <Code>ع6م3</Code>
+        <Name>ايجار موجودات ثابتة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>121</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>384</Id>
+        <Number>389</Number>
+        <Code>ع6م4</Code>
+        <Name>ايجار عن حق استغلال الثروات الطبيعية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>121</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>385</Id>
+        <Number>390</Number>
+        <Code>ع6م1ن1</Code>
+        <Name>ايجار مباني سكنية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>386</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>386</Id>
+        <Number>391</Number>
+        <Code>ع6م1ن2</Code>
+        <Name>ايجار مطاعم وحوانيت</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>386</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>387</Id>
+        <Number>392</Number>
+        <Code>ع6م1ن3</Code>
+        <Name>ايجار اسواق ومحلات تجارية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>386</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>388</Id>
+        <Number>393</Number>
+        <Code>ع6م2ن1</Code>
+        <Name>ايجار الاراضي عدا الزراعية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>387</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>389</Id>
+        <Number>394</Number>
+        <Code>ع6م2ن2</Code>
+        <Name>ايجار اراضي زراعية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>387</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>390</Id>
+        <Number>395</Number>
+        <Code>ع6م2ن3</Code>
+        <Name>ايجار ارصفة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>387</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>391</Id>
+        <Number>396</Number>
+        <Code>ع6م2ن4</Code>
+        <Name>ايجار ساحات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>387</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>392</Id>
+        <Number>397</Number>
+        <Code>ع6م3ن1</Code>
+        <Name>المكائن والالات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>388</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>393</Id>
+        <Number>398</Number>
+        <Code>ع6م3ن2</Code>
+        <Name>وسائط النقل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>388</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>394</Id>
+        <Number>399</Number>
+        <Code>ع6م4ن1</Code>
+        <Name>المقالع والمناجم</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>389</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>395</Id>
+        <Number>400</Number>
+        <Code>ع6م4ن2</Code>
+        <Name>الابار والانهر والمبازل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>389</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>396</Id>
+        <Number>401</Number>
+        <Code>ع7م1</Code>
+        <Name>فرق الاسعار</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>122</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>397</Id>
+        <Number>402</Number>
+        <Code>ع7م2</Code>
+        <Name>عوائد التوقيفات التقاعدية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>122</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>398</Id>
+        <Number>403</Number>
+        <Code>ع7م3</Code>
+        <Name>ايرادات التأمين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>122</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>399</Id>
+        <Number>404</Number>
+        <Code>ع7م4</Code>
+        <Name>نفقات تحويلية مستردة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>122</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>400</Id>
+        <Number>405</Number>
+        <Code>ع7م5</Code>
+        <Name>عوائد الاستثمارات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>122</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>401</Id>
+        <Number>406</Number>
+        <Code>ع7م6</Code>
+        <Name>ايرادات تحويلية مختلفة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>122</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>402</Id>
+        <Number>407</Number>
+        <Code>ع7م7</Code>
+        <Name>مبيعات بضائع مشترات بغرض البيع</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>122</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>403</Id>
+        <Number>408</Number>
+        <Code>ع7م8</Code>
+        <Name>مبيعات نشاط الانتاج السلعي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>122</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>404</Id>
+        <Number>409</Number>
+        <Code>ع7م1ن1</Code>
+        <Name>فرق السعر على النفط</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>401</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>405</Id>
+        <Number>410</Number>
+        <Code>ع7م1ن2</Code>
+        <Name>فرق سعر صرف العملة/ربح التحويل الخارجي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>401</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>406</Id>
+        <Number>411</Number>
+        <Code>ع7م3ن1</Code>
+        <Name>ايرادات فرع التأمين الصحي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>403</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>407</Id>
+        <Number>412</Number>
+        <Code>ع7م3ن2</Code>
+        <Name>ايرادات التأمين الالزامي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>403</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>408</Id>
+        <Number>413</Number>
+        <Code>ع7م5ن1</Code>
+        <Name>فوائد القروض</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>405</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>409</Id>
+        <Number>414</Number>
+        <Code>ع7م5ن2</Code>
+        <Name>فوائد عن الحسابات والودائع الداخلية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>405</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>410</Id>
+        <Number>415</Number>
+        <Code>ع7م5ن3</Code>
+        <Name>فوائد عن الحسابات وارباح الاستثمارات الخارجية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>405</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>411</Id>
+        <Number>416</Number>
+        <Code>ع7م6ن1</Code>
+        <Name>تعويضات وغرامات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>406</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>412</Id>
+        <Number>417</Number>
+        <Code>ع7م6ن3</Code>
+        <Name>التبرعات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>406</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>413</Id>
+        <Number>418</Number>
+        <Code>ع7م6ن4</Code>
+        <Name>ايرادات سنوات سابقة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>406</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>414</Id>
+        <Number>419</Number>
+        <Code>ع7م7ن1</Code>
+        <Name>بيع المكائن والمعدات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>407</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>415</Id>
+        <Number>420</Number>
+        <Code>ع7م7ن3</Code>
+        <Name>بيع المواد الاحتياطية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>407</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>416</Id>
+        <Number>421</Number>
+        <Code>ع7م7ن7</Code>
+        <Name>بيع الكتب المدرسية والقرطاسية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>407</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>417</Id>
+        <Number>422</Number>
+        <Code>ع7م7ن8</Code>
+        <Name>بيع كاسيتات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>407</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>418</Id>
+        <Number>423</Number>
+        <Code>ع7م8ن2</Code>
+        <Name>الصناعات التحويلية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>408</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>419</Id>
+        <Number>424</Number>
+        <Code>ع7م8ن3</Code>
+        <Name>انتاج زراعي وحيواني</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>408</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>420</Id>
+        <Number>425</Number>
+        <Code>ع7م8ن4</Code>
+        <Name>مخلفات نشاط انتاجي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>408</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>421</Id>
+        <Number>426</Number>
+        <Code>ع7م8ن6</Code>
+        <Name>مبيعات اخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>408</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>422</Id>
+        <Number>427</Number>
+        <Code>ع8م1</Code>
+        <Name>الخدمات الصحية والمختبرية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>123</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>423</Id>
+        <Number>428</Number>
+        <Code>ع8م2</Code>
+        <Name>خدمات الشرطة والمرور</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>123</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>424</Id>
+        <Number>429</Number>
+        <Code>ع8م3</Code>
+        <Name>خدمات استشارية فنية ومتخصصة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>123</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>425</Id>
+        <Number>430</Number>
+        <Code>ع8م4</Code>
+        <Name>الخدمات الاعلامية والسياحية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>123</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>426</Id>
+        <Number>431</Number>
+        <Code>ع8م5</Code>
+        <Name>الخدمات الاجتماعية والترفيهية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>123</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>427</Id>
+        <Number>432</Number>
+        <Code>ع8م6</Code>
+        <Name>خدمات الصيانة والتصليح</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>123</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>428</Id>
+        <Number>433</Number>
+        <Code>ع8م7</Code>
+        <Name>خدمات مختلفة اخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>123</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>429</Id>
+        <Number>434</Number>
+        <Code>ع8م1ن2</Code>
+        <Name>اجور التحاليل والفحوص المختبرية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>427</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>430</Id>
+        <Number>435</Number>
+        <Code>ع8م1ن4</Code>
+        <Name>خدمات التأمين الصحي عن اجور الاطباء الزائرين</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>427</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>431</Id>
+        <Number>436</Number>
+        <Code>ع8م1ن5</Code>
+        <Name>اجور المعالجة في الغرف الخاصة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>427</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>432</Id>
+        <Number>437</Number>
+        <Code>ع8م3ن1</Code>
+        <Name>خدمات التدقيق والرقابة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>429</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>433</Id>
+        <Number>438</Number>
+        <Code>ع8م3ن2</Code>
+        <Name>خدمات الترجمة الفورية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>429</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>434</Id>
+        <Number>439</Number>
+        <Code>ع8م3ن3</Code>
+        <Name>خدمات كمركية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>429</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>435</Id>
+        <Number>440</Number>
+        <Code>ع8م3ن4</Code>
+        <Name>خدمات التدريب والتأهيل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>429</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>436</Id>
+        <Number>441</Number>
+        <Code>ع8م4ن1</Code>
+        <Name>فحص الرقوق السينمائية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>430</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>437</Id>
+        <Number>442</Number>
+        <Code>ع8م4ن2</Code>
+        <Name>ايراد الدخول الى الاماكن السياحية والاثرية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>430</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>438</Id>
+        <Number>443</Number>
+        <Code>ع8م5ن1</Code>
+        <Name>ايرادات المسابح والملاعب</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>431</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>439</Id>
+        <Number>444</Number>
+        <Code>ع8م5ن2</Code>
+        <Name>ايرادات المسارح وساحات العرض</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>431</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>440</Id>
+        <Number>445</Number>
+        <Code>ع8م5ن3</Code>
+        <Name>ايرادات المصايف</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>431</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>441</Id>
+        <Number>446</Number>
+        <Code>ع8م6ن2</Code>
+        <Name>صيانة المكائن والاجهزة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>432</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>442</Id>
+        <Number>447</Number>
+        <Code>ع8م7ن2</Code>
+        <Name>النقل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>433</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>443</Id>
+        <Number>448</Number>
+        <Code>ع8م7ن3</Code>
+        <Name>الاعلانات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>433</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>444</Id>
+        <Number>449</Number>
+        <Code>ع8م7ن4</Code>
+        <Name>عمولات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>433</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>445</Id>
+        <Number>450</Number>
+        <Code>ع9م1</Code>
+        <Name>الغرامات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>124</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>446</Id>
+        <Number>451</Number>
+        <Code>ع9م2</Code>
+        <Name>حصة الموازنة من الجوائز واليانصيبات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>124</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>447</Id>
+        <Number>452</Number>
+        <Code>ع9م3</Code>
+        <Name>بيع الاموال المصادرة والمتروكة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>124</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>448</Id>
+        <Number>453</Number>
+        <Code>ع9م4</Code>
+        <Name>نفقات مستردة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>124</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>449</Id>
+        <Number>454</Number>
+        <Code>ع9م5</Code>
+        <Name>بيع استمارات ومطبوعات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>124</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>450</Id>
+        <Number>455</Number>
+        <Code>ع9م6</Code>
+        <Name>الايرادات الاخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>124</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>451</Id>
+        <Number>456</Number>
+        <Code>ع9م1ن2</Code>
+        <Name>مخالفي قانون المرور</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>450</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>452</Id>
+        <Number>457</Number>
+        <Code>ع9م1ن1</Code>
+        <Name>مخالفي القوانين الضريبية والتجارية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>450</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>453</Id>
+        <Number>458</Number>
+        <Code>ع9م1ن3</Code>
+        <Name>مخالفي قانون رسم الطابع</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>450</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>454</Id>
+        <Number>459</Number>
+        <Code>ع9م1ن4</Code>
+        <Name>الغرامات القضائية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>450</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>455</Id>
+        <Number>460</Number>
+        <Code>ع9م2ن1</Code>
+        <Name>من سباق الخيل</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>451</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>456</Id>
+        <Number>461</Number>
+        <Code>ع9م2ن2</Code>
+        <Name>اليانصيب</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>451</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>457</Id>
+        <Number>462</Number>
+        <Code>ع9م2ن3</Code>
+        <Name>الالعاب الاخرى</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>451</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>458</Id>
+        <Number>463</Number>
+        <Code>ع9م2ن6</Code>
+        <Name>ايرادات الالعاب السياحية</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>451</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>459</Id>
+        <Number>464</Number>
+        <Code>ع9م3ن1</Code>
+        <Name>لدى الكمارك</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>452</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>460</Id>
+        <Number>465</Number>
+        <Code>ع9م4ن1</Code>
+        <Name>من طلبة البعثات</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>453</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>461</Id>
+        <Number>466</Number>
+        <Code>ع9م4ن2</Code>
+        <Name>من الطلبة الفاشلين في الدراسة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>453</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>462</Id>
+        <Number>467</Number>
+        <Code>ع9م6ن1</Code>
+        <Name>متنوعة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>455</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>463</Id>
+        <Number>468</Number>
+        <Code>ع9م6ن2</Code>
+        <Name>الرواتب والمكافئات المعادة الى الخزينة</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>455</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>464</Id>
+        <Number>469</Number>
+        <Code>ع9م6ن3</Code>
+        <Name>حصة الخزينة من ارباح حوانيت قوى الامن الداخلي</Name>
+        <FinalAccountId>2</FinalAccountId>
+        <ParentAccountId>455</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>465</Id>
+        <Number>470</Number>
+        <Code>31</Code>
+        <Name>سلف الموظفين</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>245</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>466</Id>
+        <Number>471</Number>
+        <Code>32</Code>
+        <Name>السلف المتنوعة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>245</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>467</Id>
+        <Number>472</Number>
+        <Code>33</Code>
+        <Name>السلف المستديمة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>245</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>468</Id>
+        <Number>473</Number>
+        <Code>34</Code>
+        <Name>سلف المكافئات التقاعدية</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>245</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>469</Id>
+        <Number>474</Number>
+        <Code>35</Code>
+        <Name>سلف موقوفات الدعاوي</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>245</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>470</Id>
+        <Number>475</Number>
+        <Code>36</Code>
+        <Name>سلف الاختلاس</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>245</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>471</Id>
+        <Number>476</Number>
+        <Code>311</Code>
+        <Name>سلف السفر</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>470</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>472</Id>
+        <Number>477</Number>
+        <Code>312</Code>
+        <Name>سلف الايفاد</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>470</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>473</Id>
+        <Number>478</Number>
+        <Code>313</Code>
+        <Name>سلف النقل والتحويل</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>470</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>474</Id>
+        <Number>479</Number>
+        <Code>314</Code>
+        <Name>سلف الراتب</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>470</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>475</Id>
+        <Number>480</Number>
+        <Code>315</Code>
+        <Name>سلف الزواج</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>470</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>476</Id>
+        <Number>481</Number>
+        <Code>316</Code>
+        <Name>سلف خاصة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>470</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>477</Id>
+        <Number>482</Number>
+        <Code>321</Code>
+        <Name>سلف معالجة الاخطاء</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>471</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>478</Id>
+        <Number>483</Number>
+        <Code>322</Code>
+        <Name>سلف لجان تنفيذ الاعمال</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>471</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>479</Id>
+        <Number>484</Number>
+        <Code>323</Code>
+        <Name>سلف اعتمادات مستندية</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>471</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>480</Id>
+        <Number>485</Number>
+        <Code>324</Code>
+        <Name>سلف اعتمادات بسيطة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>471</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>481</Id>
+        <Number>486</Number>
+        <Code>325</Code>
+        <Name>سلف الصكوك المرفوضة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>471</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>482</Id>
+        <Number>487</Number>
+        <Code>326</Code>
+        <Name>سلف المقاولين</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>471</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>483</Id>
+        <Number>488</Number>
+        <Code>327</Code>
+        <Name>سلف متنوعة اخرى</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>471</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>484</Id>
+        <Number>489</Number>
+        <Code>41</Code>
+        <Name>امانات ضمان تحصيل الايرادات</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>246</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>485</Id>
+        <Number>490</Number>
+        <Code>42</Code>
+        <Name>امانات ضمان الحقوق</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>246</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>486</Id>
+        <Number>491</Number>
+        <Code>43</Code>
+        <Name>امانات ضمان الموجودات</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>246</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>487</Id>
+        <Number>492</Number>
+        <Code>44</Code>
+        <Name>امانات المقاولين</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>246</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>488</Id>
+        <Number>493</Number>
+        <Code>45</Code>
+        <Name>الامانات الخاصة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>246</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>489</Id>
+        <Number>494</Number>
+        <Code>46</Code>
+        <Name>الامانات الجارية</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>246</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>490</Id>
+        <Number>495</Number>
+        <Code>47</Code>
+        <Name>امانات التمويل</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>246</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>491</Id>
+        <Number>496</Number>
+        <Code>411</Code>
+        <Name>امانات المرضى</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>489</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>492</Id>
+        <Number>497</Number>
+        <Code>412</Code>
+        <Name>امانات ضريبة الدخل</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>489</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>493</Id>
+        <Number>498</Number>
+        <Code>413</Code>
+        <Name>امانات الكمارك</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>489</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>494</Id>
+        <Number>499</Number>
+        <Code>421</Code>
+        <Name>التأمينات الاولية للمناقصات</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>490</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>495</Id>
+        <Number>500</Number>
+        <Code>422</Code>
+        <Name>التأمينات الاولية للمزايدات</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>490</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>496</Id>
+        <Number>501</Number>
+        <Code>423</Code>
+        <Name>التأمينات النظامية للمقاولات</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>490</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>497</Id>
+        <Number>502</Number>
+        <Code>424</Code>
+        <Name>تأمينات ضمان الخدمة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>490</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>498</Id>
+        <Number>503</Number>
+        <Code>48</Code>
+        <Name>الامانات المؤقتة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>246</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>499</Id>
+        <Number>504</Number>
+        <Code>481</Code>
+        <Name>امانات الصكوك غير المسحوبة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>503</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>500</Id>
+        <Number>505</Number>
+        <Code>482</Code>
+        <Name>امانات معالجة الاخطاء</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>503</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>501</Id>
+        <Number>506</Number>
+        <Code>483</Code>
+        <Name>امانات الرواتب المعادة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>503</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>502</Id>
+        <Number>507</Number>
+        <Code>51</Code>
+        <Name>الصندوق</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>247</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>503</Id>
+        <Number>508</Number>
+        <Code>52</Code>
+        <Name>البنك</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>247</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>504</Id>
+        <Number>509</Number>
+        <Code>81</Code>
+        <Name>حسابات التسوية المدينة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>250</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>505</Id>
+        <Number>510</Number>
+        <Code>82</Code>
+        <Name>الحسابات النظامية المدينة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>250</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>506</Id>
+        <Number>511</Number>
+        <Code>83</Code>
+        <Name>حسابات التسوية الدائنة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>250</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>507</Id>
+        <Number>512</Number>
+        <Code>84</Code>
+        <Name>الحسابات النظامية الدائنة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>250</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>508</Id>
+        <Number>513</Number>
+        <Code>811</Code>
+        <Name>الايرادات المستحقة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>509</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>509</Id>
+        <Number>514</Number>
+        <Code>812</Code>
+        <Name>المصروفات المدفوعة مقدما</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>509</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>510</Id>
+        <Number>515</Number>
+        <Code>813</Code>
+        <Name>التزامات على حساب السنة القادمة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>509</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>511</Id>
+        <Number>516</Number>
+        <Code>831</Code>
+        <Name>المصروفات المستحقة</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>511</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>512</Id>
+        <Number>517</Number>
+        <Code>832</Code>
+        <Name>الايرادات المقبوضة مقدما</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>511</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>513</Id>
+        <Number>518</Number>
+        <Code>833</Code>
+        <Name>مصروفات ملتزم بها</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>511</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>514</Id>
+        <Number>519</Number>
+        <Code>91</Code>
+        <Name>قروض خارجية قصيرة الاجل</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>251</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>515</Id>
+        <Number>520</Number>
+        <Code>92</Code>
+        <Name>قروض خارجيةطويلة الاجل</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>251</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>516</Id>
+        <Number>521</Number>
+        <Code>93</Code>
+        <Name>قروض داخلية قصيرة الاجل</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>251</ParentAccountId>
+      </NormalAccount>
+      <NormalAccount>
+        <Id>517</Id>
+        <Number>522</Number>
+        <Code>94</Code>
+        <Name>قروض داخلية طويلة الاجل</Name>
+        <FinalAccountId>244</FinalAccountId>
+        <ParentAccountId>251</ParentAccountId>
+      </NormalAccount>
+    </NormalAccounts>
+    <ClosingAccounts>
+      <ClosingAccount>
+        <Id>1</Id>
+        <Number>1</Number>
+        <Code>00</Code>
+        <Name>الميزانية</Name>
+        <FinalAccountId>Set By User</FinalAccountId>
+        <ParentAccountId>0</ParentAccountId>
+        <ShouldTransfer>0</ShouldTransfer>
+      </ClosingAccount>
+      <ClosingAccount>
+        <Id>2</Id>
+        <Number>2</Number>
+        <Code>001</Code>
+        <Name>حسابات معاملات الموزنة</Name>
+        <FinalAccountId>Set By User</FinalAccountId>
+        <ParentAccountId>1</ParentAccountId>
+        <ShouldTransfer>1</ShouldTransfer>
+      </ClosingAccount>
+      <ClosingAccount>
+        <Id>3</Id>
+        <Number>244</Number>
+        <Code>002</Code>
+        <Name>حسابات المركز المالي</Name>
+        <FinalAccountId>Set By User</FinalAccountId>
+        <ParentAccountId>1</ParentAccountId>
+        <ShouldTransfer>0</ShouldTransfer>
+      </ClosingAccount>
+    </ClosingAccounts>
+  </Accounts>
+  <DefaultAccounts>
+    <Cash>Set by user</Cash>
+    <Cust>Set by user</Cust>
+    <Balance>Set by user</Balance>
+    <ProfitAndLoss>Set by user</ProfitAndLoss>
+    <Trading>Set by user</Trading>
+  </DefaultAccounts>
+  <Bills>
+    <Bill>
+      <Id>1</Id>
+      <Name>مشتريات</Name>
+      <Abrv>شراء</Abrv>
+      <LatinName>Purchase</LatinName>
+      <LatinAbrv>Pur.</LatinAbrv>
+      <Color1>0xFFF7EC</Color1>
+      <Color2>0xFFD097</Color2>
+      <iType>1</iType>
+      <DefBillAcc>0</DefBillAcc>
+      <DefDiscAcc>0</DefDiscAcc>
+      <DefExtraAcc>0</DefExtraAcc>
+      <DefCashAcc>0</DefCashAcc>
+      <DefCostAcc>0</DefCostAcc>
+      <DefStockAcc>0</DefStockAcc>
+      <bInput>1</bInput>
+      <bAffectLastPrice>1</bAffectLastPrice>
+      <bAffectCostPrice>1</bAffectCostPrice>
+      <bAffectProfit>0</bAffectProfit>
+      <bAffectCustPrice>0</bAffectCustPrice>
+      <bDiscAffectCost>1</bDiscAffectCost>
+      <bExtraAffectCost>1</bExtraAffectCost>
+      <bDiscAffectProfit>0</bDiscAffectProfit>
+      <bExtraAffectProfit>0</bExtraAffectProfit>
+      <bNoEntry>0</bNoEntry>
+      <bAutoEnrty>1</bAutoEnrty>
+      <bAutoEntryPost>1</bAutoEntryPost>
+      <bNoMatPost>0</bNoMatPost>
+      <bAutoPost>1</bAutoPost>
+      <bExtraToCash>0</bExtraToCash>
+      <bNoCostFld>1</bNoCostFld>
+      <bNoVendorFld>1</bNoVendorFld>
+      <bContInv>0</bContInv>
+      <bPOSBill>0</bPOSBill>
+      <bBarCodeBill>0</bBarCodeBill>
+      <bPrintReceipt>0</bPrintReceipt>
+      <fldMatName>1</fldMatName>
+      <fldQty>2</fldQty>
+      <fldBonus>0</fldBonus>
+      <fldUnity>0</fldUnity>
+      <fldUnitPrice>3</fldUnitPrice>
+      <fldTotalPrice>4</fldTotalPrice>
+      <fldStore>0</fldStore>
+      <fldDiscountValue>0</fldDiscountValue>
+      <fldNotes>0</fldNotes>
+      <fldQty2>0</fldQty2>
+      <fldQty3>0</fldQty3>
+      <fldProdDate>0</fldProdDate>
+      <fldExpireDate>0</fldExpireDate>
+      <fldCostPtr>0</fldCostPtr>
+      <fldStat>0</fldStat>
+      <fldLength>0</fldLength>
+      <fldWidth>0</fldWidth>
+      <fldHeight>0</fldHeight>
+      <fldCount>0</fldCount>
+    </Bill>
+    <Bill>
+      <Id>2</Id>
+      <Name>مبيعات</Name>
+      <Abrv>مبيع</Abrv>
+      <LatinName>Sales</LatinName>
+      <LatinAbrv>Sales</LatinAbrv>
+      <Color1>0xF4FBFB</Color1>
+      <Color2>0x93C8C8</Color2>
+      <iType>1</iType>
+      <DefBillAcc>0</DefBillAcc>
+      <DefDiscAcc>0</DefDiscAcc>
+      <DefExtraAcc>0</DefExtraAcc>
+      <DefCashAcc>0</DefCashAcc>
+      <DefCostAcc>0</DefCostAcc>
+      <DefStockAcc>0</DefStockAcc>
+      <bInput>0</bInput>
+      <bAffectLastPrice>0</bAffectLastPrice>
+      <bAffectCostPrice>0</bAffectCostPrice>
+      <bAffectProfit>1</bAffectProfit>
+      <bAffectCustPrice>1</bAffectCustPrice>
+      <bDiscAffectCost>0</bDiscAffectCost>
+      <bExtraAffectCost>0</bExtraAffectCost>
+      <bDiscAffectProfit>1</bDiscAffectProfit>
+      <bExtraAffectProfit>1</bExtraAffectProfit>
+      <bNoEntry>0</bNoEntry>
+      <bAutoEnrty>1</bAutoEnrty>
+      <bAutoEntryPost>1</bAutoEntryPost>
+      <bNoMatPost>0</bNoMatPost>
+      <bAutoPost>1</bAutoPost>
+      <bExtraToCash>0</bExtraToCash>
+      <bNoCostFld>1</bNoCostFld>
+      <bNoVendorFld>1</bNoVendorFld>
+      <bContInv>0</bContInv>
+      <bPOSBill>0</bPOSBill>
+      <bBarCodeBill>0</bBarCodeBill>
+      <bPrintReceipt>0</bPrintReceipt>
+      <fldMatName>1</fldMatName>
+      <fldQty>2</fldQty>
+      <fldBonus>0</fldBonus>
+      <fldUnity>0</fldUnity>
+      <fldUnitPrice>3</fldUnitPrice>
+      <fldTotalPrice>4</fldTotalPrice>
+      <fldStore>0</fldStore>
+      <fldDiscountValue>0</fldDiscountValue>
+      <fldNotes>0</fldNotes>
+      <fldQty2>0</fldQty2>
+      <fldQty3>0</fldQty3>
+      <fldProdDate>0</fldProdDate>
+      <fldExpireDate>0</fldExpireDate>
+      <fldCostPtr>0</fldCostPtr>
+      <fldStat>0</fldStat>
+      <fldLength>0</fldLength>
+      <fldWidth>0</fldWidth>
+      <fldHeight>0</fldHeight>
+      <fldCount>0</fldCount>
+    </Bill>
+    <Bill>
+      <Id>3</Id>
+      <Name>مرتجع مشتريات</Name>
+      <Abrv>م. شراء</Abrv>
+      <LatinName>Purchase Return</LatinName>
+      <LatinAbrv>P. Ret.</LatinAbrv>
+      <Color1>0xECF7FF</Color1>
+      <Color2>0x0082EC</Color2>
+      <iType>1</iType>
+      <DefBillAcc>0</DefBillAcc>
+      <DefDiscAcc>0</DefDiscAcc>
+      <DefExtraAcc>0</DefExtraAcc>
+      <DefCashAcc>0</DefCashAcc>
+      <DefCostAcc>0</DefCostAcc>
+      <DefStockAcc>0</DefStockAcc>
+      <bInput>0</bInput>
+      <bAffectLastPrice>0</bAffectLastPrice>
+      <bAffectCostPrice>1</bAffectCostPrice>
+      <bAffectProfit>0</bAffectProfit>
+      <bAffectCustPrice>0</bAffectCustPrice>
+      <bDiscAffectCost>1</bDiscAffectCost>
+      <bExtraAffectCost>1</bExtraAffectCost>
+      <bDiscAffectProfit>0</bDiscAffectProfit>
+      <bExtraAffectProfit>0</bExtraAffectProfit>
+      <bNoEntry>0</bNoEntry>
+      <bAutoEnrty>1</bAutoEnrty>
+      <bAutoEntryPost>1</bAutoEntryPost>
+      <bNoMatPost>0</bNoMatPost>
+      <bAutoPost>1</bAutoPost>
+      <bExtraToCash>0</bExtraToCash>
+      <bNoCostFld>1</bNoCostFld>
+      <bNoVendorFld>1</bNoVendorFld>
+      <bContInv>0</bContInv>
+      <bPOSBill>0</bPOSBill>
+      <bBarCodeBill>0</bBarCodeBill>
+      <bPrintReceipt>0</bPrintReceipt>
+      <fldMatName>1</fldMatName>
+      <fldQty>2</fldQty>
+      <fldBonus>0</fldBonus>
+      <fldUnity>0</fldUnity>
+      <fldUnitPrice>3</fldUnitPrice>
+      <fldTotalPrice>4</fldTotalPrice>
+      <fldStore>0</fldStore>
+      <fldDiscountValue>0</fldDiscountValue>
+      <fldNotes>0</fldNotes>
+      <fldQty2>0</fldQty2>
+      <fldQty3>0</fldQty3>
+      <fldProdDate>0</fldProdDate>
+      <fldExpireDate>0</fldExpireDate>
+      <fldCostPtr>0</fldCostPtr>
+      <fldStat>0</fldStat>
+      <fldLength>0</fldLength>
+      <fldWidth>0</fldWidth>
+      <fldHeight>0</fldHeight>
+      <fldCount>0</fldCount>
+    </Bill>
+    <Bill>
+      <Id>4</Id>
+      <Name>مرتجع مبيعات</Name>
+      <Abrv>م. مبيع</Abrv>
+      <LatinName>Sales Return</LatinName>
+      <LatinAbrv>S. Ret.</LatinAbrv>
+      <Color1>0xF4FBFB</Color1>
+      <Color2>0x498F8F</Color2>
+      <iType>1</iType>
+      <DefBillAcc>0</DefBillAcc>
+      <DefDiscAcc>0</DefDiscAcc>
+      <DefExtraAcc>0</DefExtraAcc>
+      <DefCashAcc>0</DefCashAcc>
+      <DefCostAcc>0</DefCostAcc>
+      <DefStockAcc>0</DefStockAcc>
+      <bInput>1</bInput>
+      <bAffectLastPrice>0</bAffectLastPrice>
+      <bAffectCostPrice>0</bAffectCostPrice>
+      <bAffectProfit>0</bAffectProfit>
+      <bAffectCustPrice>0</bAffectCustPrice>
+      <bDiscAffectCost>0</bDiscAffectCost>
+      <bExtraAffectCost>0</bExtraAffectCost>
+      <bDiscAffectProfit>0</bDiscAffectProfit>
+      <bExtraAffectProfit>0</bExtraAffectProfit>
+      <bNoEntry>0</bNoEntry>
+      <bAutoEnrty>1</bAutoEnrty>
+      <bAutoEntryPost>1</bAutoEntryPost>
+      <bNoMatPost>0</bNoMatPost>
+      <bAutoPost>1</bAutoPost>
+      <bExtraToCash>0</bExtraToCash>
+      <bNoCostFld>1</bNoCostFld>
+      <bNoVendorFld>1</bNoVendorFld>
+      <bContInv>0</bContInv>
+      <bPOSBill>0</bPOSBill>
+      <bBarCodeBill>0</bBarCodeBill>
+      <bPrintReceipt>0</bPrintReceipt>
+      <fldMatName>1</fldMatName>
+      <fldQty>2</fldQty>
+      <fldBonus>0</fldBonus>
+      <fldUnity>0</fldUnity>
+      <fldUnitPrice>3</fldUnitPrice>
+      <fldTotalPrice>4</fldTotalPrice>
+      <fldStore>0</fldStore>
+      <fldDiscountValue>0</fldDiscountValue>
+      <fldNotes>0</fldNotes>
+      <fldQty2>0</fldQty2>
+      <fldQty3>0</fldQty3>
+      <fldProdDate>0</fldProdDate>
+      <fldExpireDate>0</fldExpireDate>
+      <fldCostPtr>0</fldCostPtr>
+      <fldStat>0</fldStat>
+      <fldLength>0</fldLength>
+      <fldWidth>0</fldWidth>
+      <fldHeight>0</fldHeight>
+      <fldCount>0</fldCount>
+    </Bill>
+  </Bills>
+  <StandardBills>
+    <StandardBill>
+      <Id>1</Id>
+      <Name>بضاعة أول المدة</Name>
+      <Abrv>ب. و. مدة</Abrv>
+      <LatinName>First Period Inventory</LatinName>
+      <LatinAbrv>F.P.Inv.</LatinAbrv>
+      <Color1>0xF8F8EF</Color1>
+      <Color2>0xC4C47C</Color2>
+      <iType>2</iType>
+      <DefBillAcc>0</DefBillAcc>
+      <DefDiscAcc>0</DefDiscAcc>
+      <DefExtraAcc>0</DefExtraAcc>
+      <DefCashAcc>0</DefCashAcc>
+      <DefCostAcc>0</DefCostAcc>
+      <DefStockAcc>0</DefStockAcc>
+      <bInput>1</bInput>
+      <bAffectLastPrice>1</bAffectLastPrice>
+      <bAffectCostPrice>1</bAffectCostPrice>
+      <bAffectProfit>0</bAffectProfit>
+      <bAffectCustPrice>0</bAffectCustPrice>
+      <bDiscAffectCost>0</bDiscAffectCost>
+      <bExtraAffectCost>0</bExtraAffectCost>
+      <bDiscAffectProfit>0</bDiscAffectProfit>
+      <bExtraAffectProfit>0</bExtraAffectProfit>
+      <bNoEntry>1</bNoEntry>
+      <bAutoEnrty>0</bAutoEnrty>
+      <bAutoEntryPost>0</bAutoEntryPost>
+      <bNoMatPost>0</bNoMatPost>
+      <bAutoPost>1</bAutoPost>
+      <bExtraToCash>0</bExtraToCash>
+      <bNoCostFld>1</bNoCostFld>
+      <bNoVendorFld>1</bNoVendorFld>
+      <bContInv>0</bContInv>
+      <bPOSBill>0</bPOSBill>
+      <bBarCodeBill>0</bBarCodeBill>
+      <bPrintReceipt>0</bPrintReceipt>
+      <fldMatName>1</fldMatName>
+      <fldQty>2</fldQty>
+      <fldBonus>0</fldBonus>
+      <fldUnity>0</fldUnity>
+      <fldUnitPrice>3</fldUnitPrice>
+      <fldTotalPrice>4</fldTotalPrice>
+      <fldStore>0</fldStore>
+      <fldDiscountValue>0</fldDiscountValue>
+      <fldNotes>0</fldNotes>
+      <fldQty2>0</fldQty2>
+      <fldQty3>0</fldQty3>
+      <fldProdDate>0</fldProdDate>
+      <fldExpireDate>0</fldExpireDate>
+      <fldCostPtr>0</fldCostPtr>
+      <fldStat>0</fldStat>
+      <fldLength>0</fldLength>
+      <fldWidth>0</fldWidth>
+      <fldHeight>0</fldHeight>
+      <fldCount>0</fldCount>
+    </StandardBill>
+    <StandardBill>
+      <Id>2</Id>
+      <Name>بضاعة آخر المدة</Name>
+      <Abrv>ب. خ. مدة</Abrv>
+      <LatinName>End Period Inventory</LatinName>
+      <LatinAbrv>E.P.Inv.</LatinAbrv>
+      <Color1>1</Color1>
+      <Color2>2</Color2>
+      <iType>2</iType>
+      <DefBillAcc>0</DefBillAcc>
+      <DefDiscAcc>0</DefDiscAcc>
+      <DefExtraAcc>0</DefExtraAcc>
+      <DefCashAcc>0</DefCashAcc>
+      <DefCostAcc>0</DefCostAcc>
+      <DefStockAcc>0</DefStockAcc>
+      <bInput>0</bInput>
+      <bAffectLastPrice>0</bAffectLastPrice>
+      <bAffectCostPrice>0</bAffectCostPrice>
+      <bAffectProfit>0</bAffectProfit>
+      <bAffectCustPrice>0</bAffectCustPrice>
+      <bDiscAffectCost>0</bDiscAffectCost>
+      <bExtraAffectCost>0</bExtraAffectCost>
+      <bDiscAffectProfit>0</bDiscAffectProfit>
+      <bExtraAffectProfit>0</bExtraAffectProfit>
+      <bNoEntry>1</bNoEntry>
+      <bAutoEnrty>0</bAutoEnrty>
+      <bAutoEntryPost>0</bAutoEntryPost>
+      <bNoMatPost>0</bNoMatPost>
+      <bAutoPost>1</bAutoPost>
+      <bExtraToCash>0</bExtraToCash>
+      <bNoCostFld>1</bNoCostFld>
+      <bNoVendorFld>1</bNoVendorFld>
+      <bContInv>0</bContInv>
+      <bPOSBill>0</bPOSBill>
+      <bBarCodeBill>0</bBarCodeBill>
+      <bPrintReceipt>0</bPrintReceipt>
+      <fldMatName>1</fldMatName>
+      <fldQty>2</fldQty>
+      <fldBonus>0</fldBonus>
+      <fldUnity>0</fldUnity>
+      <fldUnitPrice>3</fldUnitPrice>
+      <fldTotalPrice>4</fldTotalPrice>
+      <fldStore>0</fldStore>
+      <fldDiscountValue>0</fldDiscountValue>
+      <fldNotes>0</fldNotes>
+      <fldQty2>0</fldQty2>
+      <fldQty3>0</fldQty3>
+      <fldProdDate>0</fldProdDate>
+      <fldExpireDate>0</fldExpireDate>
+      <fldCostPtr>0</fldCostPtr>
+      <fldStat>0</fldStat>
+      <fldLength>0</fldLength>
+      <fldWidth>0</fldWidth>
+      <fldHeight>0</fldHeight>
+      <fldCount>0</fldCount>
+    </StandardBill>
+    <StandardBill>
+      <Id>3</Id>
+      <Name>إد.مناقلة</Name>
+      <Abrv>إد.م</Abrv>
+      <LatinName></LatinName>
+      <LatinAbrv></LatinAbrv>
+      <Color1>16777215</Color1>
+      <Color2>16772519</Color2>
+      <iType>4</iType>
+      <DefBillAcc>0</DefBillAcc>
+      <DefDiscAcc>0</DefDiscAcc>
+      <DefExtraAcc>0</DefExtraAcc>
+      <DefCashAcc>0</DefCashAcc>
+      <DefCostAcc>0</DefCostAcc>
+      <DefStockAcc>0</DefStockAcc>
+      <bInput>1</bInput>
+      <bAffectLastPrice>0</bAffectLastPrice>
+      <bAffectCostPrice>0</bAffectCostPrice>
+      <bAffectProfit>0</bAffectProfit>
+      <bAffectCustPrice>0</bAffectCustPrice>
+      <bDiscAffectCost>0</bDiscAffectCost>
+      <bExtraAffectCost>0</bExtraAffectCost>
+      <bDiscAffectProfit>0</bDiscAffectProfit>
+      <bExtraAffectProfit>0</bExtraAffectProfit>
+      <bNoEntry>1</bNoEntry>
+      <bAutoEnrty>0</bAutoEnrty>
+      <bAutoEntryPost>0</bAutoEntryPost>
+      <bNoMatPost>0</bNoMatPost>
+      <bAutoPost>1</bAutoPost>
+      <bExtraToCash>0</bExtraToCash>
+      <bNoCostFld>1</bNoCostFld>
+      <bNoVendorFld>1</bNoVendorFld>
+      <bContInv>0</bContInv>
+      <bPOSBill>0</bPOSBill>
+      <bBarCodeBill>1</bBarCodeBill>
+      <bPrintReceipt>1</bPrintReceipt>
+      <fldMatName>1</fldMatName>
+      <fldQty>2</fldQty>
+      <fldBonus>0</fldBonus>
+      <fldUnity>0</fldUnity>
+      <fldUnitPrice>0</fldUnitPrice>
+      <fldTotalPrice>0</fldTotalPrice>
+      <fldStore>0</fldStore>
+      <fldDiscountValue>0</fldDiscountValue>
+      <fldNotes>0</fldNotes>
+      <fldQty2>0</fldQty2>
+      <fldQty3>0</fldQty3>
+      <fldProdDate>0</fldProdDate>
+      <fldExpireDate>0</fldExpireDate>
+      <fldCostPtr>0</fldCostPtr>
+      <fldStat>0</fldStat>
+      <fldLength>0</fldLength>
+      <fldWidth>0</fldWidth>
+      <fldHeight>0</fldHeight>
+      <fldCount>0</fldCount>
+    </StandardBill>
+    <StandardBill>
+      <Id>4</Id>
+      <Name>إخ.مناقلة</Name>
+      <Abrv>إخ.م</Abrv>
+      <LatinName></LatinName>
+      <LatinAbrv></LatinAbrv>
+      <Color1>16777215</Color1>
+      <Color2>8454016</Color2>
+      <iType>5</iType>
+      <DefBillAcc>0</DefBillAcc>
+      <DefDiscAcc>0</DefDiscAcc>
+      <DefExtraAcc>0</DefExtraAcc>
+      <DefCashAcc>0</DefCashAcc>
+      <DefCostAcc>0</DefCostAcc>
+      <DefStockAcc>0</DefStockAcc>
+      <bInput>0</bInput>
+      <bAffectLastPrice>0</bAffectLastPrice>
+      <bAffectCostPrice>0</bAffectCostPrice>
+      <bAffectProfit>0</bAffectProfit>
+      <bAffectCustPrice>0</bAffectCustPrice>
+      <bDiscAffectCost>0</bDiscAffectCost>
+      <bExtraAffectCost>0</bExtraAffectCost>
+      <bDiscAffectProfit>0</bDiscAffectProfit>
+      <bExtraAffectProfit>0</bExtraAffectProfit>
+      <bNoEntry>1</bNoEntry>
+      <bAutoEnrty>0</bAutoEnrty>
+      <bAutoEntryPost>0</bAutoEntryPost>
+      <bNoMatPost>0</bNoMatPost>
+      <bAutoPost>1</bAutoPost>
+      <bExtraToCash>0</bExtraToCash>
+      <bNoCostFld>1</bNoCostFld>
+      <bNoVendorFld>1</bNoVendorFld>
+      <bContInv>0</bContInv>
+      <bPOSBill>0</bPOSBill>
+      <bBarCodeBill>1</bBarCodeBill>
+      <bPrintReceipt>1</bPrintReceipt>
+      <fldMatName>1</fldMatName>
+      <fldQty>2</fldQty>
+      <fldBonus>0</fldBonus>
+      <fldUnity>0</fldUnity>
+      <fldUnitPrice>0</fldUnitPrice>
+      <fldTotalPrice>0</fldTotalPrice>
+      <fldStore>0</fldStore>
+      <fldDiscountValue>0</fldDiscountValue>
+      <fldNotes>0</fldNotes>
+      <fldQty2>0</fldQty2>
+      <fldQty3>0</fldQty3>
+      <fldProdDate>0</fldProdDate>
+      <fldExpireDate>0</fldExpireDate>
+      <fldCostPtr>0</fldCostPtr>
+      <fldStat>0</fldStat>
+      <fldLength>0</fldLength>
+      <fldWidth>0</fldWidth>
+      <fldHeight>0</fldHeight>
+      <fldCount>0</fldCount>
+    </StandardBill>
+    <StandardBill>
+      <Id>5</Id>
+      <Name>إدخال مواد جاهزة</Name>
+      <Abrv>د. جاهزة</Abrv>
+      <LatinName>Ready Product In</LatinName>
+      <LatinAbrv>Ready In.</LatinAbrv>
+      <Color1>1</Color1>
+      <Color2>2</Color2>
+      <iType>2</iType>
+      <DefBillAcc>0</DefBillAcc>
+      <DefDiscAcc>0</DefDiscAcc>
+      <DefExtraAcc>0</DefExtraAcc>
+      <DefCashAcc>0</DefCashAcc>
+      <DefCostAcc>0</DefCostAcc>
+      <DefStockAcc>0</DefStockAcc>
+      <bInput>1</bInput>
+      <bAffectLastPrice>0</bAffectLastPrice>
+      <bAffectCostPrice>0</bAffectCostPrice>
+      <bAffectProfit>0</bAffectProfit>
+      <bAffectCustPrice>0</bAffectCustPrice>
+      <bDiscAffectCost>0</bDiscAffectCost>
+      <bExtraAffectCost>0</bExtraAffectCost>
+      <bDiscAffectProfit>0</bDiscAffectProfit>
+      <bExtraAffectProfit>0</bExtraAffectProfit>
+      <bNoEntry>0</bNoEntry>
+      <bAutoEnrty>1</bAutoEnrty>
+      <bAutoEntryPost>1</bAutoEntryPost>
+      <bNoMatPost>0</bNoMatPost>
+      <bAutoPost>1</bAutoPost>
+      <bExtraToCash>0</bExtraToCash>
+      <bNoCostFld>1</bNoCostFld>
+      <bNoVendorFld>1</bNoVendorFld>
+      <bContInv>0</bContInv>
+      <bPOSBill>0</bPOSBill>
+      <bBarCodeBill>0</bBarCodeBill>
+      <bPrintReceipt>0</bPrintReceipt>
+      <fldMatName>1</fldMatName>
+      <fldQty>2</fldQty>
+      <fldBonus>0</fldBonus>
+      <fldUnity>0</fldUnity>
+      <fldUnitPrice>3</fldUnitPrice>
+      <fldTotalPrice>4</fldTotalPrice>
+      <fldStore>0</fldStore>
+      <fldDiscountValue>0</fldDiscountValue>
+      <fldNotes>0</fldNotes>
+      <fldQty2>0</fldQty2>
+      <fldQty3>0</fldQty3>
+      <fldProdDate>0</fldProdDate>
+      <fldExpireDate>0</fldExpireDate>
+      <fldCostPtr>0</fldCostPtr>
+      <fldStat>0</fldStat>
+      <fldLength>0</fldLength>
+      <fldWidth>0</fldWidth>
+      <fldHeight>0</fldHeight>
+      <fldCount>0</fldCount>
+    </StandardBill>
+    <StandardBill>
+      <Id>6</Id>
+      <Name>إخراج مواد أولية</Name>
+      <Abrv>خ. أولية</Abrv>
+      <LatinName>Raw Materials Out</LatinName>
+      <LatinAbrv>Raw Out.</LatinAbrv>
+      <Color1>1</Color1>
+      <Color2>2</Color2>
+      <iType>2</iType>
+      <DefBillAcc>0</DefBillAcc>
+      <DefDiscAcc>0</DefDiscAcc>
+      <DefExtraAcc>0</DefExtraAcc>
+      <DefCashAcc>0</DefCashAcc>
+      <DefCostAcc>0</DefCostAcc>
+      <DefStockAcc>0</DefStockAcc>
+      <bInput>0</bInput>
+      <bAffectLastPrice>0</bAffectLastPrice>
+      <bAffectCostPrice>0</bAffectCostPrice>
+      <bAffectProfit>0</bAffectProfit>
+      <bAffectCustPrice>0</bAffectCustPrice>
+      <bDiscAffectCost>0</bDiscAffectCost>
+      <bExtraAffectCost>0</bExtraAffectCost>
+      <bDiscAffectProfit>0</bDiscAffectProfit>
+      <bExtraAffectProfit>0</bExtraAffectProfit>
+      <bNoEntry>0</bNoEntry>
+      <bAutoEnrty>1</bAutoEnrty>
+      <bAutoEntryPost>1</bAutoEntryPost>
+      <bNoMatPost>0</bNoMatPost>
+      <bAutoPost>1</bAutoPost>
+      <bExtraToCash>0</bExtraToCash>
+      <bNoCostFld>1</bNoCostFld>
+      <bNoVendorFld>1</bNoVendorFld>
+      <bContInv>0</bContInv>
+      <bPOSBill>0</bPOSBill>
+      <bBarCodeBill>0</bBarCodeBill>
+      <bPrintReceipt>0</bPrintReceipt>
+      <fldMatName>1</fldMatName>
+      <fldQty>2</fldQty>
+      <fldBonus>0</fldBonus>
+      <fldUnity>0</fldUnity>
+      <fldUnitPrice>3</fldUnitPrice>
+      <fldTotalPrice>4</fldTotalPrice>
+      <fldStore>0</fldStore>
+      <fldDiscountValue>0</fldDiscountValue>
+      <fldNotes>0</fldNotes>
+      <fldQty2>0</fldQty2>
+      <fldQty3>0</fldQty3>
+      <fldProdDate>0</fldProdDate>
+      <fldExpireDate>0</fldExpireDate>
+      <fldCostPtr>0</fldCostPtr>
+      <fldStat>0</fldStat>
+      <fldLength>0</fldLength>
+      <fldWidth>0</fldWidth>
+      <fldHeight>0</fldHeight>
+      <fldCount>0</fldCount>
+    </StandardBill>
+    <StandardBill>
+      <Id>7</Id>
+      <Name>إد.مناقلة بقيد</Name>
+      <Abrv>إد.م.بقيد</Abrv>
+      <LatinName></LatinName>
+      <LatinAbrv></LatinAbrv>
+      <Color1>16777215</Color1>
+      <Color2>16772519</Color2>
+      <iType>4</iType>
+      <DefBillAcc>0</DefBillAcc>
+      <DefDiscAcc>0</DefDiscAcc>
+      <DefExtraAcc>0</DefExtraAcc>
+      <DefCashAcc>0</DefCashAcc>
+      <DefCostAcc>0</DefCostAcc>
+      <DefStockAcc>0</DefStockAcc>
+      <bInput>1</bInput>
+      <bAffectLastPrice>0</bAffectLastPrice>
+      <bAffectCostPrice>0</bAffectCostPrice>
+      <bAffectProfit>0</bAffectProfit>
+      <bAffectCustPrice>0</bAffectCustPrice>
+      <bDiscAffectCost>0</bDiscAffectCost>
+      <bExtraAffectCost>0</bExtraAffectCost>
+      <bDiscAffectProfit>0</bDiscAffectProfit>
+      <bExtraAffectProfit>0</bExtraAffectProfit>
+      <bNoEntry>0</bNoEntry>
+      <bAutoEnrty>1</bAutoEnrty>
+      <bAutoEntryPost>1</bAutoEntryPost>
+      <bNoMatPost>0</bNoMatPost>
+      <bAutoPost>1</bAutoPost>
+      <bExtraToCash>0</bExtraToCash>
+      <bNoCostFld>1</bNoCostFld>
+      <bNoVendorFld>1</bNoVendorFld>
+      <bContInv>0</bContInv>
+      <bPOSBill>0</bPOSBill>
+      <bBarCodeBill>1</bBarCodeBill>
+      <bPrintReceipt>1</bPrintReceipt>
+      <fldMatName>1</fldMatName>
+      <fldQty>2</fldQty>
+      <fldBonus>0</fldBonus>
+      <fldUnity>0</fldUnity>
+      <fldUnitPrice>3</fldUnitPrice>
+      <fldTotalPrice>4</fldTotalPrice>
+      <fldStore>0</fldStore>
+      <fldDiscountValue>0</fldDiscountValue>
+      <fldNotes>0</fldNotes>
+      <fldQty2>0</fldQty2>
+      <fldQty3>0</fldQty3>
+      <fldProdDate>0</fldProdDate>
+      <fldExpireDate>0</fldExpireDate>
+      <fldCostPtr>0</fldCostPtr>
+      <fldStat>0</fldStat>
+      <fldLength>0</fldLength>
+      <fldWidth>0</fldWidth>
+      <fldHeight>0</fldHeight>
+      <fldCount>0</fldCount>
+    </StandardBill>
+    <StandardBill>
+      <Id>8</Id>
+      <Name>إخ.مناقلة بقيد</Name>
+      <Abrv>إخ.م.بقيد</Abrv>
+      <LatinName></LatinName>
+      <LatinAbrv></LatinAbrv>
+      <Color1>16777215</Color1>
+      <Color2>8454016</Color2>
+      <iType>5</iType>
+      <DefBillAcc>0</DefBillAcc>
+      <DefDiscAcc>0</DefDiscAcc>
+      <DefExtraAcc>0</DefExtraAcc>
+      <DefCashAcc>0</DefCashAcc>
+      <DefCostAcc>0</DefCostAcc>
+      <DefStockAcc>0</DefStockAcc>
+      <bInput>0</bInput>
+      <bAffectLastPrice>0</bAffectLastPrice>
+      <bAffectCostPrice>0</bAffectCostPrice>
+      <bAffectProfit>0</bAffectProfit>
+      <bAffectCustPrice>0</bAffectCustPrice>
+      <bDiscAffectCost>0</bDiscAffectCost>
+      <bExtraAffectCost>0</bExtraAffectCost>
+      <bDiscAffectProfit>0</bDiscAffectProfit>
+      <bExtraAffectProfit>0</bExtraAffectProfit>
+      <bNoEntry>0</bNoEntry>
+      <bAutoEnrty>1</bAutoEnrty>
+      <bAutoEntryPost>1</bAutoEntryPost>
+      <bNoMatPost>0</bNoMatPost>
+      <bAutoPost>1</bAutoPost>
+      <bExtraToCash>0</bExtraToCash>
+      <bNoCostFld>1</bNoCostFld>
+      <bNoVendorFld>1</bNoVendorFld>
+      <bContInv>0</bContInv>
+      <bPOSBill>0</bPOSBill>
+      <bBarCodeBill>1</bBarCodeBill>
+      <bPrintReceipt>1</bPrintReceipt>
+      <fldMatName>1</fldMatName>
+      <fldQty>2</fldQty>
+      <fldBonus>0</fldBonus>
+      <fldUnity>0</fldUnity>
+      <fldUnitPrice>3</fldUnitPrice>
+      <fldTotalPrice>4</fldTotalPrice>
+      <fldStore>0</fldStore>
+      <fldDiscountValue>0</fldDiscountValue>
+      <fldNotes>0</fldNotes>
+      <fldQty2>0</fldQty2>
+      <fldQty3>0</fldQty3>
+      <fldProdDate>0</fldProdDate>
+      <fldExpireDate>0</fldExpireDate>
+      <fldCostPtr>0</fldCostPtr>
+      <fldStat>0</fldStat>
+      <fldLength>0</fldLength>
+      <fldWidth>0</fldWidth>
+      <fldHeight>0</fldHeight>
+      <fldCount>0</fldCount>
+    </StandardBill>
+  </StandardBills>
+  <StandardPayments>
+    <StandardPayment>
+      <Id>1</Id>
+      <Name>سند قبض</Name>
+      <Abrv>قبض</Abrv>
+      <LatinName>Receipt Voucher</LatinName>
+      <LatinAbrv>RV</LatinAbrv>
+      <Color1>1</Color1>
+      <Color2>2</Color2>
+      <PayType>0</PayType>
+      <DefAccPtr>0</DefAccPtr>
+      <bAcceptCostAcc>1</bAcceptCostAcc>
+      <bDetailed>1</bDetailed>
+      <bAutoPost>1</bAutoPost>
+      <fldAccount>2</fldAccount>
+      <fldCustomer>3</fldCustomer>
+      <fldDebit>0</fldDebit>
+      <fldCredit>1</fldCredit>
+      <fldNotes>4</fldNotes>
+      <fldCurPtr>0</fldCurPtr>
+      <fldCurVal>0</fldCurVal>
+      <fldStat>0</fldStat>
+      <fldCostPtr>0</fldCostPtr>
+      <fldDate>0</fldDate>
+    </StandardPayment>
+    <StandardPayment>
+      <Id>2</Id>
+      <Name>سند دفع</Name>
+      <Abrv>دفع</Abrv>
+      <LatinName>Payment Voucher</LatinName>
+      <LatinAbrv>PV</LatinAbrv>
+      <Color1>1</Color1>
+      <Color2>2</Color2>
+      <PayType>0</PayType>
+      <DefAccPtr>0</DefAccPtr>
+      <bAcceptCostAcc>1</bAcceptCostAcc>
+      <bDetailed>1</bDetailed>
+      <bAutoPost>1</bAutoPost>
+      <fldAccount>2</fldAccount>
+      <fldCustomer>3</fldCustomer>
+      <fldDebit>1</fldDebit>
+      <fldCredit>0</fldCredit>
+      <fldNotes>4</fldNotes>
+      <fldCurPtr>0</fldCurPtr>
+      <fldCurVal>0</fldCurVal>
+      <fldStat>0</fldStat>
+      <fldCostPtr>0</fldCostPtr>
+      <fldDate>0</fldDate>
+    </StandardPayment>
+    <StandardPayment>
+      <Id>3</Id>
+      <Name>سند يومية</Name>
+      <Abrv>يومية</Abrv>
+      <LatinName>Journal Voucher</LatinName>
+      <LatinAbrv>JV</LatinAbrv>
+      <Color1>1</Color1>
+      <Color2>2</Color2>
+      <PayType>0</PayType>
+      <DefAccPtr>0</DefAccPtr>
+      <bAcceptCostAcc>1</bAcceptCostAcc>
+      <bDetailed>1</bDetailed>
+      <bAutoPost>1</bAutoPost>
+      <fldAccount>3</fldAccount>
+      <fldCustomer>4</fldCustomer>
+      <fldDebit>1</fldDebit>
+      <fldCredit>2</fldCredit>
+      <fldNotes>5</fldNotes>
+      <fldCurPtr>0</fldCurPtr>
+      <fldCurVal>0</fldCurVal>
+      <fldStat>0</fldStat>
+      <fldCostPtr>0</fldCostPtr>
+      <fldDate>0</fldDate>
+    </StandardPayment>
+  </StandardPayments>
+  <Transfers>
+    <Transfer>
+      <Id>1</Id>
+      <InTypeNum>1</InTypeNum>
+      <OutTypeNum>1</OutTypeNum>
+      <ExtraBelongsToIn>1</ExtraBelongsToIn>
+      <ExtraBelongsToOut>0</ExtraBelongsToOut>
+      <DiscBelongsToIn>1</DiscBelongsToIn>
+      <DiscBelongsToOut>0</DiscBelongsToOut>
+      <ClassBelongsToIn>1</ClassBelongsToIn>
+      <ClassBelongsToOut>1</ClassBelongsToOut>
+    </Transfer>
+    <Transfer>
+      <Id>2</Id>
+      <InTypeNum>2</InTypeNum>
+      <OutTypeNum>2</OutTypeNum>
+      <ExtraBelongsToIn>1</ExtraBelongsToIn>
+      <ExtraBelongsToOut>0</ExtraBelongsToOut>
+      <DiscBelongsToIn>1</DiscBelongsToIn>
+      <DiscBelongsToOut>0</DiscBelongsToOut>
+      <ClassBelongsToIn>1</ClassBelongsToIn>
+      <ClassBelongsToOut>1</ClassBelongsToOut>
+    </Transfer>
+  </Transfers>
+</AmeenTemplate>

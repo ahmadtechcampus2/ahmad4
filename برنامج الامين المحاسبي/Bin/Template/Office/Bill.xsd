@@ -1,0 +1,433 @@
+<mstns:schema id="AmnBill" targetNamespace="Amn08.Bills" elementFormDefault="qualified" xmlns="Amn08.Bills" xmlns:mstns="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:NS="Amn08.Bills">
+  <mstns:group name="Header">
+    <mstns:all>
+      <mstns:element name="BillNumber" type="xs:string" />
+      <mstns:element name="SalesMan" type="xs:string" />
+      <mstns:element name="Vendor" type="xs:string" />
+      <mstns:element name="Date" type="xs:string" />
+      <mstns:element name="BillType" type="mstns:string" />
+      <mstns:element name="Total" type="mstns:string" />
+      <mstns:element name="TotalDisc" type="mstns:string" />
+      <mstns:element name="TotalExtra" type="mstns:string" />
+      <mstns:element name="TotalVat" type="mstns:string" />
+      <mstns:element name="TotalGridDisc" type="mstns:string" />
+      <mstns:element name="TotalGridExtra" type="mstns:string" />
+      <mstns:element name="TotalItemDisc" type="mstns:string" />
+      <mstns:element name="TotalItemExtra" type="mstns:string" />
+      <mstns:element name="EndTotal" type="mstns:string" />
+      <mstns:element name="Notes" type="mstns:string" />
+      <mstns:element name="Store" type="mstns:string" />
+      <mstns:element name="Currency" type="mstns:string" />
+      <mstns:element name="CurVal" type="mstns:string" />
+      <mstns:element name="JobCostName" type="mstns:string" />
+      <mstns:element name="JobCost" type="mstns:string" />
+      <mstns:element name="JobCostCode" type="mstns:string" />
+      <mstns:element name="UserName" type="mstns:string" />
+      <mstns:element name="TotalVatText" type="mstns:string" />
+      <mstns:element name="TotalVatWithDefCUR" type="mstns:string" />
+      <mstns:element name="SubTotalBILL" type="mstns:string" />
+      <mstns:element name="SubTotalWHOLE" type="mstns:string" />
+      <mstns:element name="SubTotalHALF" type="mstns:string" />
+      <mstns:element name="SubTotalRETAIL" type="mstns:string" />
+      <mstns:element name="SubTotalEXPORT" type="mstns:string" />
+      <mstns:element name="SubTotalVENDOR" type="mstns:string" />
+      <mstns:element name="TotalBILL" type="mstns:string" />
+      <mstns:element name="TotalWHOLE" type="mstns:string" />
+      <mstns:element name="TotalHALF" type="mstns:string" />
+      <mstns:element name="TotalRETAIL" type="mstns:string" />
+      <mstns:element name="TotalEXPORT" type="mstns:string" />
+      <mstns:element name="TotalENDUSER" type="mstns:string" />
+      <mstns:element name="SubTotalBillTEXT" type="mstns:string" />
+      <mstns:element name="SubTotalWholeTEXT" type="mstns:string" />
+      <mstns:element name="SubTotalHalfTEXT" type="mstns:string" />
+      <mstns:element name="SubTotalRetailTEXT" type="mstns:string" />
+      <mstns:element name="SubTotalExportTEXT" type="mstns:string" />
+      <mstns:element name="SubTotalVendorTEXT" type="mstns:string" />
+      <mstns:element name="SubTotalEndUserTEXT" type="mstns:string" />
+      <mstns:element name="TotalBillTEXT" type="mstns:string" />
+      <mstns:element name="TotalWholeTEXT" type="mstns:string" />
+      <mstns:element name="TotalHalfTEXT" type="mstns:string" />
+      <mstns:element name="TotalRetailTEXT" type="mstns:string" />
+      <mstns:element name="TotalExportTEXT" type="mstns:string" />
+      <mstns:element name="TotalVendorTEXT" type="mstns:string" />
+      <mstns:element name="TotalEndUserTextTEXT" type="mstns:string" />
+      <mstns:element name="TotalQTY" type="mstns:string" />
+      <mstns:element name="TotalQTYUnit1Text" type="mstns:string" />
+      <mstns:element name="TotalQTYUnit1" type="mstns:string" />
+      <mstns:element name="TotalQTYUnit2Text" type="mstns:string" />
+      <mstns:element name="TotalQTYUnit2" type="mstns:string" />
+      <mstns:element name="TotalQTYUnit3Text" type="mstns:string" />
+      <mstns:element name="TotalQTYUnit3" type="mstns:string" />
+      <mstns:element name="TotalQTYDefaultUnitText" type="mstns:string" />
+      <mstns:element name="TotalQTYDefaultUnit" type="mstns:string" />
+      <mstns:element name="TotalQTY2Text" type="mstns:string" />
+      <mstns:element name="TotalQTY2" type="mstns:string" />
+      <mstns:element name="TotalQTY3Text" type="mstns:string" />
+      <mstns:element name="TotalQTY3" type="mstns:string" />
+      <mstns:element name="TotalBonusText" type="mstns:string" />
+      <mstns:element name="TotalBonus" type="mstns:string" />
+      <mstns:element name="TotalBonusUnit1Text" type="mstns:string" />
+      <mstns:element name="TotalBonusUnit1" type="mstns:string" />
+      <mstns:element name="TotalBonusUnit2Text" type="mstns:string" />
+      <mstns:element name="TotalBonusUnit2" type="mstns:string" />
+      <mstns:element name="TotalBonusUnit3Text" type="mstns:string" />
+      <mstns:element name="TotalBonusUnit3" type="mstns:string" />
+      <mstns:element name="TotalBonusDefUnitText" type="mstns:string" />
+      <mstns:element name="TotalBonusDefUnit" type="mstns:string" />
+      <mstns:element name="Body" type="mstns:string" />
+      <mstns:element name="PayType" type="mstns:string" />
+      <mstns:element name="PayTerms" type="mstns:string" />
+      <mstns:element name="FirstPay" type="mstns:string" />
+      <mstns:element name="ResetPay" type="mstns:string" />
+      <mstns:element name="TextFirstPay" type="mstns:string" />
+      <mstns:element name="TextResetPay" type="mstns:string" />
+      <mstns:element name="BillCstFld" type="mstns:string" />
+      <mstns:element name="CustCstFld" type="mstns:string" />
+      <mstns:element name="PageNum" type="mstns:string" />
+      <mstns:element name="BillFld1" type="mstns:string" />
+      <mstns:element name="BillFld2" type="mstns:string" />
+      <mstns:element name="BillFld3" type="mstns:string" />
+      <mstns:element name="BillFld4" type="mstns:string" />
+      <mstns:element name="BillFld5" type="mstns:string" />
+      <mstns:element name= "DueDate" type="mstns:string" />
+      <mstns:element name="TotalQTYInPage" type="mstns:string" />
+      <mstns:element name= "ComputerName" type="mstns:string" />
+      <mstns:element name= "TotalInLastPageTitle" type="mstns:string" />
+      <mstns:element name= "TotalInLastPageValue" type="mstns:string" />
+      <mstns:element name="TotalDiscInLastPageTitle" type="mstns:string" />
+      <mstns:element name="TotalDiscInLastPageValue" type="mstns:string" />
+      <mstns:element name="TotalExtraInLastPageTitle" type="mstns:string" />
+      <mstns:element name="TotalExtraInLastPageValue" type="mstns:string" />
+      <mstns:element name="CurrEquavillantForBill" type="mstns:string" />
+      <mstns:element name="Orign" type="mstns:string" />
+    </mstns:all>
+  </mstns:group>
+  <mstns:element name="BillNumber" type="xs:string" />
+  <mstns:element name="SalesMan" type="xs:string" />
+  <mstns:element name="Vendor" type="xs:string" />
+  <mstns:element name="Date" type="xs:string" />
+  <mstns:element name="BillType" type="mstns:string" />
+  <mstns:element name="Total" type="mstns:string" />
+  <mstns:element name="TotalDisc" type="xs:string" />
+  <mstns:element name="TotalExtra" type="xs:string" />
+  <mstns:element name="TotalVat" type="xs:string" />
+  <mstns:element name="TotalGridDisc" type="xs:string" />
+  <mstns:element name="TotalGridExtra" type="xs:string" />
+  <mstns:element name="TotalItemDisc" type="xs:string" />
+  <mstns:element name="TotalItemExtra" type="xs:string" />
+  <mstns:element name="EndTotal" type="xs:string" />
+  <mstns:element name="Notes" type="xs:string" />
+  <mstns:element name="Store" type="xs:string" />
+  <mstns:element name="Currency" type="xs:string" />
+  <mstns:element name="CurVal" type="xs:string" />
+  <mstns:element name="JobCostName" type="xs:string" />
+  <mstns:element name="JobCost" type="xs:string" />
+  <mstns:element name="JobCostCode" type="xs:string" />
+  <mstns:element name="UserName" type="xs:string" />
+  <mstns:element name="TotalVatText" type="xs:string" />
+  <mstns:element name="TotalVatWithDefCUR" type="xs:string" />
+  <mstns:element name="SubTotalBILL" type="xs:string" />
+  <mstns:element name="SubTotalWHOLE" type="xs:string" />
+  <mstns:element name="SubTotalHALF" type="xs:string" />
+  <mstns:element name="SubTotalRETAIL" type="xs:string" />
+  <mstns:element name="SubTotalEXPORT" type="xs:string" />
+  <mstns:element name="SubTotalVENDOR" type="xs:string" />
+  <mstns:element name="TotalBILL" type="xs:string" />
+  <mstns:element name="TotalWHOLE" type="xs:string" />
+  <mstns:element name="TotalHALF" type="xs:string" />
+  <mstns:element name="TotalRETAIL" type="xs:string" />
+  <mstns:element name="TotalEXPORT" type="xs:string" />
+  <mstns:element name="TotalVENDOR" type="xs:string" />
+  <mstns:element name="TotalENDUSER" type="xs:string" />
+  <mstns:element name="SubTotalBillTEXT" type="xs:string" />
+  <mstns:element name="SubTotalWholeTEXT" type="xs:string" />
+  <mstns:element name="SubTotalHalfTEXT" type="xs:string" />
+  <mstns:element name="SubTotalRetailTEXT" type="xs:string" />
+  <mstns:element name="SubTotalExportTEXT" type="xs:string" />
+  <mstns:element name="SubTotalVendorTEXT" type="xs:string" />
+  <mstns:element name="SubTotalEndUserTEXT" type="xs:string" />
+  <mstns:element name="TotalBillTEXT" type="xs:string" />
+  <mstns:element name="TotalWholeTEXT" type="xs:string" />
+  <mstns:element name="TotalHalfTEXT" type="xs:string" />
+  <mstns:element name="TotalRetailTEXT" type="xs:string" />
+  <mstns:element name="TotalExportTEXT" type="xs:string" />
+  <mstns:element name="TotalVendorTEXT" type="xs:string" />
+  <mstns:element name="TotalEndUserTextTEXT" type="xs:string" />
+  <mstns:element name="TotalQTY" type="xs:string" />
+  <mstns:element name="TotalQTYUnit1Text" type="xs:string" />
+  <mstns:element name="TotalQTYUnit1" type="xs:string" />
+  <mstns:element name="TotalQTYUnit2Text" type="xs:string" />
+  <mstns:element name="TotalQTYUnit2" type="xs:string" />
+  <mstns:element name="TotalQTYUnit3Text" type="xs:string" />
+  <mstns:element name="TotalQTYDefaultUnitText" type="xs:string" />
+  <mstns:element name="TotalQTYDefaultUnit" type="xs:string" />
+  <mstns:element name="TotalQTY2Text" type="xs:string" />
+  <mstns:element name="TotalQTY2" type="xs:string" />
+  <mstns:element name="TotalQTY3Text" type="xs:string" />
+  <mstns:element name="TotalQTY3" type="xs:string" />
+  <mstns:element name="TotalBonusText" type="xs:string" />
+  <mstns:element name="TotalBonus" type="xs:string" />
+  <mstns:element name="TotalBonusUnit1Text" type="xs:string" />
+  <mstns:element name="TotalBonusUnit1" type="xs:string" />
+  <mstns:element name="TotalBonusUnit2Text" type="xs:string" />
+  <mstns:element name="TotalBonusUnit2" type="xs:string" />
+  <mstns:element name="TotalBonusUnit3Text" type="xs:string" />
+  <mstns:element name="TotalBonusUnit3" type="xs:string" />
+  <mstns:element name="TotalBonusDefUnitText" type="xs:string" />
+  <mstns:element name="TotalBonusDefUnit" type="xs:string" />
+  <mstns:element name="Body" type="xs:string" />
+  <mstns:element name="PayType" type="xs:string" />
+  <mstns:element name="PayTerms" type="xs:string" />
+  <mstns:element name="FirstPay" type="xs:string" />
+  <mstns:element name="ResetPay" type="xs:string" />
+  <mstns:element name="TextFirstPay" type="xs:string" />
+  <mstns:element name="TextResetPay" type="xs:string" />
+  <mstns:element name="BillCstFld" type="xs:string" />
+  <mstns:element name="CustCstFld" type="xs:string" />
+  <mstns:element name="PageNum" type="xs:string" />
+  <mstns:element name="Formula" type="xs:string" />
+  <mstns:element name="BillFld1" type="xs:string" />
+  <mstns:element name="BillFld2" type="xs:string" />
+  <mstns:element name="BillFld3" type="xs:string" />
+  <mstns:element name="BillFld4" type="xs:string" />
+  <mstns:element name="BillFld5" type="xs:string" />
+  <mstns:element name="DueDate" type="xs:string" />
+  <mstns:element name="TotalQTYInPage" type="xs:string" />
+  <mstns:element name= "ComputerName" type="xs:string" />
+  <mstns:element name= "TotalInLastPageTitle" type="xs:string" />
+  <mstns:element name= "TotalInLastPageValue" type="xs:string" />
+  <mstns:element name="TotalDiscInLastPageTitle" type="xs:string" />
+  <mstns:element name="TotalDiscInLastPageValue" type="xs:string" />
+  <mstns:element name="TotalExtraInLastPageTitle" type="xs:string" />
+  <mstns:element name="TotalExtraInLastPageValue" type="xs:string" />
+  <mstns:element name="CurrEquavillantForBill" type="xs:string" />
+  <mstns:element name="Orign" type="xs:string" />
+  <mstns:group name="Customers">
+    <mstns:all>
+      <mstns:element name="CustomerName" type="mstns:string" />
+      <mstns:element name="CustLatinName" type="mstns:string" />
+      <mstns:element name="CustEmail" type="mstns:string" />
+      <mstns:element name="CustHomepage" type="mstns:string" />
+      <mstns:element name="CustPrefix" type="mstns:string" />
+      <mstns:element name="CustSuffix" type="mstns:string" />
+      <mstns:element name="CustGPSX" type="mstns:string" />
+      <mstns:element name="CustGPSY" type="mstns:string" />
+      <mstns:element name="CustGPSZ" type="mstns:string" />
+      <mstns:element name="CustArea" type="mstns:string" />
+      <mstns:element name="CustCity" type="mstns:string" />
+      <mstns:element name="CustStreet" type="mstns:string" />
+      <mstns:element name="CustAddress" type="mstns:string" />
+      <mstns:element name="CustPoBox" type="mstns:string" />
+      <mstns:element name="CustZipCode" type="mstns:string" />
+      <mstns:element name="CustPager" type="mstns:string" />
+      <mstns:element name="CustCountry" type="mstns:string" />
+      <mstns:element name="CustHOBBIES" type="mstns:string" />
+      <mstns:element name="CustGender" type="mstns:string" />
+      <mstns:element name="CustCertificate" type="mstns:string" />
+      <mstns:element name="CustDateOfBirth" type="mstns:string" />
+      <mstns:element name="CustJob" type="mstns:string" />
+      <mstns:element name="CustJobCaregory" type="mstns:string" />
+      <mstns:element name="CustUserFLD1" type="mstns:string" />
+      <mstns:element name="CustUserFLD2" type="mstns:string" />
+      <mstns:element name="CustUserFLD3" type="mstns:string" />
+      <mstns:element name="CustUserFLD4" type="mstns:string" />
+      <mstns:element name="CustPhone1" type="mstns:string" />
+      <mstns:element name="CustPhone2" type="mstns:string" />
+      <mstns:element name="CustBal" type="mstns:string" />
+      <mstns:element name="CustFax" type="mstns:string" />
+      <mstns:element name="CustTelex" type="mstns:string" />
+      <mstns:element name="CustMobile" type="mstns:string" />
+      <mstns:element name="CustBalWithOutNOTES" type="mstns:string" />
+      <mstns:element name="NotesBAL" type="mstns:string" />
+      <mstns:element name="CustomerAccount" type="mstns:string" />
+      <mstns:element name="CustomerAccountCode" type="mstns:string" />
+    </mstns:all>
+  </mstns:group>
+  <mstns:element name="CustName" type="xs:string" />
+  <mstns:element name="CustLatinName" type="xs:string" />
+  <mstns:element name="CustEmail" type="xs:string" />
+  <mstns:element name="CustPrefix" type="xs:string" />
+  <mstns:element name="CustSuffix" type="xs:string" />
+  <mstns:element name="CustHomepage" type="xs:string" />
+  <mstns:element name="CustGPSX" type="xs:string" />
+  <mstns:element name="CustGPSY" type="xs:string" />
+  <mstns:element name="CustGPSZ" type="xs:string" />
+  <mstns:element name="CustArea" type="xs:string" />
+  <mstns:element name="CustCity" type="xs:string" />
+  <mstns:element name="CustStreet" type="xs:string" />
+  <mstns:element name="CustAddress" type="xs:string" />
+  <mstns:element name="CustPoBox" type="xs:string" />
+  <mstns:element name="CustZipCode" type="xs:string" />
+  <mstns:element name="CustPager" type="xs:string" />
+  <mstns:element name="CustCountry" type="xs:string" />
+  <mstns:element name="CustHOBBIES" type="xs:string" />
+  <mstns:element name="CustGender" type="xs:string" />
+  <mstns:element name="CustCertificate" type="xs:string" />
+  <mstns:element name="CustDateOfBirth" type="xs:string" />
+  <mstns:element name="CustJob" type="xs:string" />
+  <mstns:element name="CustJobCaregory" type="xs:string" />
+  <mstns:element name="CustUserFLD1" type="xs:string" />
+  <mstns:element name="CustUserFLD2" type="xs:string" />
+  <mstns:element name="CustUserFLD3" type="xs:string" />
+  <mstns:element name="CustUserFLD4" type="xs:string" />
+  <mstns:element name="CustPhone1" type="xs:string" />
+  <mstns:element name="CustPhone2" type="xs:string" />
+  <mstns:element name="CustBal" type="xs:string" />
+  <mstns:element name="CustFax" type="xs:string" />
+  <mstns:element name="CustTelex" type="xs:string" />
+  <mstns:element name="CustMobile" type="xs:string" />
+  <mstns:element name="CustBalWithOutNOTES" type="xs:string" />
+  <mstns:element name="NotesBAL" type="xs:string" />
+  <mstns:element name="CustomerAccount" type="xs:string" />
+  <mstns:element name="CustomerAccountCode" type="xs:string" />
+  <mstns:complexType name="ItemType">
+    <mstns:sequence>
+      <mstns:element name="Mat" type="mstns:string" />
+      <mstns:element name="MatCode" type="mstns:string" />
+      <mstns:element name="MatName" type="mstns:string" />
+      <mstns:element name="Qty" type="mstns:string" />
+      <mstns:element name="Qty2" type="mstns:string" />
+      <mstns:element name="Qty3" type="mstns:string" />
+      <mstns:element name="Price" type="mstns:string" />
+      <mstns:element name="TotalPrice" type="mstns:string" />
+      <mstns:element name="Unit" type="mstns:string" />
+      <mstns:element name="CurVal" type="mstns:string" />
+      <mstns:element name="Unit1" type="mstns:string" />
+      <mstns:element name="Unit2" type="mstns:string" />
+      <mstns:element name="Unit3" type="mstns:string" />
+      <mstns:element name="Unit2Fact" type="mstns:string" />
+      <mstns:element name="Unit3Fact" type="mstns:string" />
+      <mstns:element name="CurUnitFact" type="mstns:string" />
+      <mstns:element name="ExpireDate" type="mstns:string" />
+      <mstns:element name="ProductDate" type="mstns:string" />
+      <mstns:element name="ExtraRatio" type="mstns:string" />
+      <mstns:element name="ExtraValue" type="mstns:string" />
+      <mstns:element name="DiscountRatio" type="mstns:string" />
+      <mstns:element name="DiscountValue" type="mstns:string" />
+      <mstns:element name="Class" type="mstns:string" />
+      <mstns:element name="Bonus" type="mstns:string" />
+      <mstns:element name="BonusDiscounts" type="mstns:string" />
+      <mstns:element name="JobCostName" type="mstns:string" />
+      <mstns:element name="JobCost" type="mstns:string" />
+      <mstns:element name="JobCostCode" type="mstns:string" />
+      <mstns:element name="Store" type="mstns:string" />
+      <mstns:element name="Notes" type="mstns:string" />
+      <mstns:element name="Size" type="mstns:string" />
+      <mstns:element name="Location" type="mstns:string" />
+      <mstns:element name="Company" type="mstns:string" />
+      <mstns:element name="Spec" type="mstns:string" />
+      <mstns:element name="Orign" type="mstns:string" />
+      <mstns:element name="Color" type="mstns:string" />
+      <mstns:element name="Provenance" type="mstns:string" />
+      <mstns:element name="Quality" type="mstns:string" />
+      <mstns:element name="Model" type="mstns:string" />
+      <mstns:element name="Length" type="mstns:string" />
+      <mstns:element name="Width" type="mstns:string" />
+      <mstns:element name="Height" type="mstns:string" />
+      <mstns:element name="EndUser" type="mstns:string" />
+      <mstns:element name="Whole" type="mstns:string" />
+      <mstns:element name="Half" type="mstns:string" />
+      <mstns:element name="Retail" type="mstns:string" />
+      <mstns:element name="Export" type="mstns:string" />
+      <mstns:element name="Vendor" type="mstns:string" />
+      <mstns:element name="GroupName" type="mstns:string" />
+      <mstns:element name="GroupCode" type="mstns:string" />
+      <mstns:element name="SN" type="mstns:string" />
+      <mstns:element name="MinTerm" type="mstns:string" />
+      <mstns:element name="MaxTerm" type="mstns:string" />
+      <mstns:element name="Balance" type="mstns:string" />
+      <mstns:element name="ItemNumber" type="mstns:string" />
+      <mstns:element name="ItemCstFld" type="mstns:string" />
+      <mstns:element name="MatCstFld" type="mstns:string" />
+      <mstns:element name="Formula" type="mstns:string" />
+    </mstns:sequence>
+  </mstns:complexType>
+  <mstns:element name="Item" type="ItemType">
+  </mstns:element>
+  <mstns:complexType name="DiscType">
+    <mstns:sequence>
+      <mstns:element name="acc" type="mstns:string" />
+      <mstns:element name="Currency" type="mstns:string" />
+      <mstns:element name="ContraAcc" type="mstns:string" />
+      <mstns:element name="JobCostName" type="mstns:string" />
+      <mstns:element name="JobCost" type="mstns:string" />
+      <mstns:element name="JobCostCode" type="mstns:string" />
+      <mstns:element name="Discount" type="mstns:string" />
+      <mstns:element name="Extra" type="mstns:string" />
+      <mstns:element name="CurVal" type="mstns:string" />
+      <mstns:element name="Notes" type="mstns:string" />
+      <mstns:element name="Formula" type="mstns:string" />
+    </mstns:sequence>
+  </mstns:complexType>
+  <mstns:element name="Disc" type="DiscType" />
+  <mstns:group name="FormulaHeader">
+    <mstns:sequence>
+      <mstns:element name="Total" type="mstns:string" />
+      <mstns:element name="TotalDisc" type="mstns:string" />
+      <mstns:element name="TotalExtra" type="mstns:string" />
+      <mstns:element name="TotalVat" type="mstns:string" />
+      <mstns:element name="TotalGridDisc" type="mstns:string" />
+      <mstns:element name="TotalGridExtra" type="mstns:string" />
+      <mstns:element name="BonusDiscounts" type="mstns:string" />
+      <mstns:element name="EndTotal" type="mstns:string" />
+    </mstns:sequence>
+  </mstns:group>
+  <mstns:group name="FormulaItem">
+    <mstns:sequence>
+      <mstns:element name="Qty" type="mstns:string" />
+      <mstns:element name="Qty2" type="mstns:string" />
+      <mstns:element name="Qty3" type="mstns:string" />
+      <mstns:element name="Price" type="mstns:string" />
+      <mstns:element name="TotalPrice" type="mstns:string" />
+      <mstns:element name="Bonus" type="mstns:string" />
+      <mstns:element name="Vat" type="mstns:string" />
+      <mstns:element name="BonusDiscounts" type="mstns:string" />
+      <mstns:element name="ExtraValue" type="mstns:string" />
+      <mstns:element name="DiscountValue" type="mstns:string" />
+    </mstns:sequence>
+  </mstns:group>
+  <mstns:group name="FormulaDisc">
+    <mstns:sequence>
+      <mstns:element name="Disc" type="mstns:string" />
+      <mstns:element name="Extra" type="mstns:string" />
+    </mstns:sequence>
+  </mstns:group>
+  <mstns:complexType name="SalesTaxType">
+    <mstns:sequence>
+      <mstns:element name="Value" type="mstns:string" />
+      <mstns:element name="Rate" type="mstns:string" />
+    </mstns:sequence>
+  </mstns:complexType>
+  <mstns:element name="SalesTax" type="SalesTaxType">
+  </mstns:element>
+  <mstns:complexType name="NoteType">
+    <mstns:sequence>
+      <mstns:element name="Type" type="mstns:string" />
+      <mstns:element name="Number" type="mstns:string" />
+      <mstns:element name="EnteredNum" type="mstns:string" />
+      <mstns:element name="Dir" type="mstns:string" />
+      <mstns:element name="Date" type="mstns:string" />
+      <mstns:element name="DueDate" type="mstns:string" />
+      <mstns:element name="ColDate" type="mstns:string" />
+      <mstns:element name="Bank" type="mstns:string" />
+      <mstns:element name="Val" type="mstns:string" />
+      <mstns:element name="CurrencyVal" type="mstns:string" />
+      <mstns:element name="Currency" type="mstns:string" />
+      <mstns:element name="State" type="mstns:string" />
+      <mstns:element name="PrevNum" type="mstns:string" />
+      <mstns:element name="IntNumber" type="mstns:string" />
+      <mstns:element name="FileInt" type="mstns:string" />
+      <mstns:element name="FileExt" type="mstns:string" />
+      <mstns:element name="FileDate" type="mstns:string" />
+      <mstns:element name="OrgName" type="mstns:string" />
+      <mstns:element name="Account" type="mstns:string" />
+      <mstns:element name="Account2" type="mstns:string" />
+      <mstns:element name="Cost1" type="mstns:string" />
+      <mstns:element name="Cost2" type="mstns:string" />
+      <mstns:element name="Notes" type="mstns:string" />
+      <mstns:element name="Notes2" type="mstns:string" />
+    </mstns:sequence>
+  </mstns:complexType>
+  <mstns:element name="Note" type="NoteType">
+  </mstns:element>
+</mstns:schema>

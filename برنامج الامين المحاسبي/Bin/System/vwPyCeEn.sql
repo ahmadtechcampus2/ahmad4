@@ -1,0 +1,52 @@
+#########################################################
+CREATE VIEW VwPyCeEn
+AS
+SELECT        py.pyGUID,
+              py.pyTypeGUID,
+			  py.pyNumber,
+			  py.pyAccountGUID,
+			  py.pyDate, 
+			  py.pyNotes, 
+			  py.pyCurrencyGUID, 
+			  py.pyCurrencyVal, 
+			  py.pySkip, 
+			  py.pySecurity, 
+              py.pyNum1, 
+			  py.pyNum2, 
+			  ceEn.ceGUID, 
+			  ceEn.ceType, 
+			  ceEn.ceNumber, 
+			  ceEn.ceDate, 
+			  ceEn.ceDebit, 
+			  ceEn.ceCredit, 
+			  ceEn.ceNotes, 
+			  ceEn.ceCurrencyVal, 
+			  ceEn.ceCurrencyPtr, 
+			  ceEn.ceIsPosted, 
+              ceEn.ceState, 
+			  ceEn.ceSecurity, 
+			  ceEn.ceBranch, 
+			  ceEn.ceTypeGUID, 
+			  ceEn.cePostDate, 
+			  ceEn.enGUID, 
+			  ceEn.enNumber, 
+			  ceEn.enAccount, 
+			  ceEn.enDate, 
+			  ceEn.enDebit, 
+			  ceEn.enCredit, 
+			  ceEn.enNotes, 
+			  ceEn.enCurrencyPtr, 
+              ceEn.enCurrencyVal, 
+			  ceEn.enCostPoint, 
+			  ceEn.enClass, 
+			  ceEn.enNum1, 
+			  ceEn.enNum2, 
+			  ceEn.enVendor, 
+			  ceEn.enSalesMan, 
+			  ceEn.enContraAcc, 
+			  ceEn.enBiGUID
+FROM          dbo.vwPy AS py INNER JOIN
+              dbo.vwER_EntriesPays AS er ON py.pyGUID = er.erPayGUID INNER JOIN
+              dbo.vwCeEn AS ceEn ON er.erEntryGUID = ceEn.ceGUID
+#########################################################
+#END

@@ -1,0 +1,11 @@
+<SMSConfig>
+  <ProviderName>smsapi</ProviderName>
+  <BaseURL>https://api.smsapi.com/sms.do</BaseURL>
+  <MessageName>message</MessageName>
+  <ToName>to</ToName>
+  <RequestAttributes>
+    <RequestAttribute Name="username" Value=""/>
+    <RequestAttribute Name="password" Value=""/>
+  </RequestAttributes>
+  <SuccessResponse> </SuccessResponse>
+</SMSConfig>

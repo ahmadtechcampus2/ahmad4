@@ -1,0 +1,6 @@
+<SmtpConfig>
+  <ProviderName>Hotmail</ProviderName>
+  <SmtpClient>smtp.live.com</SmtpClient>
+  <Port>587</Port>
+  <EnableSsl>true</EnableSsl>
+</SmtpConfig>

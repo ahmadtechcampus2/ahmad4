@@ -1,0 +1,125 @@
+
+.SubMenu
+{
+	position: absolute;
+	overflow: hidden;
+	border: solid 1px #818796;
+	background-color: #F6F6F6;
+	background-image: url(../../images/ltr/mnu_bg.png);
+	background-repeat: repeat-y;
+	z-index: 1;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Color=#C3C3C3, Strength=4, Direction=135)
+			progid:DXImageTransform.Microsoft.Fade(Duration=0.100)
+			progid:DXImageTransform.Microsoft.Blinds(Bands=1,  Duration=0.100, Direction='down', enabled=0)
+			progid:DXImageTransform.Microsoft.Blinds(Bands=1,  Duration=0.100, Direction='right', enabled=0);
+}
+
+.SubMenu td
+{
+	font-family: Tahoma, Verdana, Arial, Sans-Serif; 
+	font-size: 8pt;
+}
+
+.SubMenuArea
+{
+	position: relative;
+}
+
+.MenuItemRect
+{
+	padding: 1px;
+	border: none;
+}
+
+.MenuItemRectHover
+{
+	padding: 0;
+	border: solid 1px #000080;
+	background-color: #FFEEC2;
+	color: black;
+}
+
+.MenuItemRectDisabled
+{
+	padding: 1px;
+	border: none;
+}
+
+.MenuItemRect table, .MenuItemRectHover table, .MenuItemRectDisabled table, .MenuItemSeparator table
+{
+	width: 100%;
+}
+
+.MenuItemMargin
+{
+	width: 24px;
+	padding: 0;
+}
+    
+.MenuItemRect .MenuItemLabel, .MenuItemRectHover .MenuItemLabel
+{
+	padding: 4px 2px 3px 6px;
+	cursor: default;
+}
+
+.MenuItemRect .MenuItemLabel
+{
+	color: black;
+}
+
+.MenuItemRectHover .MenuItemLabel
+{
+	color: black;
+}
+
+.MenuItemRectDisabled .MenuItemLabel
+{
+	padding: 4px 2px 3px 6px;
+	color: #8D8D8D;
+	cursor: default;
+}
+
+.MenuItemArrow
+{
+	position: absolute;
+}
+
+.MenuItemSeparator
+{
+	line-height: 2px;
+	color: #F6F6F6;
+}
+
+.MenuItemSeparator .MenuItemLabel 
+{
+    padding: 1px 0 0 0;
+    background: #F6F6F6 url(../../images/ltr/mnu_sep.png) no-repeat scroll center left;
+    color: #F6F6F6;
+}
+
+.MenuUpScroller, .MenuDownScroller
+{
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 22px;
+    z-index: 10;
+}
+
+.MenuUpScroller
+{
+    background: #F6F6F6 url(../../images/menu_up_arrow.png) no-repeat scroll center center;
+}
+
+.MenuDownScroller
+{
+    background: #F6F6F6 url(../../images/menu_down_arrow.png) no-repeat scroll center center;
+}
+
+.MenuBorderErase
+{
+	position: absolute;
+	overflow: hidden;
+	height: 1px;
+	border-top: solid 1px #F6F6F6;
+}

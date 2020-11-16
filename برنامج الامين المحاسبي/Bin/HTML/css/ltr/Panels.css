@@ -1,0 +1,232 @@
+
+.Panel
+{
+	width: 100%;
+	margin-bottom: 10px;
+	background: transparent;
+	background-position: 98% 90%;
+	background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.Fade(Duration=0.300);
+}
+
+.DragPanel
+{
+    position: absolute;
+    z-index: 10;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+}
+
+.HilitePanel
+{
+	margin-bottom: 10px;
+    border: solid 1px #7C91B6;
+    background-color: #FAFAFA;
+}
+
+.Panel .Header
+{
+	height: 28px;
+	table-layout: fixed;
+}
+
+.Panel .Header .LeftBorder
+{
+	width: 7px;
+	background-image: url(../../images/ltr/panel_tlb.png);
+	background-repeat: no-repeat; 
+	background-position: left top;
+}
+
+.Panel .Header .Icon
+{
+	width: 20px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.Panel .Header .Title
+{
+	padding: 0 2px 0 2px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #475470;
+	cursor: move;
+}
+
+.Panel .Header .Title div
+{
+	width: 100%;
+	height: 14px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.Panel .Header a
+{
+	color: #3D4964;
+	text-decoration: none;
+}
+
+.Panel .Header a:hover
+{
+	color: #3D4964;
+	text-decoration: underline;
+}
+
+.Panel .Header .Link
+{
+	width: 55px;
+	text-align: center;
+}
+
+.Panel .Header .Button
+{
+	width: 17px;
+	padding: 1px;
+	cursor: pointer;
+}
+
+.Panel .Header .Icon, .Panel .Header .Title, .Panel .Header .Link, .Panel .Header .Button
+{
+	background-image: url(../../images/panel_tmb.png);
+	background-repeat: repeat-x; 
+	background-position: left top;
+}
+
+.Panel .Header .RightBorder
+{
+	width: 7px;
+	background-image: url(../../images/ltr/panel_trb.png);
+	background-repeat: no-repeat; 
+	background-position: right top;
+}
+
+
+.Panel .Content
+{
+    overflow: hidden;
+    padding: 0 2px;
+	border-left: solid 1px #C6C6C6;
+	border-right: solid 1px #C6C6C6;
+	background-color: White;
+	background-position: 98% bottom;
+	background-repeat: no-repeat;
+	font-size: 8pt;
+	filter: progid:DXImageTransform.Microsoft.Fade(Duration=0.400);
+}
+
+.Panel .Content .Arrow
+{
+	padding: 0 2px;
+}
+
+.Panel .Content a
+{
+	font-size: 8pt;
+}
+
+.Panel .Footer
+{
+	height: 20px;
+	table-layout: fixed;
+}
+
+.Panel .Footer .LeftBorder
+{
+	width: 7px;
+	background-image: url(../../images/ltr/panel_blb.png);
+	background-repeat: no-repeat; 
+	background-position: left top;
+}
+
+.Panel .Footer .MiddleBorder
+{
+	background-image: url(../../images/panel_bmb.png);
+	background-repeat: repeat-x; 
+	background-position: left top;
+}
+
+.Panel .Footer .RightBorder
+{
+	width: 7px;
+	background-image: url(../../images/ltr/panel_brb.png);
+	background-repeat: no-repeat; 
+	background-position: right top;
+}
+
+.PanelLoading 
+{
+	padding: 2px;
+	color: #515F78;
+}
+
+.PanelLoading img
+{
+	padding: 0 2px;
+	vertical-align: middle;
+}
+
+.PanelListTable .Bullet
+{
+	width: 8px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.PanelListTable .Item
+{
+	padding-bottom: 2px;
+}
+
+.PanelListTable .MinorText
+{
+	color: #808080;
+}
+
+.PanelListTable .Summary
+{
+	height: 24px;
+	overflow: hidden;
+	margin: 0 4px 10px;
+	color: #222222;
+}
+
+.PanelTabularContent
+{
+	table-layout: fixed;
+	margin: 0 4px;
+}
+
+.PanelTabularContent .Header
+{
+	padding: 0;
+	border-bottom: solid 1px #ACA899;
+	font-weight: bold;
+	color: #333333;
+}
+
+.PanelTabularContent tr:hover .Header
+{
+	background-image: none;
+}
+
+.PanelTabularContent td
+{
+	padding: 3px;
+}
+
+.PanelTabularContent td.Odd
+{
+	/*background-image: url(../../images/LineBG.png);*/
+}
+
+.PanelTabularContent tr:hover
+{
+	background-image: url(../../images/LineBG.png);
+}
+
+.PanelListImage
+{
+	vertical-align: top;
+}

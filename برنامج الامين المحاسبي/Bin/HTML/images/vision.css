@@ -1,0 +1,50 @@
+body
+{
+	font:menu;
+}
+
+A:link
+{
+	font: menu;
+	color: #000000;
+	text-decoration: none;
+}
+
+A:visited	
+{	
+	font: menu;
+	text-decoration: none;  
+	color:#000000; 
+}
+
+A:active	
+{
+	font: menu;
+	text-decoration: none; 
+	color:#000080; 
+}
+
+A:hover		
+{
+	font: menu;
+	text-decoration: underline;
+	color:#ff0000; 
+}
+
+H1
+{
+	font: caption;
+	color:#ff0000; 
+}
+
+code
+{
+	font:menu;
+	color:White;
+}
+
+h2
+{
+	font: menu;
+	color:Gray;
+}

@@ -1,0 +1,6 @@
+<SmtpConfig>
+  <ProviderName>Yahoo</ProviderName>
+  <SmtpClient>smtp.yahoo.com</SmtpClient>
+  <Port>587</Port>
+  <EnableSsl>true</EnableSsl>
+</SmtpConfig>
